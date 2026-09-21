@@ -11,7 +11,11 @@ export default defineConfig({
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,
-  reporter: [['html', { open: 'never' }], ['list']],
+  reporter: [
+    ['html', { open: 'never' }],
+    ['list'],
+    ['json', { outputFile: 'test-results/results.json' }],
+  ],
   use: {
     baseURL: 'https://www.eye4artstudio.com',
     trace: 'retain-on-failure',

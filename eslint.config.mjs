@@ -23,4 +23,10 @@ export default defineConfig(
       '@typescript-eslint/no-floating-promises': 'error',
     },
   },
+  {
+    files: ['scripts/**/*.mjs'],
+    languageOptions: {
+      globals: { process: 'readonly', console: 'readonly' },
+    },
+  },
 );
