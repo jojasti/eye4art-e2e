@@ -4,12 +4,16 @@
   "description": "E2E test automation for eye4artstudio.com - Playwright, TypeScript, Cucumber BDD, GitHub Actions",
   "main": "index.js",
   "scripts": {
-  "bddgen": "bddgen",
-  "test": "bddgen && playwright test",
-  "test:headed": "bddgen && playwright test --headed",
-  "test:ui": "bddgen && playwright test --ui",
-  "report": "playwright show-report"
-},
+    "bddgen": "bddgen",
+    "test": "bddgen && playwright test",
+    "test:headed": "bddgen && playwright test --headed",
+    "test:ui": "bddgen && playwright test --ui",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "typecheck": "tsc",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jojasti/eye4art-e2e.git"
@@ -23,9 +27,13 @@
   },
   "homepage": "https://github.com/jojasti/eye4art-e2e#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.63.0",
     "@types/node": "^26.6.2",
+    "eslint": "^10.11.0",
     "playwright-bdd": "^9.2.1",
-    "typescript": "^7.0.2"
+    "prettier": "^3.9.8",
+    "typescript": "~6.0.0",
+    "typescript-eslint": "^8.70.0"
   }
 }
