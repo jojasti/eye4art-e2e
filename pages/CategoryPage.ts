@@ -1,5 +1,6 @@
 import { expect, type Locator, type Page } from '@playwright/test';
 import { BasePage } from './BasePage';
+import { PRODUCTS } from './constants/links';
 
 export class CategoryPage extends BasePage {
   readonly products: Locator;
@@ -9,11 +10,11 @@ export class CategoryPage extends BasePage {
     this.products = page.getByRole('heading', { level: 3, name: /^model/i });
   }
 
-  async goto(path: string) {
-    await this.open(path);
+  async goto(slug: string) {
+    await this.open(`${PRODUCTS}/${slug}`);
   }
 
-  async verifyHasProducts() {
+  async verifyProductsAreDisplayed() {
     await expect(this.products.first()).toBeVisible();
   }
 }

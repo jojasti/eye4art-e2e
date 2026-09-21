@@ -19,4 +19,8 @@ export class BasePage {
   async assertHeading(text: string, level = 1) {
     await expect(this.page.getByRole('heading', { level, name: text, exact: true })).toBeVisible();
   }
+
+  async assertUrl(path: string) {
+    await expect(this.page).toHaveURL(path);
+  }
 }

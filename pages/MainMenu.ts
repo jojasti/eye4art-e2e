@@ -1,13 +1,7 @@
-import type { Page } from '@playwright/test';
+import { BasePage } from './BasePage';
 
-export class MainMenu {
-  readonly page: Page;
-
-  constructor(page: Page) {
-    this.page = page;
-  }
-
-  async open(item: string) {
+export class MainMenu extends BasePage {
+  async openMenuItem(item: string) {
     await this.page.getByRole('navigation').getByRole('link', { name: item, exact: true }).click();
   }
 }
