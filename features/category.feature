@@ -4,3 +4,8 @@ Feature: Category page
     Given I open the "turntable-shelves" category page
     Then I see the category heading "Police i stalci za gramofon"
     And I see the products
+
+  Scenario: Audio-equipment category shows products
+    Given I open the "audio-equipment" category page
+    Then I see the category heading "Audio oprema"
+    And I see the products

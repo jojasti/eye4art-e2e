@@ -7,7 +7,7 @@ export class CategoryPage extends BasePage {
 
   constructor(page: Page) {
     super(page);
-    this.products = page.getByRole('heading', { level: 3, name: /^model/i });
+    this.products = page.getByTestId('product-card');
   }
 
   async goto(slug: string) {
