@@ -8,7 +8,7 @@ export class BasePage {
   }
 
   async open(path: string) {
-    await this.page.goto(path);
+    await this.page.goto(path, { waitUntil: 'domcontentloaded' });
   }
 
   async assertTitleContains(text: string) {
