@@ -26,3 +26,8 @@ Feature: Category page
       | turntable-shelves | Groove Cube         |
       | turntable-shelves | Vertical Vibe Glass |
       | turntable-shelves | Turntable Stand     |
+
+  Scenario: Order button is disabled for discontinued "The Master Stack"
+    Given I open the "turntable-shelves" category page
+    When I find the "The Master Stack" product
+    Then the order button shows "NIJE NA STANJU" and is disabled

@@ -19,3 +19,10 @@ When('I find the {string} product', async ({ categoryPage }, model: string) => {
 Then('the order button is enabled', async ({ categoryPage }) => {
   await categoryPage.verifyOrderButtonIsEnabled();
 });
+
+Then(
+  'the order button shows {string} and is disabled',
+  async ({ categoryPage }, buttonText: string) => {
+    await categoryPage.verifyOrderButtonIsDisabled(buttonText);
+  },
+);

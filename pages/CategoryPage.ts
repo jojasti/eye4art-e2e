@@ -35,4 +35,12 @@ export class CategoryPage extends BasePage {
     const orderButton = this.selectedProduct.getByRole('button', { name: /^poruči$/i });
     await expect(orderButton).toBeEnabled();
   }
+
+  async verifyOrderButtonIsDisabled(buttonText: string) {
+    if (!this.selectedProduct) {
+      throw new Error('No product selected. Call findProductByModel first.');
+    }
+    const orderButton = this.selectedProduct.getByRole('button', { name: buttonText, exact: true });
+    await expect(orderButton).toBeDisabled();
+  }
 }
