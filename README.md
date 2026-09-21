@@ -79,6 +79,7 @@ GitHub Actions runs everything on every push, on pull requests, and **every day 
 Pipeline: `npm ci` → lint → typecheck → format check → tests → HTML report as artifact (kept 14 days).
 
 **If a test fails, I get an email** with:
+
 - which test failed and on which step
 - what was expected and what the page actually showed
 - a screenshot from production
