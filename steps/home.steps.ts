@@ -1,12 +1,9 @@
-import { expect } from '@playwright/test';
-import { createBdd } from 'playwright-bdd';
+import { Given, Then } from '../fixtures/fixtures';
 
-const { Given, Then } = createBdd();
-
-Given('I open the home page', async ({ page }) => {
-  await page.goto('/');
+Given('I open the home page', async ({ homePage }) => {
+  await homePage.goto();
 });
 
-Then('the page title contains {string}', async ({ page }, text: string) => {
-  await expect(page).toHaveTitle(new RegExp(text));
+Then('the page title contains {string}', async ({ homePage }, text: string) => {
+  await homePage.assertTitleContains(text);
 });
