@@ -67,10 +67,19 @@ Never use `.first()` to hide a strict mode violation. Scope the locator instead 
 
 ## Never
 
-- Never commit or push. I review everything first
 - Never submit a real form without mocking the request with `page.route`
 - Never disable a lint rule or install with `--force` / `--legacy-peer-deps`
 - Never change the website repo, only this one
+
+## Git workflow
+
+- Start every batch on a new branch from the latest main:
+  `git checkout main`, `git pull`, `git checkout -b batch/<area>`
+- After the reviewer says PASS: commit with a clear message, then
+  `git push -u origin batch/<area>` and open a PR with
+  `gh pr create --title "<what the batch adds>" --body "<your summary and the reviewer verdict>"`
+- Give me the PR link. Never merge a PR, never push to main
+- Then continue with the next batch on a new branch from main, if the batch rules allow it
 
 ## Autonomous work
 
