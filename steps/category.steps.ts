@@ -26,3 +26,43 @@ Then(
     await categoryPage.verifyOrderButtonIsDisabled(buttonText);
   },
 );
+
+Then('every product shows an allowed stock status', async ({ categoryPage }) => {
+  await categoryPage.verifyEveryProductShowsAllowedStockStatus();
+});
+
+When('I go back to the products index', async ({ categoryPage }) => {
+  await categoryPage.goBackToProducts();
+});
+
+Then('I am back on the products page', async ({ categoryPage }) => {
+  await categoryPage.verifyOnProductsPage();
+});
+
+When('I open the quiz', async ({ categoryPage }) => {
+  await categoryPage.openQuiz();
+});
+
+Then('the quiz modal is open', async ({ categoryPage }) => {
+  await categoryPage.verifyQuizModalIsOpen();
+});
+
+When('I close the quiz', async ({ categoryPage }) => {
+  await categoryPage.closeQuiz();
+});
+
+Then('the quiz modal is closed', async ({ categoryPage }) => {
+  await categoryPage.verifyQuizModalIsClosed();
+});
+
+Then('materials are shown', async ({ categoryPage }) => {
+  await categoryPage.verifyMaterialsAreShown();
+});
+
+Then('dimensions are shown', async ({ categoryPage }) => {
+  await categoryPage.verifyDimensionsAreShown();
+});
+
+Then('the price is shown', async ({ categoryPage }) => {
+  await categoryPage.verifyPriceIsShown();
+});
