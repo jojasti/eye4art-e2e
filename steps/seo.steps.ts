@@ -15,3 +15,11 @@ Then('the canonical link is correct', async ({ seoPage }) => {
 Then('the meta description is correct', async ({ seoPage }) => {
   await seoPage.verifyMetaDescriptionIsCorrect();
 });
+
+Then('the og:title is correct', async ({ seoPage }) => {
+  await seoPage.verifyOpenGraphTitleIsCorrect();
+});
+
+Then('the og:description is correct', async ({ seoPage }) => {
+  await seoPage.verifyOpenGraphDescriptionIsCorrect();
+});

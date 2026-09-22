@@ -53,3 +53,39 @@ Feature: SEO metadata
       | /blog                                        |
       | /blog/kako-odabrati-policu-za-gramofon       |
       | /contact                                     |
+
+  Scenario Outline: "<page>" has one og:title
+    Given I open the "<page>" page
+    Then the og:title is correct
+
+    Examples:
+      | page                                        |
+      | /                                            |
+      | /about                                       |
+      | /products                                    |
+      | /products/turntable-shelves                  |
+      | /products/audio-equipment                    |
+      | /products/retro-lamps                        |
+      | /products/side-tables                        |
+      | /products/nightstands                        |
+      | /blog                                        |
+      | /blog/kako-odabrati-policu-za-gramofon       |
+      | /contact                                     |
+
+  Scenario Outline: "<page>" has one og:description
+    Given I open the "<page>" page
+    Then the og:description is correct
+
+    Examples:
+      | page                                        |
+      | /                                            |
+      | /about                                       |
+      | /products                                    |
+      | /products/turntable-shelves                  |
+      | /products/audio-equipment                    |
+      | /products/retro-lamps                        |
+      | /products/side-tables                        |
+      | /products/nightstands                        |
+      | /blog                                        |
+      | /blog/kako-odabrati-policu-za-gramofon       |
+      | /contact                                     |
