@@ -150,3 +150,4 @@ cucumber-report/
 summary.md
 subject.txt
 diff.txt
+.playwright-mcp/

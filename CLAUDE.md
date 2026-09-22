@@ -87,9 +87,15 @@ Before writing tests, explore the site with Playwright MCP and write `TEST_PLAN.
 
 Then **stop and wait for my approval**. Do not write tests before I approve the plan.
 
-### 2. One area at a time
+### 2. One area at a time, reviewed
 
-Implement one feature file (one area) per batch. After each batch, run the full checklist in "Before you say you are done", then **stop** and give me a short summary. Wait for my OK before the next area.
+Implement one feature file per batch, run the checklist in "Before you say you are done", then run the `test-reviewer` subagent on the batch.
+
+- Reviewer says FAIL: fix the problems and run the reviewer again (max 3 rounds, then stop and ask me)
+- Reviewer says PASS and the batch has **no** `@critical` scenarios and **no** new findings: continue to the next batch in TEST_PLAN.md without waiting for me
+- Reviewer says PASS but the batch has `@critical` scenarios or a new finding: **stop** and give me the summary and the reviewer's verdict
+
+Never start the contact form batch without my explicit OK.
 
 ### 3. When a test fails, find out why
 
