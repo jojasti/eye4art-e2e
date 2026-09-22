@@ -18,4 +18,8 @@ export class ProductsPage extends BasePage {
   async verifyCategoryIsDisplayed(name: string) {
     await expect(this.categoryCard(name)).toBeVisible();
   }
+
+  async verifyOnCategoryPage(productCategory: string) {
+    await this.assertUrl(`${PRODUCTS}/${productCategory}`);
+  }
 }

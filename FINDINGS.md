@@ -17,6 +17,8 @@ expectations to match the site.
 - **Evidence:** Intro paragraph text: `"Pet modela, od 85€ do 250€."` Product headings on the
   page: Spin & Store (155€), Industrial Deck (230€), Vertical Vibe (190€), Groove Cube (250€),
   Vertical Vibe Glass (210€), Turntable Stand (85€), The Master Stack (280€) — 7 cards total.
+- **Status:** Fixed on production. Intro paragraph now reads "Modeli od 85€, svaki se može
+  prilagoditi vašem prostoru." — no longer states a fixed model count or a price ceiling.
 
 ### 2. Footer logo's accessible name drops the "4" from the brand name
 
@@ -31,6 +33,8 @@ expectations to match the site.
   `footer a[href="/"]` inner HTML: `<span aria-hidden="true">4</span>`. Confirmed via a
   Playwright accessibility snapshot: the header link's accessible name reads "EYE4ART STUDIO"
   while the footer link's reads "EYEART STUDIO".
+- **Status:** Fixed. The footer logo's "4" span no longer has `aria-hidden`, confirmed via DOM
+  inspection — both links now expose the same accessible name.
 
 ### 3. "The Master Stack" is called a new model while it's discontinued
 
@@ -41,6 +45,9 @@ expectations to match the site.
   button and an "OUT OF STOCK" badge.
 - **Evidence:** Card description text: `"Novi model premium police za gramofon. Dizajnirana da
 primi gramofon na vrhu..."`; order button text `NIJE NA STANJU` (`disabled: true`).
+- **Status:** Fixed on production. Description now reads "Premium polica iz naše ranije
+  kolekcije, više se ne izrađuje." ("Premium shelf from our earlier collection, no longer made.")
+  — correctly describes it as discontinued instead of new.
 
 ### 4. "Out of Stock" badge is in English on an otherwise Serbian page
 
@@ -50,6 +57,8 @@ primi gramofon na vrhu..."`; order button text `NIJE NA STANJU` (`disabled: true
 - **Actual:** The image overlay badge on the same card reads **"OUT OF STOCK"** in English.
 - **Evidence:** `imgWrapper.innerText` for that card resolves to `"OUT OF STOCK"` alongside a
   Serbian button label and Serbian description.
+- **Status:** Won't fix — owner decision. Confirmed still "OUT OF STOCK" in English on production
+  as of 2026-09-22.
 
 ### 5. Footer category names don't match the actual category page headings
 
@@ -70,6 +79,11 @@ primi gramofon na vrhu..."`; order button text `NIJE NA STANJU` (`disabled: true
 
 - **Evidence:** Footer `<a>` text vs. each target page's `<h1>`, read directly from the DOM on
   each of the 5 category pages.
+- **Status:** Partly fixed. The nightstands footer label was changed from "Noćni Ormarići" to
+  "Noćni Stočići", now matching the page heading. The other 3 mismatched labels ("Police za
+  Gramofon", "Industrijske Lampe", "Postolja za Zvučnike") are unchanged and stay as-is on
+  purpose — an owner decision for SEO (these labels target different search keywords than the
+  page headings themselves).
 
 ### 6. Every page ships two conflicting `<meta name="description">` tags
 
@@ -100,3 +114,6 @@ primi gramofon na vrhu..."`; order button text `NIJE NA STANJU` (`disabled: true
   Same two-tag pattern confirmed on all 10 other URLs checked. `<title>` and `<link
 rel="canonical">` are each present exactly once per page and correct — only the description
   tag is duplicated.
+- **Status:** Fixed on production. `/products/turntable-shelves` now ships exactly one
+  `meta[name="description"]` tag (the page-specific one, `data-rh="true"`) — the generic
+  sitewide default is gone.
