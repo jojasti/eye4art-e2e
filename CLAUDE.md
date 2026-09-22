@@ -71,3 +71,42 @@ Never use `.first()` to hide a strict mode violation. Scope the locator instead 
 - Never submit a real form without mocking the request with `page.route`
 - Never disable a lint rule or install with `--force` / `--legacy-peer-deps`
 - Never change the website repo, only this one
+
+## Autonomous work
+
+When I ask you to expand test coverage, work like this:
+
+### 1. Plan first
+
+Before writing tests, explore the site with Playwright MCP and write `TEST_PLAN.md`:
+
+- Every area worth testing, grouped by page (feature file)
+- For each scenario: what it checks and why it matters for the business
+- Priority: `critical` (sales, ordering, contact), `high`, `normal`
+- Mark scenarios you plan to tag `@critical`
+
+Then **stop and wait for my approval**. Do not write tests before I approve the plan.
+
+### 2. One area at a time
+
+Implement one feature file (one area) per batch. After each batch, run the full checklist in "Before you say you are done", then **stop** and give me a short summary. Wait for my OK before the next area.
+
+### 3. When a test fails, find out why
+
+Decide which case it is:
+
+- **Test code is wrong** (bad locator, typo, wrong wait) - fix the test code
+- **Timing / flaky** - fix how the test waits. Never add `waitForTimeout` and never raise timeouts to hide it
+- **The site behaves differently than expected** - this is a finding, not something to fix. **Never change the expected value to match the site.** Instead:
+  - Add the finding to `FINDINGS.md`: page, what was expected, what the site does, evidence (text from the page snapshot)
+  - Tag the scenario `@fixme` with a comment pointing to the finding
+  - Continue with the next scenario
+
+If you cannot fix your own test code after 3 attempts, stop and ask me.
+
+### 4. What to test and what not
+
+- Test behavior and business rules: navigation, links, product cards, order buttons, stock status, language switch, contact data
+- Do not test marketing copy that changes often (long descriptions, slogans). Check that it exists, not the exact words
+- Everything is read-only. No form is ever submitted without `page.route` mocking
+- No test that depends on timers or animations (rotating reviews, carousels): check that content exists, not that it changes
