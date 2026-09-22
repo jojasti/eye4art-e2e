@@ -12,3 +12,14 @@ Feature: Main navigation
       | Proizvodi | /products |
       | Blog      | /blog     |
       | Kontakt   | /contact  |
+
+  Scenario: Switching to English changes the menu labels
+    Given I open the home page
+    When I switch the language to English
+    Then the menu labels are in English
+
+  Scenario: Switching back to Srpski restores the original labels
+    Given I open the home page
+    When I switch the language to English
+    And I switch the language to Srpski
+    Then the menu labels are in Serbian
