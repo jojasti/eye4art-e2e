@@ -4,12 +4,14 @@ import { MainMenu } from '../pages/MainMenu';
 import { HomePage } from '../pages/HomePage';
 import { ProductsPage } from '../pages/ProductsPage';
 import { CategoryPage } from '../pages/CategoryPage';
+import { FooterPage } from '../pages/FooterPage';
 
 type Fixtures = {
   mainMenu: MainMenu;
   homePage: HomePage;
   productsPage: ProductsPage;
   categoryPage: CategoryPage;
+  footerPage: FooterPage;
 };
 
 export const test = base.extend<Fixtures>({
@@ -28,6 +30,9 @@ export const test = base.extend<Fixtures>({
   },
   categoryPage: async ({ page }, use) => {
     await use(new CategoryPage(page));
+  },
+  footerPage: async ({ page }, use) => {
+    await use(new FooterPage(page));
   },
 });
 
