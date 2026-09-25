@@ -1,0 +1,275 @@
+{
+  "uuid": "0e1892d9-5f27-40b5-99e1-d7a57c5f1591",
+  "name": "\"Audio oprema\" category shows products",
+  "historyId": "58d590ab9d2b69aa99758e0a70e6dd13:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352186297,
+              "uuid": "8eddad59-da3f-4647-a652-e846650987af",
+              "stop": 1790352186355
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352186295,
+          "uuid": "9b3370f5-328a-44ef-bda8-a1dc29242e71",
+          "stop": 1790352186363
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352186365,
+              "uuid": "43e4be72-93a7-4d18-b688-2136c1c1cb1a",
+              "stop": 1790352187232
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352186363,
+          "uuid": "61daaa9c-5689-4ae2-a067-5b21a4b41e3b",
+          "stop": 1790352187233
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352187233,
+          "uuid": "2bd98096-5807-46f1-9834-0c7407d5fc19",
+          "stop": 1790352187245
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352187245,
+          "uuid": "4f5b44aa-54f6-4de3-bce6-ccedd89cbff4",
+          "stop": 1790352187246
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352186242,
+      "uuid": "f2e8d910-9080-402c-bee8-88a6f6e48532",
+      "stop": 1790352187246
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352187267,
+          "name": "Navigate",
+          "uuid": "571b0583-2174-4a22-9d2f-6ca9415c56ce",
+          "stop": 1790352188401
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352187263,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "1f3673b2-9a79-4d96-90a6-fefd114b3750",
+      "stop": 1790352188401
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352188411,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "98f17472-d5e8-4d57-90ea-69ad97c80e28",
+          "stop": 1790352190182
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352188408,
+      "name": "Then I see the category heading \"Audio oprema\"",
+      "uuid": "880a133a-dc0a-4a9f-95c2-0a1bd7d0b9fd",
+      "stop": 1790352190182
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352190188,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "eada9ca7-5000-4cff-85e1-710913ae2f95",
+          "stop": 1790352190361
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352190186,
+      "name": "And I see the products",
+      "uuid": "6f6864a1-48ce-407d-b5c9-22bc89765f32",
+      "stop": 1790352190361
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352190362,
+          "uuid": "ad0339ba-a054-43c3-9b0b-3b5c56245a50",
+          "stop": 1790352190362
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352190362,
+          "uuid": "ec1b6ade-80ed-4758-8acc-4d929318c382",
+          "stop": 1790352190362
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352190363,
+          "uuid": "459941c4-6263-41aa-a720-67b6b5cc2e71",
+          "stop": 1790352190363
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352191064,
+              "uuid": "4f570897-3287-4a8b-9e05-c3eeb134dc93",
+              "stop": 1790352191432
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352190363,
+          "uuid": "7011f523-1bef-4875-af20-f30fea7a1f2f",
+          "stop": 1790352191432
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352190362,
+      "uuid": "bccd6d06-a41c-4dc7-b2be-bee568717718",
+      "stop": 1790352191448
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "476f2f7a2b6a072ede4ad555a39ff974" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > \"<categoryName>\" category shows products"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > \"<categoryName>\" category shows products" }
+  ],
+  "links": [],
+  "start": 1790352186268,
+  "testCaseId": "58d590ab9d2b69aa99758e0a70e6dd13",
+  "fullName": "features/category.feature.spec.js › Category page › \"<categoryName>\" category shows products › \"Audio oprema\" category shows products",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "\"<categoryName>\" category shows products"
+  ],
+  "stop": 1790352191418
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "4f62b034-50fb-471b-9652-c3b5de7f2b02",
+  "name": "Order button is enabled for \"STOČIĆ - DRVENA PODLOGA\"",
+  "historyId": "2933114928b0da9262eb09558739bbf6:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337468710,
+              "uuid": "47d28f80-16be-40ba-a67f-3a361b12ad59",
+              "stop": 1790337468720
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337468709,
+          "uuid": "eecbdb8c-0017-4687-bc34-465f575793cc",
+          "stop": 1790337468728
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337468730,
+              "uuid": "0f3ee5cb-cd03-4fb6-b7c0-7b676894237c",
+              "stop": 1790337469000
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337468728,
+          "uuid": "74f69bff-be3b-4b0e-83d8-818647d31443",
+          "stop": 1790337469000
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337469001,
+          "uuid": "ade6e27b-8fd9-4827-9a5d-cafe29bfd7e3",
+          "stop": 1790337469007
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337469008,
+          "uuid": "6dac69ea-d371-43aa-aed6-6bf4aa9633fe",
+          "stop": 1790337469008
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337468690,
+      "uuid": "c784bc16-da13-410b-b381-20844ee7016f",
+      "stop": 1790337469008
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337469013,
+          "name": "Navigate",
+          "uuid": "9b41b4b7-b792-4c63-8e9b-9099a6d5e6bc",
+          "stop": 1790337469950
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337469011,
+      "name": "Given I open the \"side-tables\" category page",
+      "uuid": "b3bfe9a8-6d69-43e6-a0a5-e865fa3dceb0",
+      "stop": 1790337469950
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337469957,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f2c15023-4b17-4030-b978-5fb56d61525c",
+          "stop": 1790337470124
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337469954,
+      "name": "When I find the \"STOČIĆ - DRVENA PODLOGA\" product",
+      "uuid": "d1fc49fa-2bb0-4f18-9c97-ab54cfe10e29",
+      "stop": 1790337470124
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337470128,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "02112e58-3191-46a8-9334-dbe68c8b77d4",
+          "stop": 1790337470158
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337470126,
+      "name": "Then the order button is enabled",
+      "uuid": "5a160008-b1b1-430d-9841-42616eb213d5",
+      "stop": 1790337470159
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337470160,
+          "uuid": "4086cd58-386c-4160-8a3a-5c211f525083",
+          "stop": 1790337470160
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337470160,
+          "uuid": "da285650-ca57-4cfc-b01f-0cf4425b7d09",
+          "stop": 1790337470160
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337470160,
+          "uuid": "a03e7a79-97e7-4ee7-ac5b-3da5797bc1aa",
+          "stop": 1790337470161
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337471168,
+              "uuid": "c5a6bc53-dc80-4d75-b8bf-0fa394f5f19d",
+              "stop": 1790337471744
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337470161,
+          "uuid": "f5f962fa-ef4a-4f4e-a019-718833ad8e6f",
+          "stop": 1790337471744
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337470159,
+      "uuid": "79d5960f-f578-46d9-8756-9b8d282fdd72",
+      "stop": 1790337471763
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "412134514e2424920ac7404d94ad6c3a" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337468754,
+  "testCaseId": "2933114928b0da9262eb09558739bbf6",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"STOČIĆ - DRVENA PODLOGA\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337471790
+}

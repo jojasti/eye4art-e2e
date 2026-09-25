@@ -1,0 +1,300 @@
+{
+  "uuid": "b0a6e02e-cf0d-47cb-a54a-2c5f2b811ccf",
+  "name": "Order button is enabled for \"Industrial Deck\"",
+  "historyId": "09d34643ebeb90d7fa06bb1424b3a08e:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1790352196916,
+              "uuid": "4b8447f4-f57c-4c00-9ba9-c8f727f97006",
+              "stop": 1790352197033
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1790352196909,
+          "uuid": "dd726716-edda-4113-9627-9c7f177de549",
+          "stop": 1790352197033
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352197043,
+              "uuid": "f5044dbd-7cab-41cf-96a6-65c644771918",
+              "stop": 1790352197106
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352197038,
+          "uuid": "82a78c59-3b3c-4cb1-bb53-4ed82351f1e8",
+          "stop": 1790352197132
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352197136,
+              "uuid": "8e0e8fd5-287b-4eb1-b0dd-2728c183e4d8",
+              "stop": 1790352198089
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352197133,
+          "uuid": "9eae5891-9c7d-4b40-9658-ce31d0983ee7",
+          "stop": 1790352198090
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352198090,
+          "uuid": "ad2b8ea8-5ad7-43cd-bbab-066c27082b4d",
+          "stop": 1790352198126
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352198126,
+          "uuid": "67157111-0d00-4a67-b041-3ea365b4c39e",
+          "stop": 1790352198128
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352196643,
+      "uuid": "23648106-b55c-4541-adc8-599899b6e664",
+      "stop": 1790352198129
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352198206,
+          "name": "Navigate",
+          "uuid": "a4a238e9-371b-4ab5-8261-f467e5e23380",
+          "stop": 1790352199875
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352198193,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "20ae2c6d-1e1d-41af-8bae-7db45ca4b810",
+      "stop": 1790352199876
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352199905,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "9d45331a-da81-4ea1-bbe5-cf4bf85299b0",
+          "stop": 1790352201605
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352199885,
+      "name": "When I find the \"Industrial Deck\" product",
+      "uuid": "57756fe0-c7da-4b03-b6ff-7430824b5da3",
+      "stop": 1790352201605
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352201613,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "083ce18d-f67f-4c1c-91e6-9bbbc1c24c34",
+          "stop": 1790352201903
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352201609,
+      "name": "Then the order button is enabled",
+      "uuid": "e8bb5306-608d-4dd9-b7b4-22e8849bf19a",
+      "stop": 1790352201903
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352201906,
+          "uuid": "5b4c8c5e-25aa-4296-84a1-1d7cea87f3cf",
+          "stop": 1790352201907
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352201907,
+          "uuid": "c5675421-c685-48ca-a841-5d032ac858d1",
+          "stop": 1790352201907
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352201908,
+          "uuid": "cc585de3-111d-4334-8e8a-9bef9455401b",
+          "stop": 1790352201908
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352202896,
+              "uuid": "8d42fcbe-9988-4bfe-b090-8258b7827696",
+              "stop": 1790352203352
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352201909,
+          "uuid": "f1147bdb-da6d-4a22-90f8-917cd9239575",
+          "stop": 1790352203352
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352201904,
+      "uuid": "21b8a76b-83ea-461e-ab71-2a5c966476e4",
+      "stop": 1790352203371
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9b3b4e7e23b96bdc7d04354ba37a476c" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352196568,
+  "testCaseId": "09d34643ebeb90d7fa06bb1424b3a08e",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Industrial Deck\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352202889
+}

@@ -1,0 +1,277 @@
+{
+  "uuid": "ec29848b-4c60-4ab8-8ba9-dfb110740966",
+  "name": "Footer has a link to the \"nightstands\" category page",
+  "historyId": "6fff6b7bfc5f518cd5f4043bdff7a204:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337493903,
+              "uuid": "c19331df-cf6e-4374-a8a7-75b07743fc9d",
+              "stop": 1790337493964
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337493901,
+          "uuid": "ca02f345-184d-4929-85e2-9e7945988b21",
+          "stop": 1790337493979
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337493985,
+              "uuid": "a5611d18-9998-4032-8085-afb9c592e89a",
+              "stop": 1790337495018
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337493979,
+          "uuid": "bf6fe80b-9795-48a6-a6d7-6b6ad987f009",
+          "stop": 1790337495018
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337495019,
+          "uuid": "fc1dc23d-9139-414a-9918-c2bd6ee9da96",
+          "stop": 1790337495086
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337495087,
+          "uuid": "f185dc4e-5c34-41eb-aad0-8b6748ffc90c",
+          "stop": 1790337495087
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337495087,
+          "uuid": "2040bc2b-bd85-4b3d-9997-369517bc0c1c",
+          "stop": 1790337495087
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337493878,
+      "uuid": "8e9332c2-708e-43b3-ac9d-fd5c8607ce0e",
+      "stop": 1790337495087
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337495093,
+          "name": "Navigate",
+          "uuid": "b9d177ac-a2db-4954-b79e-33ff83ed6534",
+          "stop": 1790337498539
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337495090,
+      "name": "Given I open the home page",
+      "uuid": "eebb2216-44b0-4521-8b1c-1c2e40c030ba",
+      "stop": 1790337498539
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337498545,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f851796c-186e-471d-b267-d19841194764",
+          "stop": 1790337498809
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337498542,
+      "name": "Then the footer has a link to the \"nightstands\" category page",
+      "uuid": "df7d4ea8-2f6e-4b1a-82ae-171517a9d519",
+      "stop": 1790337498810
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337498811,
+          "uuid": "78b29d44-6858-46db-a175-4b6c2335d9af",
+          "stop": 1790337498811
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337498811,
+          "uuid": "01aaba22-a911-420a-8648-5f46798d9c19",
+          "stop": 1790337498811
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337498811,
+          "uuid": "437c4696-01ea-421a-a5a7-6f05e3d40967",
+          "stop": 1790337498811
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337498812,
+          "uuid": "57e0a6de-6a1c-4e0a-a2ed-ba6e93ee93bd",
+          "stop": 1790337498812
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337499143,
+              "uuid": "3c72234c-2f09-4cae-bc0c-27a3cb0ce5c8",
+              "stop": 1790337503684
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337498813,
+          "uuid": "26d98732-a70c-4cb1-abd5-6158dc84d389",
+          "stop": 1790337503684
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337498810,
+      "uuid": "f9c29827-d8c8-4b08-a503-68f80fd412ca",
+      "stop": 1790337503701
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.footer.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "8746c3a4043d8048cdcb733505197a7e" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\footer.feature.spec.js > Footer > Footer has a link to the \"<productCategory>\" category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\footer.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Footer > Footer has a link to the \"<productCategory>\" category page"
+    }
+  ],
+  "links": [],
+  "start": 1790337493970,
+  "testCaseId": "6fff6b7bfc5f518cd5f4043bdff7a204",
+  "fullName": "features/footer.feature.spec.js › Footer › Footer has a link to the \"<productCategory>\" category page › Footer has a link to the \"nightstands\" category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "footer.feature.spec.js",
+    "Footer",
+    "Footer has a link to the \"<productCategory>\" category page"
+  ],
+  "stop": 1790337503756
+}

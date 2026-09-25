@@ -1,0 +1,265 @@
+{
+  "uuid": "a58e7185-a26b-4b0c-af65-fbc1dc53dcc8",
+  "name": "Floating WhatsApp button has the correct link",
+  "historyId": "1a4d921706102167b07e6a1eeadc6561:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337499908,
+              "uuid": "5c86f087-c34f-4bcc-a2fc-644ef63bc418",
+              "stop": 1790337499920
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337499907,
+          "uuid": "ab564baf-eb34-4f5e-9e80-2097761dca58",
+          "stop": 1790337499930
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337499934,
+              "uuid": "fd96ad0d-c4be-4095-8fbb-4e62f2b9b024",
+              "stop": 1790337500260
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337499931,
+          "uuid": "6edf7401-5f8b-49c7-a437-375e2a1ba043",
+          "stop": 1790337500260
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337500260,
+          "uuid": "4fb32050-fc9e-47ce-88fd-6b73c1a0c65b",
+          "stop": 1790337500265
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337500265,
+          "uuid": "c19414f1-030f-4f23-8f67-6bcb0885eca1",
+          "stop": 1790337500266
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337500266,
+          "uuid": "832bbc75-4e1c-410a-a739-2c3121b49406",
+          "stop": 1790337500267
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337499880,
+      "uuid": "a1304ca6-828a-4119-8367-014b671f398a",
+      "stop": 1790337500267
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337500271,
+          "name": "Navigate",
+          "uuid": "ddec0782-784e-4827-9f19-df85a56593af",
+          "stop": 1790337501860
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337500269,
+      "name": "Given I open the home page",
+      "uuid": "99bc847f-be58-471f-9dfd-bde750ce4014",
+      "stop": 1790337501861
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337501867,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "f50bee7a-9eb5-4ca1-bb66-3523f7c9dbec",
+          "stop": 1790337502133
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337501865,
+      "name": "Then the WhatsApp button link is correct",
+      "uuid": "cd0f8161-6d41-4b04-894b-7a36c274cc5e",
+      "stop": 1790337502134
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337502136,
+          "uuid": "9647eb89-727d-470d-97ba-c3c510abffe8",
+          "stop": 1790337502137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337502137,
+          "uuid": "6cc6e43b-3d8d-4874-8cde-e67db1c216e1",
+          "stop": 1790337502137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337502137,
+          "uuid": "b1a91e3b-6f54-4583-b19a-10b49d6554cd",
+          "stop": 1790337502137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337502138,
+          "uuid": "e74bc2ee-6adc-486c-8028-8f606847d680",
+          "stop": 1790337502138
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337503269,
+              "uuid": "f6c2c22e-7102-4c32-a06d-bf6fc7f37a81",
+              "stop": 1790337503889
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337502139,
+          "uuid": "22e2e846-f67c-4702-a672-2bac7cd0df4f",
+          "stop": 1790337503889
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337502135,
+      "uuid": "c90426ea-1c91-4892-a0b4-df9f6dc3a13b",
+      "stop": 1790337503908
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.footer.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "4b1c5598beca436b8744bff003e43e9c" },
+    { "name": "titlePath", "value": " > chromium > features\\footer.feature.spec.js > Footer" },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\footer.feature.spec.js" },
+    { "name": "subSuite", "value": "Footer" }
+  ],
+  "links": [],
+  "start": 1790337499995,
+  "testCaseId": "1a4d921706102167b07e6a1eeadc6561",
+  "fullName": "features/footer.feature.spec.js › Footer › Floating WhatsApp button has the correct link",
+  "titlePath": ["eye4art-e2e", "features", "footer.feature.spec.js", "Footer"],
+  "stop": 1790337503977
+}

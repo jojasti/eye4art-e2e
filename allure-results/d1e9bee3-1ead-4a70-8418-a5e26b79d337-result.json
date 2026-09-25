@@ -1,0 +1,278 @@
+{
+  "uuid": "d1e9bee3-1ead-4a70-8418-a5e26b79d337",
+  "name": "\"Pomoćni stočići\" product grid link goes to the right category page",
+  "historyId": "3a01e01eb711dedcecb3878974b0e503:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352102905,
+              "uuid": "599400f1-f4a8-4da8-9313-3ffc8b6ef9bb",
+              "stop": 1790352102910
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352102903,
+          "uuid": "f804c0da-b594-4771-8763-371cd8cbb29f",
+          "stop": 1790352102920
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352102922,
+              "uuid": "1a0e3f32-293b-4954-96c3-54bd9aed423e",
+              "stop": 1790352103117
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352102920,
+          "uuid": "51f28bf0-50d3-4d59-847f-1acb3a218fcb",
+          "stop": 1790352103117
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352103117,
+          "uuid": "c14b641f-4cde-4b83-904e-bbc57d9af1be",
+          "stop": 1790352103122
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352103122,
+          "uuid": "76722fc7-f2d0-490a-9793-fd8bed70b5e9",
+          "stop": 1790352103123
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352102888,
+      "uuid": "c24cdb83-d1ff-4022-8a3e-28aef311a1e7",
+      "stop": 1790352103123
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352103127,
+          "name": "Navigate",
+          "uuid": "564c10b0-ab56-4d92-8539-9476d3c9e6a3",
+          "stop": 1790352104271
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352103125,
+      "name": "Given I open the home page",
+      "uuid": "ed820728-6bb0-4fa0-a619-8092c97af68b",
+      "stop": 1790352104271
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352104281,
+          "name": "Click",
+          "uuid": "257a0bc4-0e5c-4133-8c7a-a1d812466832",
+          "stop": 1790352104866
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352104277,
+      "name": "When I open the \"Pomoćni stočići\" category from the products grid",
+      "uuid": "096d0884-d2b2-4dd7-a638-60743cb0509d",
+      "stop": 1790352104866
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352104873,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "ef4d1d99-510b-4ae2-8203-3f095d7d5c13",
+          "stop": 1790352104909
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352104871,
+      "name": "Then I land on the \"side-tables\" category page",
+      "uuid": "bb065286-876d-4cbc-a256-347d86894933",
+      "stop": 1790352104909
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352104910,
+          "uuid": "79f7ef6b-9d18-43eb-9afb-b116ffe25d46",
+          "stop": 1790352104910
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352104910,
+          "uuid": "d8aacce0-2645-4059-8d85-44c2775d19d0",
+          "stop": 1790352104911
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352104911,
+          "uuid": "225819b0-dcbb-4dd2-8c27-0f82d9ff4010",
+          "stop": 1790352104911
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352106772,
+              "uuid": "c8a9b8fe-0aed-4a29-aef5-234a96e7790f",
+              "stop": 1790352107256
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352104912,
+          "uuid": "0a0f2178-ee76-48ce-8e35-76080afdf292",
+          "stop": 1790352107256
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352104910,
+      "uuid": "a34c3154-6a4a-4f16-9e23-f5bffdaa18ac",
+      "stop": 1790352107276
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.home.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "575c1c9deb2657709176fe7fd5126159" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\home.feature.spec.js > Home page > \"<categoryName>\" product grid link goes to the right category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\home.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Home page > \"<categoryName>\" product grid link goes to the right category page"
+    }
+  ],
+  "links": [],
+  "start": 1790352102923,
+  "testCaseId": "3a01e01eb711dedcecb3878974b0e503",
+  "fullName": "features/home.feature.spec.js › Home page › \"<categoryName>\" product grid link goes to the right category page › \"Pomoćni stočići\" product grid link goes to the right category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "home.feature.spec.js",
+    "Home page",
+    "\"<categoryName>\" product grid link goes to the right category page"
+  ],
+  "stop": 1790352107278
+}

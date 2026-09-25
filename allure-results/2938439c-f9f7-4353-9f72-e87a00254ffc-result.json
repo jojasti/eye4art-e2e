@@ -1,0 +1,275 @@
+{
+  "uuid": "2938439c-f9f7-4353-9f72-e87a00254ffc",
+  "name": "Materials are shown for \"STOČIĆ - GRIFOVANI METAL\"",
+  "historyId": "fee5c8d07a7e6374cc3b1eb1d4c8152d:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337668105,
+              "uuid": "6c308031-a5a0-4705-b54b-56062fa8f6bb",
+              "stop": 1790337668179
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337668104,
+          "uuid": "cc7a79dd-8479-4615-95fe-59ae483f6fbf",
+          "stop": 1790337668185
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337668188,
+              "uuid": "ecee5fc7-bf1a-49f9-b04a-b1f26425c66b",
+              "stop": 1790337668947
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337668186,
+          "uuid": "42070965-c077-4b27-95b5-d006aedcd761",
+          "stop": 1790337668947
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337668948,
+          "uuid": "1b585749-7099-41d3-b644-f9fb1936beb8",
+          "stop": 1790337668959
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337668959,
+          "uuid": "d77345b9-9aeb-4552-b4d6-bd26813fd3d0",
+          "stop": 1790337668959
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337668086,
+      "uuid": "212bce3d-c730-4d4d-ac74-b42e8f1c54a1",
+      "stop": 1790337668960
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337668964,
+          "name": "Navigate",
+          "uuid": "f55bc0fa-e5e8-42fb-bac5-191c3e197641",
+          "stop": 1790337670210
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337668962,
+      "name": "Given I open the \"side-tables\" category page",
+      "uuid": "e50e2ec9-9fcd-4716-8633-07ab7ed11146",
+      "stop": 1790337670210
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337670215,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "b55b39da-cb46-406c-9c81-52d227c264e7",
+          "stop": 1790337671236
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337670213,
+      "name": "When I find the \"STOČIĆ - GRIFOVANI METAL\" product",
+      "uuid": "f175acac-f4d8-4ff9-8c8f-a7b1d751388f",
+      "stop": 1790337671236
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337671240,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f93ea72d-ed67-44d3-9a6d-b7d2e65eadec",
+          "stop": 1790337671530
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337671238,
+      "name": "Then materials are shown",
+      "uuid": "b6d244ce-9f28-4670-b886-7fdf83e58f5b",
+      "stop": 1790337671530
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337671531,
+          "uuid": "c70ec553-7ec1-4187-9003-a757ddce089f",
+          "stop": 1790337671531
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337671531,
+          "uuid": "002d403d-bd94-44ce-bf97-349adc8fbddf",
+          "stop": 1790337671531
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337671531,
+          "uuid": "5d3da604-913f-4722-9efd-8eee1d5cd798",
+          "stop": 1790337671531
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337672475,
+              "uuid": "e822e2ec-61ad-4022-bc90-d8501de27b6f",
+              "stop": 1790337672750
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337671532,
+          "uuid": "58b08501-5231-48fe-8158-cefc3ac8a70b",
+          "stop": 1790337672750
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337671530,
+      "uuid": "71b76dec-7ebc-440a-8099-b88717c1cac1",
+      "stop": 1790337672765
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "2b113a91d10658277496b0614da81a7a" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Materials are shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Materials are shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337668123,
+  "testCaseId": "fee5c8d07a7e6374cc3b1eb1d4c8152d",
+  "fullName": "features/category.feature.spec.js › Category page › Materials are shown for \"<model>\" › Materials are shown for \"STOČIĆ - GRIFOVANI METAL\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Materials are shown for \"<model>\""
+  ],
+  "stop": 1790337672769
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "d2715dd0-90fd-410d-956b-18c7beecc406",
+  "name": "Order button is enabled for \"INDUSTRIJSKA LAMPA 'Z-LINE'\"",
+  "historyId": "c0a72537b66d7efe34e67e84b5f37ce2:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352219074,
+              "uuid": "798f6f15-1fe1-4ad1-945f-33e746e2578a",
+              "stop": 1790352219190
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352219072,
+          "uuid": "ac4b422b-b999-439e-9650-c3607dcc7cc1",
+          "stop": 1790352219197
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352219199,
+              "uuid": "b2237104-aa02-4931-a69e-863b9b5458ff",
+              "stop": 1790352220152
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352219197,
+          "uuid": "5c741eb2-daaa-49c2-b09e-a0257415e4fd",
+          "stop": 1790352220152
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352220152,
+          "uuid": "03e06c4e-0b75-4a28-8024-2efbfce4f767",
+          "stop": 1790352220158
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352220158,
+          "uuid": "7f1ad721-2c2e-47fc-8cdd-cff2dfb603ae",
+          "stop": 1790352220158
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352219048,
+      "uuid": "0b6390fc-a18b-468b-9cd2-7207accae384",
+      "stop": 1790352220158
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352220162,
+          "name": "Navigate",
+          "uuid": "cd2e9de4-c90c-4d8e-a80d-51648b16b257",
+          "stop": 1790352221531
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352220161,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "33c38585-13be-456f-b70b-18af89a20bf4",
+      "stop": 1790352221532
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352221536,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "76e518a8-8af4-4e8b-99f9-5876a60f22a5",
+          "stop": 1790352222227
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352221534,
+      "name": "When I find the \"INDUSTRIJSKA LAMPA 'Z-LINE'\" product",
+      "uuid": "0ac73897-a4aa-4e82-abb2-111fce58966e",
+      "stop": 1790352222227
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352222231,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "3a625473-100d-425d-bb4e-14ec2c3ffc0b",
+          "stop": 1790352222447
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352222229,
+      "name": "Then the order button is enabled",
+      "uuid": "dc16ebc5-731d-4d29-9293-edd3a60b23e4",
+      "stop": 1790352222448
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352222448,
+          "uuid": "627ecb94-594a-4487-962e-c4c766c15372",
+          "stop": 1790352222449
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352222449,
+          "uuid": "eeb7c6d4-0921-464b-81de-75978ad56ea4",
+          "stop": 1790352222449
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352222449,
+          "uuid": "b86a11aa-aafc-49cd-96eb-6209fed59948",
+          "stop": 1790352222449
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352223299,
+              "uuid": "987b7373-9c1b-4209-8a17-b9e1a99f5e2b",
+              "stop": 1790352223609
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352222450,
+          "uuid": "865352ca-d389-46b0-b463-523e3730fe22",
+          "stop": 1790352223609
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352222448,
+      "uuid": "a4ef4b01-c421-415f-a26e-311c6ccbe89f",
+      "stop": 1790352223626
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "c98bd65ab7c407e9c661c1fe75df6a7b" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352219093,
+  "testCaseId": "c0a72537b66d7efe34e67e84b5f37ce2",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"INDUSTRIJSKA LAMPA 'Z-LINE'\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352223632
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "990d8c74-5e06-4aa6-8b54-e302b43c50fa",
+  "name": "Materials are shown for \"Spin & Store\"",
+  "historyId": "4e1d9f5db38ab6ac67bc866eb72d7b0e:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352076787,
+              "uuid": "154917c8-be87-4f26-b2f5-63197d3870a2",
+              "stop": 1790352076819
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352076786,
+          "uuid": "3244ed25-a3be-4a2d-bb0c-6b685948b18c",
+          "stop": 1790352076826
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352076828,
+              "uuid": "b4e6f5de-c4bc-4c58-998e-7ce5ea1effa9",
+              "stop": 1790352077009
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352076826,
+          "uuid": "89da2b3f-07da-4646-b059-19c6d2823e2c",
+          "stop": 1790352077009
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352077010,
+          "uuid": "9d862e93-8d91-4e92-83e5-f0acfdff5f13",
+          "stop": 1790352077015
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352077016,
+          "uuid": "f1ee8451-feb7-49eb-bc2e-21a7a45d56ae",
+          "stop": 1790352077016
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352076766,
+      "uuid": "5377bc3c-4d31-4b19-825b-106ca9e48000",
+      "stop": 1790352077016
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352077020,
+          "name": "Navigate",
+          "uuid": "631793be-8595-4058-96be-8981a7da649b",
+          "stop": 1790352078858
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352077018,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "911a88b0-1961-4865-b72f-88828621f249",
+      "stop": 1790352078859
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352078865,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f8178c74-e823-4f23-bab4-cf74f2ccc022",
+          "stop": 1790352079056
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352078862,
+      "name": "When I find the \"Spin & Store\" product",
+      "uuid": "905a4ac1-dca9-4b95-a3b7-d10409cb4f6e",
+      "stop": 1790352079056
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352079062,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "11708b04-9a0a-4e79-be64-bdfb6feb1232",
+          "stop": 1790352079393
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352079060,
+      "name": "Then materials are shown",
+      "uuid": "fc18b423-e01e-4c25-b71b-5fedec528fb9",
+      "stop": 1790352079393
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352079394,
+          "uuid": "d2a070d9-f986-4616-bf8a-08fee1d4e9db",
+          "stop": 1790352079394
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352079394,
+          "uuid": "a5cfd242-a61a-49c8-95d8-5cf9dbfcb16d",
+          "stop": 1790352079394
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352079395,
+          "uuid": "38a7be22-b793-407c-b86d-c136abe34fb2",
+          "stop": 1790352079395
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352080266,
+              "uuid": "166104e9-28eb-45e0-91ee-c61eb3f1b954",
+              "stop": 1790352080521
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352079395,
+          "uuid": "30895f18-eaca-46f9-91e0-7191a3347553",
+          "stop": 1790352080521
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352079394,
+      "uuid": "6b83459a-eec1-4e0a-968b-b13534b00022",
+      "stop": 1790352080536
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "675558bc9f462a5444a8768549a5869d" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Materials are shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Materials are shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352076812,
+  "testCaseId": "4e1d9f5db38ab6ac67bc866eb72d7b0e",
+  "fullName": "features/category.feature.spec.js › Category page › Materials are shown for \"<model>\" › Materials are shown for \"Spin & Store\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Materials are shown for \"<model>\""
+  ],
+  "stop": 1790352080549
+}

@@ -1,0 +1,278 @@
+{
+  "uuid": "64b6b25a-ed1d-4875-97a7-0289553f4bd6",
+  "name": "Google reviews section shows a rating and reviews with text and author",
+  "historyId": "71ce8e53959b4d25556437ef9632d3f6:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337511092,
+              "uuid": "18784dc2-b79e-4a48-88c7-2edf95eb6bf5",
+              "stop": 1790337511136
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337511090,
+          "uuid": "227c1cf5-b384-43aa-a131-e6cd968bc35d",
+          "stop": 1790337511145
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337511148,
+              "uuid": "484c4d5b-23eb-43d5-96a3-87710c44d187",
+              "stop": 1790337512211
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337511145,
+          "uuid": "a6daad73-fbd0-4bec-bfd9-b07a18edaa4a",
+          "stop": 1790337512211
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337512211,
+          "uuid": "a7677c9b-04bb-459d-bfb7-2eb011ee9a38",
+          "stop": 1790337512249
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337512249,
+          "uuid": "0819b1e4-e7a2-49e5-b488-11b7bfba746f",
+          "stop": 1790337512249
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337511065,
+      "uuid": "a19fb222-c9e4-4d00-b2fb-a7cc31466bae",
+      "stop": 1790337512249
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337512255,
+          "name": "Navigate",
+          "uuid": "a45e9cae-a388-4753-b9ca-2c648714a720",
+          "stop": 1790337515804
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337512253,
+      "name": "Given I open the home page",
+      "uuid": "2aff073d-d10c-4dc5-a405-4f9666babc12",
+      "stop": 1790337515804
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337515811,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "164af9cb-0cad-4559-8419-4dd9037694e6",
+          "stop": 1790337516251
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337515809,
+      "name": "Then the reviews rating is shown",
+      "uuid": "01ec8acf-b508-4b58-a783-f88f34ea2afe",
+      "stop": 1790337516251
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337516257,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "69ca5dc8-576c-44fa-b132-a4ea26e4a4b5",
+          "stop": 1790337516356
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337516358,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fd1dd242-5179-4a22-b95c-f5681ae5c265",
+          "stop": 1790337516409
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337516254,
+      "name": "And reviews have text and author",
+      "uuid": "6c66febe-6f1b-46d0-b60f-f4ea15837235",
+      "stop": 1790337516410
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337516411,
+          "uuid": "00860432-3676-4508-b658-4994b20488ef",
+          "stop": 1790337516412
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337516412,
+          "uuid": "5014ba39-361e-4726-a02c-bdd4fefbf8b8",
+          "stop": 1790337516412
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337516412,
+          "uuid": "10758b0c-d8a9-4218-b90b-fbe6215d3c46",
+          "stop": 1790337516413
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337517151,
+              "uuid": "59229689-101a-4d48-bda3-2cdcf1e7a3f2",
+              "stop": 1790337518358
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337516414,
+          "uuid": "376776c3-a2fc-4c35-8c10-7330eda59272",
+          "stop": 1790337518359
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337516411,
+      "uuid": "e069b9a3-9dba-45df-8b73-03b109a6b373",
+      "stop": 1790337518374
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.home.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "b32fda3313850d226aea328a2f720f39" },
+    { "name": "titlePath", "value": " > chromium > features\\home.feature.spec.js > Home page" },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\home.feature.spec.js" },
+    { "name": "subSuite", "value": "Home page" }
+  ],
+  "links": [],
+  "start": 1790337511216,
+  "testCaseId": "71ce8e53959b4d25556437ef9632d3f6",
+  "fullName": "features/home.feature.spec.js › Home page › Google reviews section shows a rating and reviews with text and author",
+  "titlePath": ["eye4art-e2e", "features", "home.feature.spec.js", "Home page"],
+  "stop": 1790337518487
+}

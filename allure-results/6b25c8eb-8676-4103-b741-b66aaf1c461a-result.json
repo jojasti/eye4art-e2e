@@ -1,0 +1,275 @@
+{
+  "uuid": "6b25c8eb-8676-4103-b741-b66aaf1c461a",
+  "name": "Order button is enabled for \"STALAK ZA ZVUČNIK BEZ POSTOLJA\"",
+  "historyId": "bb7e2fe18d42c774da159d3af38a0689:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337458264,
+              "uuid": "7146f3ce-1b01-44eb-9ade-7fd167375e8f",
+              "stop": 1790337458289
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337458262,
+          "uuid": "ed581f57-dc81-490b-aa12-2436fd17c3b2",
+          "stop": 1790337458311
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337458318,
+              "uuid": "0b5df312-1455-4d3b-a68f-32cb684517d0",
+              "stop": 1790337458857
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337458315,
+          "uuid": "3109aba7-0c8c-4236-bd01-4ae6522eeaae",
+          "stop": 1790337458858
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337458858,
+          "uuid": "18a387d4-db3b-4f82-b4f1-e57ef92e1b62",
+          "stop": 1790337458868
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337458869,
+          "uuid": "e1f8422d-39a6-4ef9-8988-24904f7188ab",
+          "stop": 1790337458870
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337458242,
+      "uuid": "8a06bbca-d535-4efa-a317-1c072872d608",
+      "stop": 1790337458870
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337458875,
+          "name": "Navigate",
+          "uuid": "4407599b-1174-4a20-bf18-d45893a68d49",
+          "stop": 1790337460426
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337458873,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "5180adc1-6515-43ea-add8-ee877b5d97b2",
+      "stop": 1790337460426
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337460431,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "d2a62b20-466b-4f41-9ab5-530ba544cd5f",
+          "stop": 1790337460692
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337460428,
+      "name": "When I find the \"STALAK ZA ZVUČNIK BEZ POSTOLJA\" product",
+      "uuid": "24ba3ecd-9b82-4de5-bd02-97878297ca41",
+      "stop": 1790337460692
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337460696,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "9da5db81-f5b9-4745-8744-a37305711cc2",
+          "stop": 1790337460739
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337460694,
+      "name": "Then the order button is enabled",
+      "uuid": "983582e9-34b2-406e-ab79-b3a008eaa877",
+      "stop": 1790337460739
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337460741,
+          "uuid": "4d25e0e4-80d2-41e4-951b-ec9bb7876841",
+          "stop": 1790337460741
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337460741,
+          "uuid": "6d59d81e-9d66-4122-815d-a70d58f91a3d",
+          "stop": 1790337460741
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337460742,
+          "uuid": "96f1ed1f-6083-494d-b219-6793ce111184",
+          "stop": 1790337460742
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337461130,
+              "uuid": "19e51859-0773-40d9-8983-9c75eb37ec8e",
+              "stop": 1790337461651
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337460745,
+          "uuid": "dbc1f18f-c9e0-49cd-9934-f5c78c4f3e17",
+          "stop": 1790337461651
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337460740,
+      "uuid": "dd1d193f-b8f6-424b-b7af-ef03b6c453df",
+      "stop": 1790337461668
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "62c957807225946ce187ab07b21c6aae" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337458434,
+  "testCaseId": "bb7e2fe18d42c774da159d3af38a0689",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"STALAK ZA ZVUČNIK BEZ POSTOLJA\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337461816
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "0b99b47b-ccdc-4c98-82e1-e71de3fcd27e",
+  "name": "Price is shown for \"POSTOLJE ZA ZVUČNIK\"",
+  "historyId": "4d35bc7789cb8234846623c4aaf1fea9:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352251343,
+              "uuid": "227f048c-ea3f-43e5-98ea-0e412ef56515",
+              "stop": 1790352251398
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352251341,
+          "uuid": "d5d77eb9-7a55-4313-98fb-22f957017d98",
+          "stop": 1790352251407
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352251411,
+              "uuid": "6a48623b-524d-46ed-bbe3-de1c108f9046",
+              "stop": 1790352252158
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352251408,
+          "uuid": "d5a82b08-6ed3-4779-8cbf-4083346c726d",
+          "stop": 1790352252158
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352252158,
+          "uuid": "136b9e88-6849-4d85-8584-af81cdb605de",
+          "stop": 1790352252254
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352252254,
+          "uuid": "ee5142b7-ec1c-45e9-90fc-df0de51281ae",
+          "stop": 1790352252255
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352251319,
+      "uuid": "79882c86-e969-4365-b9dd-10e54067008a",
+      "stop": 1790352252255
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352252259,
+          "name": "Navigate",
+          "uuid": "70fbe5d5-9581-41af-acfb-40abdc9a903e",
+          "stop": 1790352253834
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352252258,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "c4d7e772-7e13-459b-a717-519df0af50f0",
+      "stop": 1790352253834
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352253839,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "e3810afd-efe4-4b44-953c-c90294c32ca0",
+          "stop": 1790352254903
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352253836,
+      "name": "When I find the \"POSTOLJE ZA ZVUČNIK\" product",
+      "uuid": "d4b53477-5372-4505-b064-2aac4ae660ca",
+      "stop": 1790352254903
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352254908,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "22f609e4-1084-45c3-b431-f6ed90bb0f21",
+          "stop": 1790352255040
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352254906,
+      "name": "Then the price is shown",
+      "uuid": "76912413-5af9-487d-bf34-4f46ead050f3",
+      "stop": 1790352255040
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352255041,
+          "uuid": "23054b67-632e-40de-85ab-1e94a73b28ec",
+          "stop": 1790352255041
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352255042,
+          "uuid": "dbb01843-2cce-49a7-8a8b-28c13bc4c96c",
+          "stop": 1790352255042
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352255042,
+          "uuid": "9609edfa-d909-448a-bcd4-02c7e332a04f",
+          "stop": 1790352255042
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352255779,
+              "uuid": "6b09470c-e5a9-4de5-a28e-4fbea0f601c0",
+              "stop": 1790352256005
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352255043,
+          "uuid": "54a77fdb-9674-4bb4-a528-d8977fc28e20",
+          "stop": 1790352256005
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352255041,
+      "uuid": "5ead2dee-da17-4c5e-8fee-aef6889e2d62",
+      "stop": 1790352256021
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "3536fd0756ecc29537ff0ea8b12dfdf3" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Price is shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Price is shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352251337,
+  "testCaseId": "4d35bc7789cb8234846623c4aaf1fea9",
+  "fullName": "features/category.feature.spec.js › Category page › Price is shown for \"<model>\" › Price is shown for \"POSTOLJE ZA ZVUČNIK\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Price is shown for \"<model>\""
+  ],
+  "stop": 1790352256001
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "0e56c47a-86fc-4db4-aa68-577b1fa9633f",
+  "name": "Order button is enabled for \"Industrijski luster\"",
+  "historyId": "ed7ba8c84cae889b85798511f2be7f98:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352213854,
+              "uuid": "c44b6f9f-6967-4b23-b7b8-3dc11b0e1e1b",
+              "stop": 1790352213955
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352213853,
+          "uuid": "5ea5c9a7-730d-4484-8152-b8d34e6b383f",
+          "stop": 1790352213967
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352213970,
+              "uuid": "b3134bdb-e144-450d-994a-abdfacd0981a",
+              "stop": 1790352214973
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352213968,
+          "uuid": "1b477de7-91b9-4f79-8a27-a1ca2188f10b",
+          "stop": 1790352214973
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352214973,
+          "uuid": "60e6a362-56bd-4cb2-abda-a26d1611f10c",
+          "stop": 1790352214984
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352214984,
+          "uuid": "79b564d1-032b-4f21-aef4-02ed7d0ca90f",
+          "stop": 1790352214984
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352213836,
+      "uuid": "f08f2135-4a82-4e1b-8d4e-3cf51d5f5a37",
+      "stop": 1790352214984
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352214988,
+          "name": "Navigate",
+          "uuid": "8f8d3d39-b1b8-4df6-b04a-1327116a647b",
+          "stop": 1790352216535
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352214986,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "d46409f6-cd01-45a4-9ea4-7b53719eec8d",
+      "stop": 1790352216535
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352216540,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f9b43b84-6f9f-4f20-94b7-afa29cbcf250",
+          "stop": 1790352217400
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352216538,
+      "name": "When I find the \"Industrijski luster\" product",
+      "uuid": "de156c8f-3217-438f-ad7e-4fe0a8b1019d",
+      "stop": 1790352217400
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352217404,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "ec7534f8-d631-4275-b86d-a64141cba93c",
+          "stop": 1790352217551
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352217403,
+      "name": "Then the order button is enabled",
+      "uuid": "91d817d8-b250-472e-a12c-680f98cab479",
+      "stop": 1790352217551
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352217552,
+          "uuid": "c0e04e79-a76f-4bb7-9b7e-9a1d189200fe",
+          "stop": 1790352217552
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352217552,
+          "uuid": "a053732e-213d-4924-a3a0-639ead6bad6a",
+          "stop": 1790352217552
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352217553,
+          "uuid": "f89cefe6-9ffc-409a-8696-a84b14d0798a",
+          "stop": 1790352217553
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352218546,
+              "uuid": "1ad9db93-3dc4-497b-975c-c9ebd69dd23b",
+              "stop": 1790352218946
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352217553,
+          "uuid": "71fbcd1f-53a7-4439-ac96-933f17ade372",
+          "stop": 1790352218946
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352217551,
+      "uuid": "04ca0614-20a5-4007-987e-ac66fdc9fa9d",
+      "stop": 1790352218961
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9cbfe38ab6646aaba758749f5b880db3" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352213878,
+  "testCaseId": "ed7ba8c84cae889b85798511f2be7f98",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Industrijski luster\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352218972
+}

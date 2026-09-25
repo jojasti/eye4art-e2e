@@ -1,0 +1,250 @@
+{
+  "uuid": "e811f285-5d08-404f-993c-b85d4377a5a8",
+  "name": "\"/products/side-tables\" has one meta description",
+  "historyId": "5dcde00a4799339a51a09bbdaae64429:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352151523,
+              "uuid": "ab35f5a3-6bff-4bfc-b602-b1c9b5a86d90",
+              "stop": 1790352151547
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352151521,
+          "uuid": "a61034ae-acb6-4881-94cc-6248b4bd84e7",
+          "stop": 1790352151566
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352151569,
+              "uuid": "e1bca698-a2b0-477e-8415-a0f874f03409",
+              "stop": 1790352151929
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352151567,
+          "uuid": "d66e5912-0161-4dbc-9d9a-c2f8a1fc671e",
+          "stop": 1790352151929
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352151929,
+          "uuid": "78bbe908-0695-41a7-9fe5-e7281f6d30cd",
+          "stop": 1790352151936
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790352151936,
+          "uuid": "fbc2feb6-929c-4b63-a9c9-fd765a81e8cc",
+          "stop": 1790352151936
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352151502,
+      "uuid": "ca443259-6e37-4ca2-9de6-b070b6530622",
+      "stop": 1790352151936
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352151940,
+          "name": "Navigate",
+          "uuid": "774beb94-9138-4d58-9abb-0c2c2ec3d2b2",
+          "stop": 1790352152823
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352151938,
+      "name": "Given I open the \"/products/side-tables\" page",
+      "uuid": "c5b34662-0337-4dea-b997-dc06544db458",
+      "stop": 1790352152823
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352152829,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "12abfd74-0d60-4058-8422-497927d1713c",
+          "stop": 1790352152953
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352152826,
+      "name": "Then the meta description is correct",
+      "uuid": "bf68383d-5add-42e2-bf74-3010a1bd909d",
+      "stop": 1790352152953
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790352152954,
+          "uuid": "34dbc612-c562-4b60-89ad-c043c32901f0",
+          "stop": 1790352152954
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352152954,
+          "uuid": "6553848b-b32e-4f00-9c3c-db33f30f1a16",
+          "stop": 1790352152954
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352152955,
+          "uuid": "3037a15e-6c71-4a61-9f58-0dc9b3c3a855",
+          "stop": 1790352152955
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352154411,
+              "uuid": "060e066e-cb4a-47ef-a976-4fc2f2ad4f91",
+              "stop": 1790352155062
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352152955,
+          "uuid": "6adc4a7d-10b4-4119-86b9-c80ee561e553",
+          "stop": 1790352155063
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352152954,
+      "uuid": "12d4be9b-aaf7-4191-ae4f-63eb7c852e4d",
+      "stop": 1790352155092
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "fcf1e2b5a2f2e513e313d5ad0c91824d" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one meta description"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one meta description" }
+  ],
+  "links": [],
+  "start": 1790352151620,
+  "testCaseId": "5dcde00a4799339a51a09bbdaae64429",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one meta description › \"/products/side-tables\" has one meta description",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one meta description"
+  ],
+  "stop": 1790352155163
+}

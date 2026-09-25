@@ -1,0 +1,269 @@
+{
+  "uuid": "6ba20bbe-0ac2-4929-84ad-85c755244548",
+  "name": "\"Pogledaj sve modele\" link goes to the turntable-shelves category page",
+  "historyId": "4f6471ac1f90d44f28d877757f087015:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352266267,
+              "uuid": "c5c8f121-fb8e-499e-bdaf-481a8abf1bf7",
+              "stop": 1790352266381
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352266262,
+          "uuid": "81932e6e-6ee5-4a36-a78d-829b5b434350",
+          "stop": 1790352266389
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352266393,
+              "uuid": "2833b52c-7014-467a-a8ee-7afcd56313ca",
+              "stop": 1790352267339
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352266390,
+          "uuid": "894e5be8-f7bc-483a-8fb7-731c720a60ff",
+          "stop": 1790352267339
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352267339,
+          "uuid": "41362fde-6934-4816-81e6-a9136fb56ff7",
+          "stop": 1790352267430
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352267430,
+          "uuid": "4fdc002e-2a41-4150-84df-1d6522e55b7f",
+          "stop": 1790352267430
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352266243,
+      "uuid": "265312e2-77d1-4037-bdf2-cd92ddc7a9c8",
+      "stop": 1790352267430
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352267435,
+          "name": "Navigate",
+          "uuid": "9794758b-307e-4e4a-9b0b-2b0dc0958159",
+          "stop": 1790352269352
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352267433,
+      "name": "Given I open the home page",
+      "uuid": "0c7ba6ac-e058-487e-9201-bedd5a5090b4",
+      "stop": 1790352269352
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352269359,
+          "name": "Click",
+          "uuid": "99c53032-ece0-4650-bd3b-ed9b92b4054f",
+          "stop": 1790352272370
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352269356,
+      "name": "When I open the view all turntable models link",
+      "uuid": "f3637a68-7aed-4df5-93fd-e24519ed303e",
+      "stop": 1790352272371
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352272377,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "2df03d95-9b0d-4983-ba2f-388e7025c8d2",
+          "stop": 1790352272670
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352272375,
+      "name": "Then I am taken to the turntable-shelves category page",
+      "uuid": "0bc16095-332e-4686-b8fd-3bf350c75117",
+      "stop": 1790352272671
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352272672,
+          "uuid": "77b7362a-08e4-425c-b655-39fb921694bf",
+          "stop": 1790352272672
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352272672,
+          "uuid": "cb12fc02-eba1-4afe-9f73-18454274198e",
+          "stop": 1790352272672
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352272672,
+          "uuid": "ba80e2e5-a9de-4740-b594-898f71a7766b",
+          "stop": 1790352272672
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352273875,
+              "uuid": "9f468dd2-4f93-491e-9806-a89b7d5f1a6d",
+              "stop": 1790352274443
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352272673,
+          "uuid": "133be12d-2c94-4925-80be-b6fc690c82d6",
+          "stop": 1790352274444
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352272671,
+      "uuid": "d4191a40-d4c6-4976-800d-ab4520744cbb",
+      "stop": 1790352274459
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.home.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9747021c7bc18f391633e7e796ff86bf" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\home.feature.spec.js > Home page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\home.feature.spec.js" },
+    { "name": "subSuite", "value": "Home page" }
+  ],
+  "links": [],
+  "start": 1790352266283,
+  "testCaseId": "4f6471ac1f90d44f28d877757f087015",
+  "fullName": "features/home.feature.spec.js › Home page › \"Pogledaj sve modele\" link goes to the turntable-shelves category page",
+  "titlePath": ["eye4art-e2e", "features", "home.feature.spec.js", "Home page"],
+  "stop": 1790352274466
+}

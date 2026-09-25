@@ -1,0 +1,265 @@
+{
+  "uuid": "cee6e67a-0d97-49ea-b533-bddd72db9512",
+  "name": "\"/blog/kako-odabrati-policu-za-gramofon\" has a canonical link pointing to the www domain",
+  "historyId": "cde6e8fccdf4eb1c1904232a44d66d06:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337778722,
+              "uuid": "c72ad59b-4ee5-4a81-a5e0-0ad54722d7f3",
+              "stop": 1790337778766
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337778720,
+          "uuid": "759c0b61-7866-451c-b7ab-a16fef75d474",
+          "stop": 1790337778774
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337778778,
+              "uuid": "5db476ac-d651-4028-bb3c-25d77bae06e0",
+              "stop": 1790337779601
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337778775,
+          "uuid": "4ff8b739-e582-4fa0-b492-d7e66fa530ca",
+          "stop": 1790337779601
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337779601,
+          "uuid": "e12990ba-210a-4ce1-bbc9-0483ff43978e",
+          "stop": 1790337779620
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337779620,
+          "uuid": "211a38b9-471a-4c97-866b-2c5fb43253fc",
+          "stop": 1790337779620
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337778704,
+      "uuid": "2b63d06f-2563-42a3-9e46-91cf30767b39",
+      "stop": 1790337779620
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337779625,
+          "name": "Navigate",
+          "uuid": "ae23f804-1a40-4676-bcde-eca321f4276d",
+          "stop": 1790337780878
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337779623,
+      "name": "Given I open the \"/blog/kako-odabrati-policu-za-gramofon\" page",
+      "uuid": "66edb04b-a834-4ee8-9102-6106857dcef9",
+      "stop": 1790337780879
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337780882,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "ab2a7277-39a4-4705-832b-7bfd32913a74",
+          "stop": 1790337781874
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337781876,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "3f6acaee-4ab1-4b41-96ba-17a069e4ec1d",
+          "stop": 1790337782099
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337780880,
+      "name": "Then the canonical link is correct",
+      "uuid": "253bef6d-0381-4116-a4ac-a1928fc458a9",
+      "stop": 1790337782099
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337782100,
+          "uuid": "39665187-8dae-4cc1-b4d3-0bf6fc65e3c0",
+          "stop": 1790337782101
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337782101,
+          "uuid": "1c5a2919-54b0-4918-be06-a23cc1b5e38e",
+          "stop": 1790337782101
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337782102,
+          "uuid": "c1751e16-bf3a-4089-804c-ceff9f7aeba4",
+          "stop": 1790337782103
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337783041,
+              "uuid": "009949bd-8561-4a24-9df3-f226a1cecfd7",
+              "stop": 1790337783406
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337782103,
+          "uuid": "f9af0e0a-8ea7-4687-bf63-8a5ada68a13e",
+          "stop": 1790337783406
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337782100,
+      "uuid": "aa03c213-1197-4904-9baf-6f535cb876d6",
+      "stop": 1790337783420
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "adcc0ad1ebc622e1bff6946135997ff8" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    }
+  ],
+  "links": [],
+  "start": 1790337778752,
+  "testCaseId": "cde6e8fccdf4eb1c1904232a44d66d06",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a canonical link pointing to the www domain › \"/blog/kako-odabrati-policu-za-gramofon\" has a canonical link pointing to the www domain",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a canonical link pointing to the www domain"
+  ],
+  "stop": 1790337783434
+}

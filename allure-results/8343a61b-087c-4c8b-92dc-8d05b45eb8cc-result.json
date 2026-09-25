@@ -1,0 +1,301 @@
+{
+  "uuid": "8343a61b-087c-4c8b-92dc-8d05b45eb8cc",
+  "name": "Every product in \"Pomoćni stočići\" shows an allowed stock status",
+  "historyId": "8f5a59b2a3ddd9557d668e11ee53d92c:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337656879,
+              "uuid": "b695bd18-4ee7-45f4-b442-1657b02a2404",
+              "stop": 1790337656940
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337656877,
+          "uuid": "1ebf364e-553a-4f72-a826-d395e30ec714",
+          "stop": 1790337656949
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337656951,
+              "uuid": "f861b8c3-1a41-45ce-925d-322876060b7e",
+              "stop": 1790337657700
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337656949,
+          "uuid": "44a65232-cb51-44e7-8670-a704f6fca238",
+          "stop": 1790337657700
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337657700,
+          "uuid": "c4999454-da62-46d5-963e-f75436f4dddc",
+          "stop": 1790337657715
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337657715,
+          "uuid": "b1344259-3cdd-4bc7-949a-15cc68af26be",
+          "stop": 1790337657716
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337656858,
+      "uuid": "3a53db73-635b-4959-b0b0-7936c673a38c",
+      "stop": 1790337657716
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337657721,
+          "name": "Navigate",
+          "uuid": "e8fb4c6b-f368-473f-9818-efcdde2c9ae3",
+          "stop": 1790337658652
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337657719,
+      "name": "Given I open the \"side-tables\" category page",
+      "uuid": "1fc00eca-e203-438a-abcd-0019fd671dbf",
+      "stop": 1790337658652
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337658659,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "19d7c4fb-9a84-4e94-8d7b-13f78cdd85e1",
+          "stop": 1790337659934
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337659936,
+          "name": "Query count",
+          "uuid": "1c7e21dc-cdcb-4ee0-8b8a-499d458e197e",
+          "stop": 1790337660208
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337660210,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "5190b3a3-db9c-4645-b451-813ae82ee0c3",
+          "stop": 1790337660390
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337660392,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "ed97ae63-d594-4530-98cb-1881c8fe4f2d",
+          "stop": 1790337660584
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337660586,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "092ea386-95cb-4474-9f11-40f1ac4503c3",
+          "stop": 1790337660731
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337658656,
+      "name": "Then every product shows an allowed stock status",
+      "uuid": "a6dcc9cf-fb8f-427a-b711-0d04f608febd",
+      "stop": 1790337660731
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337660732,
+          "uuid": "4f3b50df-01d6-467f-8ab0-3e514831603d",
+          "stop": 1790337660732
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337660732,
+          "uuid": "6ffbb988-3867-47b5-af29-2af53eb3e460",
+          "stop": 1790337660732
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337660732,
+          "uuid": "d4dc8df6-a135-41a5-b083-77a89a74ed63",
+          "stop": 1790337660732
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337661641,
+              "uuid": "41418220-cd52-4a3b-8cdc-152519e824b1",
+              "stop": 1790337661867
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337660733,
+          "uuid": "24c8d028-e402-4c7f-9a16-51d301c18914",
+          "stop": 1790337661867
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337660731,
+      "uuid": "79400880-195f-4537-a01d-28e96705c87b",
+      "stop": 1790337661884
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "ebeb6dce41265fe9749f49ff2ca1196a" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    }
+  ],
+  "links": [],
+  "start": 1790337656914,
+  "testCaseId": "8f5a59b2a3ddd9557d668e11ee53d92c",
+  "fullName": "features/category.feature.spec.js › Category page › Every product in \"<categoryName>\" shows an allowed stock status › Every product in \"Pomoćni stočići\" shows an allowed stock status",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Every product in \"<categoryName>\" shows an allowed stock status"
+  ],
+  "stop": 1790337661906
+}

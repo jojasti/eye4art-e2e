@@ -1,0 +1,275 @@
+{
+  "uuid": "e892c938-b2f6-4f20-a7a4-9899f7d8e4f1",
+  "name": "Order button is enabled for \"LAMPA SA ABAŽUROM OD KANAPA\"",
+  "historyId": "2da7b217c5461b29593c4348ea1d8f56:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337638269,
+              "uuid": "15684bd3-62a9-4818-b723-aaa881036765",
+              "stop": 1790337638306
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337638267,
+          "uuid": "d9a77d40-efa5-4da5-bf31-32113ab3726f",
+          "stop": 1790337638314
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337638317,
+              "uuid": "18034601-6085-4114-8d0f-7b102aa80102",
+              "stop": 1790337639111
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337638315,
+          "uuid": "ea5cc71e-4626-41a5-9b44-de51519c4cbe",
+          "stop": 1790337639111
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337639111,
+          "uuid": "437e890c-337c-4cce-ab0f-c5bfa170c795",
+          "stop": 1790337639122
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337639123,
+          "uuid": "d89f7d08-1104-4369-a271-8e67c794909b",
+          "stop": 1790337639123
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337638250,
+      "uuid": "d52dbd85-f862-4a3e-819e-04a4653d281a",
+      "stop": 1790337639123
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337639128,
+          "name": "Navigate",
+          "uuid": "5600603d-6051-4343-93d8-eb10ab5ebff4",
+          "stop": 1790337640619
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337639126,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "3edfe520-06c6-45e1-b775-2be4fcbc6cda",
+      "stop": 1790337640619
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337640624,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "3336aded-f205-4617-8d41-6689cd417081",
+          "stop": 1790337642521
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337640622,
+      "name": "When I find the \"LAMPA SA ABAŽUROM OD KANAPA\" product",
+      "uuid": "839181f1-fdc8-4e55-bdeb-ead7d3dff84a",
+      "stop": 1790337642522
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337642527,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "82b7ae16-4255-4ceb-87df-659a9bbeae7d",
+          "stop": 1790337642935
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337642525,
+      "name": "Then the order button is enabled",
+      "uuid": "1b5862df-807d-4e76-b772-f67ebeff326d",
+      "stop": 1790337642935
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337642936,
+          "uuid": "a400ee36-f1ce-41f7-a639-c25f6c5ae109",
+          "stop": 1790337642936
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337642936,
+          "uuid": "1e39e07e-3a4e-49c3-89b5-a4a17813be29",
+          "stop": 1790337642936
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337642937,
+          "uuid": "16c513c4-2bd9-4163-a9fa-0e4d4d273097",
+          "stop": 1790337642937
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337643684,
+              "uuid": "e281862c-0dab-4ecd-b13e-e093a6754195",
+              "stop": 1790337644083
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337642937,
+          "uuid": "39206632-a49e-4d55-8b9e-a9566a72099d",
+          "stop": 1790337644084
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337642935,
+      "uuid": "6c2721dd-cd08-42cc-9cc1-70bae273d7bc",
+      "stop": 1790337644099
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "c01a348311cab85d4f088475daace7e8" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337638294,
+  "testCaseId": "2da7b217c5461b29593c4348ea1d8f56",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"LAMPA SA ABAŽUROM OD KANAPA\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337644110
+}

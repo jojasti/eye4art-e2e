@@ -1,0 +1,275 @@
+{
+  "uuid": "57a58e69-331f-4cd2-9371-f34b536a0f51",
+  "name": "Order button is enabled for \"STALAK SA METALNOM PLOČOM\"",
+  "historyId": "a66055da20428c5352cdf0c58f42d311:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352059892,
+              "uuid": "3876733b-5efd-4b6d-b2fa-a657465850a7",
+              "stop": 1790352059900
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352059890,
+          "uuid": "13a63392-671c-405d-907f-7ebf722c894e",
+          "stop": 1790352059908
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352059909,
+              "uuid": "7d7d7e05-22f5-4b9a-bba8-93e1269d2fea",
+              "stop": 1790352060212
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352059908,
+          "uuid": "a3228fb3-aa38-4b49-864b-67480abc6a3b",
+          "stop": 1790352060212
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352060212,
+          "uuid": "30adad34-878f-4cd2-a9e9-1fd767d7e261",
+          "stop": 1790352060217
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352060218,
+          "uuid": "a794ec27-4d47-4e60-8414-b0f1c9e6b2c8",
+          "stop": 1790352060218
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352059866,
+      "uuid": "03890de2-51a7-47eb-8ba9-ece77d95508c",
+      "stop": 1790352060218
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352060223,
+          "name": "Navigate",
+          "uuid": "fa31b264-0b44-464d-97e1-b4fdb0ffab3e",
+          "stop": 1790352061009
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352060221,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "76c36bc9-0db3-43d7-a425-cd50bb5279a4",
+      "stop": 1790352061010
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352061014,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "288d4365-af63-43b3-a3d3-0cde44285280",
+          "stop": 1790352061274
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352061012,
+      "name": "When I find the \"STALAK SA METALNOM PLOČOM\" product",
+      "uuid": "cb9b41a9-7003-49f0-8f71-4c644dcee54b",
+      "stop": 1790352061274
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352061278,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "d8c95e7d-a907-4da2-9eca-108fc26a4285",
+          "stop": 1790352061347
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352061276,
+      "name": "Then the order button is enabled",
+      "uuid": "921cc46f-8ea2-4da4-938c-841b6b72b9d6",
+      "stop": 1790352061347
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352061348,
+          "uuid": "0311274c-bde9-469d-b6ad-ea83b3dfbb44",
+          "stop": 1790352061348
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352061348,
+          "uuid": "48f2bd7c-cd8d-4ee0-9b92-4d234e2b6524",
+          "stop": 1790352061348
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352061348,
+          "uuid": "14837b13-e6a8-4576-a2cd-e8963817b331",
+          "stop": 1790352061348
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352061695,
+              "uuid": "c9c3596b-dbf9-4046-b7d4-057ab3877b34",
+              "stop": 1790352062303
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352061349,
+          "uuid": "c672f7ad-adc8-45b1-8c32-6536824fa49b",
+          "stop": 1790352062303
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352061347,
+      "uuid": "98d0b17a-fc18-4450-ac5c-ed08237fc232",
+      "stop": 1790352062318
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "4f3cdcc64c1a9ad65cf669014e86f706" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352059888,
+  "testCaseId": "a66055da20428c5352cdf0c58f42d311",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"STALAK SA METALNOM PLOČOM\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352062305
+}

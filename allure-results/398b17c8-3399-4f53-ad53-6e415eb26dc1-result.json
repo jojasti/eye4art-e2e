@@ -1,0 +1,325 @@
+{
+  "uuid": "398b17c8-3399-4f53-ad53-6e415eb26dc1",
+  "name": "Every product in \"Retro lampe i lusteri\" shows an allowed stock status",
+  "historyId": "b73a510353c01a52ab23c9a485e4b394:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352073117,
+              "uuid": "16811cc7-dfa3-40f5-a3ba-905ccf25555b",
+              "stop": 1790352073130
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352073116,
+          "uuid": "a03f0f8e-8548-44cb-b804-bc37e0a112df",
+          "stop": 1790352073141
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352073143,
+              "uuid": "aa7dc0e1-d366-471f-970e-7d30946c5d7a",
+              "stop": 1790352073332
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352073142,
+          "uuid": "f74a7614-e73c-40f9-922b-388357312643",
+          "stop": 1790352073332
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352073332,
+          "uuid": "8c1c904d-308f-4add-b836-f37e85929a25",
+          "stop": 1790352073338
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352073338,
+          "uuid": "088921f2-5dde-4fe3-b721-6f3889510c1c",
+          "stop": 1790352073338
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352073102,
+      "uuid": "13ea0d61-d9bb-4c3a-8b05-b927f000d8a5",
+      "stop": 1790352073339
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352073341,
+          "name": "Navigate",
+          "uuid": "e006cbf4-96ea-4afd-8144-892b90ee3c01",
+          "stop": 1790352073959
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352073340,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "b6ff09ef-328a-4fc8-b606-ddb8b2966527",
+      "stop": 1790352073959
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352073966,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "0a70a07f-4941-4918-94a9-11297569b8b4",
+          "stop": 1790352074253
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074256,
+          "name": "Query count",
+          "uuid": "ee35488e-d9a2-4df3-b8a0-1dca4774d075",
+          "stop": 1790352074287
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074290,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "cab4913b-06cd-40d8-8f34-51b33da7920e",
+          "stop": 1790352074336
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074338,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "a6b7cc62-0343-4a02-ab39-97fb9c32c8d0",
+          "stop": 1790352074374
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074376,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "4245b61f-3f7b-4796-9e05-0babe873473c",
+          "stop": 1790352074431
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074433,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "df7ddb24-713c-494c-9607-4620ae882343",
+          "stop": 1790352074455
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352074456,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "60ae06e6-3d1a-4a0e-9936-8da3d700ebf9",
+          "stop": 1790352074503
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352073964,
+      "name": "Then every product shows an allowed stock status",
+      "uuid": "36017757-ff42-49b3-88fb-1f856e5605fa",
+      "stop": 1790352074503
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352074505,
+          "uuid": "23c8a727-da1a-4ecf-ae77-8995ba6a7d6b",
+          "stop": 1790352074505
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352074505,
+          "uuid": "0e8bfd10-24bd-4c76-a127-2020fbae4a14",
+          "stop": 1790352074505
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352074506,
+          "uuid": "a1f8e1bb-5587-4a4a-b5ff-0b71880793f8",
+          "stop": 1790352074507
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352074820,
+              "uuid": "ccddc0b2-40d9-446e-aed3-c42777642c13",
+              "stop": 1790352075612
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352074507,
+          "uuid": "799b9e13-fe01-402b-9a35-3bb736e20423",
+          "stop": 1790352075612
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352074504,
+      "uuid": "6a72734b-4a7d-4555-b362-721040a9c614",
+      "stop": 1790352075631
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "be278916984430860d0de65f5a3bb836" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    }
+  ],
+  "links": [],
+  "start": 1790352073162,
+  "testCaseId": "b73a510353c01a52ab23c9a485e4b394",
+  "fullName": "features/category.feature.spec.js › Category page › Every product in \"<categoryName>\" shows an allowed stock status › Every product in \"Retro lampe i lusteri\" shows an allowed stock status",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Every product in \"<categoryName>\" shows an allowed stock status"
+  ],
+  "stop": 1790352075657
+}

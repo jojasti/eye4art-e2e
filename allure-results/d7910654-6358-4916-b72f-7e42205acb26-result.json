@@ -1,0 +1,253 @@
+{
+  "uuid": "d7910654-6358-4916-b72f-7e42205acb26",
+  "name": "Products page shows the \"Noćni stočići\" category",
+  "historyId": "ab3d86df4f82f7f5351e2cfe5d4880e4:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352117865,
+              "uuid": "b884b263-4989-4821-91cc-7507ed14c861",
+              "stop": 1790352117897
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352117864,
+          "uuid": "b6e83afa-5049-4c5d-85f5-fbec86c091ac",
+          "stop": 1790352117920
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352117928,
+              "uuid": "95c19e2e-5723-43c5-a998-f8d345249209",
+              "stop": 1790352118206
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352117921,
+          "uuid": "fe6e608e-dbed-41bc-9773-85d58435ddbb",
+          "stop": 1790352118207
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352118207,
+          "uuid": "3291c1ce-1a18-455f-ac7e-9c21a8808204",
+          "stop": 1790352118216
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790352118216,
+          "uuid": "62f4931b-4753-48e2-8813-9b899eba55b4",
+          "stop": 1790352118216
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352117838,
+      "uuid": "4c8ab9d0-feb1-4b62-a430-184469f24583",
+      "stop": 1790352118217
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352118223,
+          "name": "Navigate",
+          "uuid": "085c6f5f-c064-49ea-b86f-cb765911e78f",
+          "stop": 1790352120282
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352118220,
+      "name": "Given I open the products page",
+      "uuid": "e4fba8da-13ce-4bb8-afb3-90a091152913",
+      "stop": 1790352120283
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352120305,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "021809b9-faf7-4469-b606-e8d89fb92757",
+          "stop": 1790352120549
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352120300,
+      "name": "Then I see the category \"Noćni stočići\"",
+      "uuid": "148e54d8-b51e-4190-8ad7-164195a4afe8",
+      "stop": 1790352120552
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790352120558,
+          "uuid": "934c55a5-0bca-4f20-85ea-26b4b250cc95",
+          "stop": 1790352120558
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352120558,
+          "uuid": "7c9f1d75-9eab-4c12-a8a1-5f95fcd24884",
+          "stop": 1790352120558
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352120559,
+          "uuid": "d0b527ed-01b7-420f-9240-6b8a2c81ac24",
+          "stop": 1790352120559
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352121120,
+              "uuid": "082fb719-0e91-4179-858f-0c35d527ce8b",
+              "stop": 1790352121692
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352120563,
+          "uuid": "0ae0d253-1a2e-4d5d-a5bf-150000c50eed",
+          "stop": 1790352121693
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352120553,
+      "uuid": "fcfbd064-7476-456c-90d1-8470f4c338e2",
+      "stop": 1790352121709
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.products.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9efc4c953cd04c63ce73c20550503c4c" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\products.feature.spec.js > Products page > Products page shows the \"<category>\" category"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\products.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Products page > Products page shows the \"<category>\" category"
+    }
+  ],
+  "links": [],
+  "start": 1790352118089,
+  "testCaseId": "ab3d86df4f82f7f5351e2cfe5d4880e4",
+  "fullName": "features/products.feature.spec.js › Products page › Products page shows the \"<category>\" category › Products page shows the \"Noćni stočići\" category",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "products.feature.spec.js",
+    "Products page",
+    "Products page shows the \"<category>\" category"
+  ],
+  "stop": 1790352121910
+}

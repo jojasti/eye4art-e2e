@@ -1,0 +1,275 @@
+{
+  "uuid": "2298fad6-14cf-4300-9367-06e9a48bbe14",
+  "name": "Order button is enabled for \"INDUSTRIJSKA STONA LAMPA\"",
+  "historyId": "d4b226f89ce3016e765c91d531b33187:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337462156,
+              "uuid": "abfb3768-e3e5-4a2f-a985-da8ebb948581",
+              "stop": 1790337462187
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337462155,
+          "uuid": "ee2d766c-b4d0-4af5-bb4c-87c35d67eaf2",
+          "stop": 1790337462200
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337462203,
+              "uuid": "d1e68dfb-6cb6-4fa0-a3e3-66235e3afe66",
+              "stop": 1790337462578
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337462201,
+          "uuid": "7921ceb6-4650-4f21-9b41-c9a21933f095",
+          "stop": 1790337462578
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337462578,
+          "uuid": "86a9285a-014c-4b1c-8bf9-67afe2092716",
+          "stop": 1790337462593
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337462593,
+          "uuid": "fec8a50b-50b2-4ca3-81ca-9de673816592",
+          "stop": 1790337462594
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337462131,
+      "uuid": "03266093-4629-4d21-9498-cfbad052d4c3",
+      "stop": 1790337462594
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337462601,
+          "name": "Navigate",
+          "uuid": "7e9a0b0a-f415-43a6-86df-5348d5bae9c4",
+          "stop": 1790337464402
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337462598,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "8a8d5485-9978-47b4-a232-fb696636842c",
+      "stop": 1790337464402
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337464406,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "a267f716-00da-4e3c-bd08-12fce9f2e790",
+          "stop": 1790337464603
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337464405,
+      "name": "When I find the \"INDUSTRIJSKA STONA LAMPA\" product",
+      "uuid": "76aaabe1-774c-46c0-a3e7-2d8b1541a5e5",
+      "stop": 1790337464603
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337464608,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "6dc26a9b-d56c-495b-aa02-6b1eb261a10e",
+          "stop": 1790337464740
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337464606,
+      "name": "Then the order button is enabled",
+      "uuid": "6414b311-77da-4dc2-b1c1-3d4f0beee2a0",
+      "stop": 1790337464740
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337464742,
+          "uuid": "7fea08b1-538f-4d8d-97c4-186f7691a6dc",
+          "stop": 1790337464743
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337464743,
+          "uuid": "8157cbb8-c4b1-48b3-bd36-33fc09755031",
+          "stop": 1790337464743
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337464743,
+          "uuid": "7c80d7cf-7c64-4b3c-8cfc-25278b97938a",
+          "stop": 1790337464744
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337465262,
+              "uuid": "697207d4-cf23-4057-8aff-caad306c58bc",
+              "stop": 1790337465517
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337464744,
+          "uuid": "48725f11-aa2b-4240-aef2-9c4b8dc93374",
+          "stop": 1790337465518
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337464741,
+      "uuid": "43047b36-1693-42dd-b5ba-95450e57b0b1",
+      "stop": 1790337465533
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "ed5c8abc795c9574335a566bab4f6689" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337462201,
+  "testCaseId": "d4b226f89ce3016e765c91d531b33187",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"INDUSTRIJSKA STONA LAMPA\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337465563
+}

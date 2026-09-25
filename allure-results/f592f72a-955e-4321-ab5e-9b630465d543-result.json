@@ -1,0 +1,275 @@
+{
+  "uuid": "f592f72a-955e-4321-ab5e-9b630465d543",
+  "name": "Materials are shown for \"NOĆNI STOČIĆ MODEL 1\"",
+  "historyId": "3b959d7ca58819c2a03a7f8f16976632:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352246116,
+              "uuid": "ffc5d662-847f-4781-8b8f-ee0837f8c58f",
+              "stop": 1790352246199
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352246110,
+          "uuid": "2b45963b-aa82-47c5-8a08-dc3c6e9c325f",
+          "stop": 1790352246206
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352246209,
+              "uuid": "bb547a04-89fa-4e9e-a0ba-9ebd30b28054",
+              "stop": 1790352247455
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352246207,
+          "uuid": "4874fe6d-41f4-4ab2-85f7-50f6498b3505",
+          "stop": 1790352247455
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352247455,
+          "uuid": "97b4a0bb-b6b3-47f9-baeb-73228be73ae8",
+          "stop": 1790352247467
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352247467,
+          "uuid": "cd6bc033-1c06-471b-868c-a037b31f6078",
+          "stop": 1790352247467
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352246095,
+      "uuid": "1871fce9-6b88-4310-9e08-5df46258b1ec",
+      "stop": 1790352247467
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352247471,
+          "name": "Navigate",
+          "uuid": "f730e7ab-2613-4ed0-b52d-66bae75ecd70",
+          "stop": 1790352249020
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352247470,
+      "name": "Given I open the \"nightstands\" category page",
+      "uuid": "7710c829-177c-4af7-8b1d-c5cf778c5425",
+      "stop": 1790352249020
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352249026,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "b688225e-cec7-4839-bc2e-f07b08668ea8",
+          "stop": 1790352249725
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352249024,
+      "name": "When I find the \"NOĆNI STOČIĆ MODEL 1\" product",
+      "uuid": "57480df5-bf34-43f0-95a4-ead5687db130",
+      "stop": 1790352249725
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352249729,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fba12362-e8fc-4077-b30f-5ade1ec2b40a",
+          "stop": 1790352249871
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352249728,
+      "name": "Then materials are shown",
+      "uuid": "2b5a13c1-523c-47be-bafc-542d1c1de202",
+      "stop": 1790352249871
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352249872,
+          "uuid": "f542f7ae-022d-499d-845d-05972a7bcb31",
+          "stop": 1790352249872
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352249872,
+          "uuid": "3dec8d2f-bafa-4d2f-b660-a4c6a267fba5",
+          "stop": 1790352249872
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352249873,
+          "uuid": "facd5e8b-fccc-4669-8ad2-aba17d20cd3b",
+          "stop": 1790352249873
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352250821,
+              "uuid": "0613d2de-82bd-485b-aa6c-ec906c1e0558",
+              "stop": 1790352251203
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352249873,
+          "uuid": "d6ba3d42-5df6-4461-accf-643ed86cf48f",
+          "stop": 1790352251203
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352249872,
+      "uuid": "01d52c83-cde8-4736-a2dd-c4d059af4b17",
+      "stop": 1790352251221
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "fb77768eac92dcf72ac7048dbe0a131b" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Materials are shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Materials are shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352246139,
+  "testCaseId": "3b959d7ca58819c2a03a7f8f16976632",
+  "fullName": "features/category.feature.spec.js › Category page › Materials are shown for \"<model>\" › Materials are shown for \"NOĆNI STOČIĆ MODEL 1\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Materials are shown for \"<model>\""
+  ],
+  "stop": 1790352251232
+}

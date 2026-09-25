@@ -1,0 +1,250 @@
+{
+  "uuid": "c65e2e42-b669-47b6-8ab4-427a8c933e2a",
+  "name": "\"/about\" has one og:title",
+  "historyId": "a8d7de523b83e163c2db42b267a8d991:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337570189,
+              "uuid": "4a28046d-7b0c-4253-9b99-c68df3152639",
+              "stop": 1790337570210
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337570187,
+          "uuid": "beb5bea8-2107-4821-95c4-18fd6bdecfa7",
+          "stop": 1790337570218
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337570223,
+              "uuid": "88f15861-62c0-43eb-914e-7f3a4c8a511c",
+              "stop": 1790337570495
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337570220,
+          "uuid": "914210ae-d32a-45bd-a9c5-9cb331911e8a",
+          "stop": 1790337570495
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337570495,
+          "uuid": "3edd7297-a3e2-4965-9eea-338bf7757b34",
+          "stop": 1790337570502
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337570502,
+          "uuid": "2efa5ea6-c19d-4dcf-888d-1ffd432af95a",
+          "stop": 1790337570502
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337570161,
+      "uuid": "84f23638-b6f5-4aba-8435-d687371fb2a6",
+      "stop": 1790337570502
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337570509,
+          "name": "Navigate",
+          "uuid": "6dc5d0c2-fe68-411f-9e6d-08b6995e0011",
+          "stop": 1790337571397
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337570507,
+      "name": "Given I open the \"/about\" page",
+      "uuid": "93c892dc-1a7c-426b-af1d-97b843176997",
+      "stop": 1790337571397
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337571404,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "591dd1d8-bc20-4760-880b-963a525b49bf",
+          "stop": 1790337571551
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337571401,
+      "name": "Then the og:title is correct",
+      "uuid": "72b234ea-b211-46af-a202-7243b108c582",
+      "stop": 1790337571552
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337571552,
+          "uuid": "9ebcb406-b15d-47e0-9a00-3ce3c8860002",
+          "stop": 1790337571553
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337571553,
+          "uuid": "bd7beeb3-e070-41e5-a3c0-d90ccdbe42c1",
+          "stop": 1790337571553
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337571554,
+          "uuid": "4f8c1fb2-e949-4146-a398-c7750cc6c8b5",
+          "stop": 1790337571554
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337572719,
+              "uuid": "ebad0bc9-1c92-414d-a5d3-e3f6a69d0d6f",
+              "stop": 1790337573023
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337571554,
+          "uuid": "5f2a28a8-bff2-4442-b834-24171fefadba",
+          "stop": 1790337573023
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337571552,
+      "uuid": "e9556f8d-241d-417e-83f6-46db503fc5df",
+      "stop": 1790337573038
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "f10c233dd65daa39b5d29397e77a1895" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one og:title"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one og:title" }
+  ],
+  "links": [],
+  "start": 1790337570179,
+  "testCaseId": "a8d7de523b83e163c2db42b267a8d991",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one og:title › \"/about\" has one og:title",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one og:title"
+  ],
+  "stop": 1790337573014
+}

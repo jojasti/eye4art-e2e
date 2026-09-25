@@ -1,0 +1,265 @@
+{
+  "uuid": "8e3a6c2e-ef14-4475-b69f-fa30cabd9083",
+  "name": "\"/products/turntable-shelves\" has a canonical link pointing to the www domain",
+  "historyId": "fc28050f0c818a2e52ebad7d13c6ba93:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337549767,
+              "uuid": "f8e7033c-3adc-4a9b-9c30-3e9b7c3c1cc7",
+              "stop": 1790337549773
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337549765,
+          "uuid": "573125f4-2d7f-4d48-bf54-b688fdf68ba6",
+          "stop": 1790337549782
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337549785,
+              "uuid": "a1e755a2-0545-4169-a06c-1780a6f38ff6",
+              "stop": 1790337550085
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337549782,
+          "uuid": "23fe136e-e62d-475a-9e58-bcc2cc58461e",
+          "stop": 1790337550085
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337550085,
+          "uuid": "51ba08d1-0321-4cd9-afc4-90d7a0266604",
+          "stop": 1790337550118
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337550118,
+          "uuid": "c7da3107-8acf-442f-86ab-3dd0fd8d2da7",
+          "stop": 1790337550118
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337549742,
+      "uuid": "a9712318-105f-4f66-abfe-53248a025b6a",
+      "stop": 1790337550118
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337550123,
+          "name": "Navigate",
+          "uuid": "d9ff7c60-bd4b-4de8-96bf-d0b9aeb0ed20",
+          "stop": 1790337551624
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337550121,
+      "name": "Given I open the \"/products/turntable-shelves\" page",
+      "uuid": "0646b7bb-119b-4c6b-a50b-082a434ab56b",
+      "stop": 1790337551625
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337551634,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "722f1520-c7c6-4a7d-ab53-de6e39bda805",
+          "stop": 1790337551959
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337551961,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "f8b2cff4-9e05-4d3c-a560-5e66b663b417",
+          "stop": 1790337551998
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337551630,
+      "name": "Then the canonical link is correct",
+      "uuid": "84ef8a7e-a78e-4728-b553-e4a2df44534e",
+      "stop": 1790337551998
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337551999,
+          "uuid": "ab14f69a-b89e-4782-b53a-f9f6dfc6633a",
+          "stop": 1790337551999
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337551999,
+          "uuid": "2f9af2ec-c6d0-4929-bfa4-771c05462bc7",
+          "stop": 1790337551999
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337551999,
+          "uuid": "2ed32a11-d2d2-404d-acf9-1d8c6c25fbfd",
+          "stop": 1790337552000
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337552980,
+              "uuid": "4ffc7a60-06b7-4f15-8b14-a038d4cfd4eb",
+              "stop": 1790337555231
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337552028,
+          "uuid": "a327b52b-d53e-483b-941b-d6c6f476c3a1",
+          "stop": 1790337555231
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337551998,
+      "uuid": "da9306e7-38c1-4af3-9677-d9bdd5982ac3",
+      "stop": 1790337555254
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "3fe2b71c7383120f8283d5c62e8c3739" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    }
+  ],
+  "links": [],
+  "start": 1790337549760,
+  "testCaseId": "fc28050f0c818a2e52ebad7d13c6ba93",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a canonical link pointing to the www domain › \"/products/turntable-shelves\" has a canonical link pointing to the www domain",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a canonical link pointing to the www domain"
+  ],
+  "stop": 1790337555199
+}

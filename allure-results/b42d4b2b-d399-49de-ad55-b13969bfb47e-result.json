@@ -1,0 +1,277 @@
+{
+  "uuid": "b42d4b2b-d399-49de-ad55-b13969bfb47e",
+  "name": "Footer has a link to the \"turntable-shelves\" category page",
+  "historyId": "bf7c3cf463e76daa300100af60fc520b:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337489725,
+              "uuid": "7ee87432-82a0-405f-87bc-45465fedf0d9",
+              "stop": 1790337489741
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337489723,
+          "uuid": "d71476cd-b86a-490d-bcd6-218874d256b1",
+          "stop": 1790337489752
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337489755,
+              "uuid": "6eaf7be5-1725-446d-bd55-ccd0460dd57d",
+              "stop": 1790337490059
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337489753,
+          "uuid": "b3c8cb2e-bc7a-468f-9c66-816d46a5099d",
+          "stop": 1790337490059
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337490059,
+          "uuid": "8e1703da-093c-43b4-9e3b-f1467abd97ff",
+          "stop": 1790337490091
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337490091,
+          "uuid": "039bdb59-4a8d-4084-8855-a35c8a64fccc",
+          "stop": 1790337490092
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337490092,
+          "uuid": "52f61c39-3d76-46de-a2c0-2dbad0fb0d3b",
+          "stop": 1790337490092
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337489687,
+      "uuid": "4a96dd97-5111-4881-a073-6c791ce986ad",
+      "stop": 1790337490092
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337490100,
+          "name": "Navigate",
+          "uuid": "3d6ac3b3-3212-4550-a194-5603190eafb3",
+          "stop": 1790337492374
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337490096,
+      "name": "Given I open the home page",
+      "uuid": "4ec346fe-0f55-4190-ac62-2e2700f4c6d2",
+      "stop": 1790337492374
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337492398,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "80a0f0fc-3a06-4312-91b2-35ac216e6f5b",
+          "stop": 1790337492954
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337492386,
+      "name": "Then the footer has a link to the \"turntable-shelves\" category page",
+      "uuid": "cd3d4005-3770-4ac8-beed-2f3a07ba294f",
+      "stop": 1790337492955
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337492956,
+          "uuid": "48690fb1-b43e-4b7c-be69-a21d2514c2bf",
+          "stop": 1790337492956
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337492957,
+          "uuid": "1c55f80a-e335-4099-9238-fdd751c197a8",
+          "stop": 1790337492957
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337492957,
+          "uuid": "ed0f8bf3-312c-44cc-9f45-96c6a35d3bc7",
+          "stop": 1790337492957
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337492958,
+          "uuid": "2b024140-93c9-46f8-abc4-283808aad5fd",
+          "stop": 1790337492958
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337493297,
+              "uuid": "e25c46e8-8b8d-4b91-82a5-1f460ec4168a",
+              "stop": 1790337493826
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337492960,
+          "uuid": "f9220854-1f3f-49d1-95d0-64438efa028a",
+          "stop": 1790337493826
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337492956,
+      "uuid": "3ca82ea1-9525-42d6-b03a-ac9d5bd97d3f",
+      "stop": 1790337493847
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.footer.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9ba282de45987d68ed1d3180e8ca0542" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\footer.feature.spec.js > Footer > Footer has a link to the \"<productCategory>\" category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\footer.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Footer > Footer has a link to the \"<productCategory>\" category page"
+    }
+  ],
+  "links": [],
+  "start": 1790337489691,
+  "testCaseId": "bf7c3cf463e76daa300100af60fc520b",
+  "fullName": "features/footer.feature.spec.js › Footer › Footer has a link to the \"<productCategory>\" category page › Footer has a link to the \"turntable-shelves\" category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "footer.feature.spec.js",
+    "Footer",
+    "Footer has a link to the \"<productCategory>\" category page"
+  ],
+  "stop": 1790337493794
+}

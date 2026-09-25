@@ -1,0 +1,353 @@
+{
+  "uuid": "195826de-ddf5-40c2-9280-d55873f21afa",
+  "name": "Switching to English changes the menu labels",
+  "historyId": "e09976a3e62324aaf91613a6988b1762:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352113041,
+              "uuid": "8484bd1b-9681-47ee-9971-dff61982e1b7",
+              "stop": 1790352113064
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352113039,
+          "uuid": "1f2c4fd0-4eb1-4f0d-855d-58d182ab73c9",
+          "stop": 1790352113075
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352113078,
+              "uuid": "8a7edf71-d63f-427e-9f45-d46c28457d79",
+              "stop": 1790352113451
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352113076,
+          "uuid": "3b9bd2a3-7a34-4151-a8f0-71e04658a886",
+          "stop": 1790352113452
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352113452,
+          "uuid": "86014eb9-2937-43f4-a10d-df8e8cad40a9",
+          "stop": 1790352113457
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352113457,
+          "uuid": "e276bf0b-b6c0-4ba8-b57e-03b220578fd8",
+          "stop": 1790352113458
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790352113458,
+          "uuid": "592424e0-f8a4-4e0f-ad6a-7ba58ab666ef",
+          "stop": 1790352113458
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352113025,
+      "uuid": "861cc99f-d3a4-45ab-8947-7ee01be166b2",
+      "stop": 1790352113458
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352113464,
+          "name": "Navigate",
+          "uuid": "2c22df5d-89e9-4456-86c1-0ad24434028a",
+          "stop": 1790352114493
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352113462,
+      "name": "Given I open the home page",
+      "uuid": "81015051-9097-4dda-a55b-7994b6bc7f4f",
+      "stop": 1790352114494
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352114500,
+          "name": "Click",
+          "uuid": "c066a913-0486-4db1-83a2-16a4cf367630",
+          "stop": 1790352114875
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352114497,
+      "name": "When I switch the language to English",
+      "uuid": "61e90cc3-d08a-4599-8c4f-6a3fa1ee42f5",
+      "stop": 1790352114875
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352114882,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "88c2b40c-0d84-4851-8066-b21225851df2",
+          "stop": 1790352115086
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352115120,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "182e2288-1f29-4d3f-b18a-f3b8cedd7575",
+          "stop": 1790352115185
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352115187,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "65ea1daa-ff94-493a-b144-40ee4cfb0d67",
+          "stop": 1790352115226
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352115227,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "4d604abe-57fa-4b28-b04f-41e383f3239c",
+          "stop": 1790352115278
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352115281,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "54e33564-865c-4005-895f-09f18e5c75b5",
+          "stop": 1790352115328
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352115330,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fbfe2a1b-3f30-4499-be33-6d4c383e87e4",
+          "stop": 1790352115400
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352114880,
+      "name": "Then the menu labels are in English",
+      "uuid": "7fff61fc-7693-4d96-a2fe-c73dd868448c",
+      "stop": 1790352115400
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790352115401,
+          "uuid": "2a6d9273-1c78-4674-bfe0-faf12fcb8125",
+          "stop": 1790352115401
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352115402,
+          "uuid": "eb6cbc37-e634-45a9-9e69-6695b461214a",
+          "stop": 1790352115402
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352115402,
+          "uuid": "d05730ca-58f1-4f19-9867-b96ce75fda7f",
+          "stop": 1790352115402
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352115402,
+          "uuid": "92cca4c3-4670-4e5c-99e4-58b7dd639c32",
+          "stop": 1790352115403
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352115695,
+              "uuid": "64926d4a-b98d-4965-af7e-1550a7781c1e",
+              "stop": 1790352116183
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352115403,
+          "uuid": "8b1e504a-d404-4763-a1fa-591c43904687",
+          "stop": 1790352116183
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352115401,
+      "uuid": "b3028fbf-5c5f-4b02-a21f-114b0ef4f067",
+      "stop": 1790352116199
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.navigation.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "06f7e9983ed0e9ab8d3811024301ca74" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\navigation.feature.spec.js > Main navigation"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\navigation.feature.spec.js" },
+    { "name": "subSuite", "value": "Main navigation" }
+  ],
+  "links": [],
+  "start": 1790352113364,
+  "testCaseId": "e09976a3e62324aaf91613a6988b1762",
+  "fullName": "features/navigation.feature.spec.js › Main navigation › Switching to English changes the menu labels",
+  "titlePath": ["eye4art-e2e", "features", "navigation.feature.spec.js", "Main navigation"],
+  "stop": 1790352116507
+}

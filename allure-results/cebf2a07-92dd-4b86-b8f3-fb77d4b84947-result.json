@@ -1,0 +1,275 @@
+{
+  "uuid": "cebf2a07-92dd-4b86-b8f3-fb77d4b84947",
+  "name": "Order button is enabled for \"Turntable Stand\"",
+  "historyId": "9f3a70829786010777c46a687e0cd42f:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352056339,
+              "uuid": "be14d2dc-27f2-46a4-b6c2-bd140dbe5408",
+              "stop": 1790352056346
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352056336,
+          "uuid": "97f87f38-1624-4f61-91df-9feee1b7b775",
+          "stop": 1790352056359
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352056361,
+              "uuid": "b5962bb7-8e6a-4bd4-baf1-d9765f55ab0d",
+              "stop": 1790352056578
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352056359,
+          "uuid": "f3d1f5c0-6bd7-4280-987d-036c8ddfbb6d",
+          "stop": 1790352056578
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352056578,
+          "uuid": "378c90e5-fda2-4559-b7a3-4316ce58015a",
+          "stop": 1790352056604
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352056604,
+          "uuid": "9e550f59-d528-4e51-8ab3-5ce4f7965a64",
+          "stop": 1790352056605
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352056317,
+      "uuid": "a14c8558-46ec-4bbd-ba3f-32c223159119",
+      "stop": 1790352056605
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352056610,
+          "name": "Navigate",
+          "uuid": "1ab1a0fb-8fb3-4a51-9e99-d9a6d2fef5ca",
+          "stop": 1790352057427
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352056609,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "b9b26caf-eb67-4168-b89d-0840f8159661",
+      "stop": 1790352057427
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352057433,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fbfb8d35-fd5c-466e-b7e3-3b217ff38569",
+          "stop": 1790352057612
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352057430,
+      "name": "When I find the \"Turntable Stand\" product",
+      "uuid": "54e079e1-d470-4554-ac26-0b862f995596",
+      "stop": 1790352057612
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352057617,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "5624cc72-9f72-4da9-9946-0b697cc76817",
+          "stop": 1790352057677
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352057615,
+      "name": "Then the order button is enabled",
+      "uuid": "47d28198-fec4-4125-9e57-4ebe9f3cafef",
+      "stop": 1790352057677
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352057678,
+          "uuid": "49566482-e84e-412d-9dda-da1287cb2cf3",
+          "stop": 1790352057678
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352057678,
+          "uuid": "816058de-2526-4219-87ef-8d9be11041fc",
+          "stop": 1790352057678
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352057679,
+          "uuid": "af45cdba-ff91-462a-83c8-f5e6e56c9e69",
+          "stop": 1790352057679
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352058369,
+              "uuid": "29e6cb02-aed2-4ee6-9b0d-437b4b08b539",
+              "stop": 1790352058589
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352057679,
+          "uuid": "12930947-878e-40c0-b9ad-c5db5d69e3f3",
+          "stop": 1790352058589
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352057678,
+      "uuid": "82d0f176-3ddd-4123-b913-8594caf4e45a",
+      "stop": 1790352058600
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "5e94c1cfc7771a67866f9a9b4bc6b0fa" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352056331,
+  "testCaseId": "9f3a70829786010777c46a687e0cd42f",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Turntable Stand\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352058583
+}

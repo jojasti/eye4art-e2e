@@ -1,0 +1,335 @@
+{
+  "uuid": "4889cf48-1600-4d62-a740-6073aba46979",
+  "name": "Main menu opens the \"Kontakt\" page",
+  "historyId": "1c85cb13d30dfcc71b6efdd45d15c1cf:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337720350,
+              "uuid": "2a3d5c37-0592-4399-bf38-3cbb3a06fc52",
+              "stop": 1790337720484
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337720349,
+          "uuid": "54700398-b2c8-4c6e-9e29-d5e533d3c277",
+          "stop": 1790337720494
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337720498,
+              "uuid": "6dd42406-f762-4a6c-91d5-5af1eaec4f2f",
+              "stop": 1790337721616
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337720495,
+          "uuid": "643034c1-2ddd-4b3b-a857-189c9dd0ecde",
+          "stop": 1790337721616
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337721616,
+          "uuid": "0c101dc4-d769-476d-945b-8a9c9a7d22d8",
+          "stop": 1790337721624
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337721624,
+          "uuid": "425c39cd-2f93-4109-bdfe-042c789e5714",
+          "stop": 1790337721624
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790337721625,
+          "uuid": "c4dd311e-1891-4227-9b7e-58f1f69e1aa3",
+          "stop": 1790337721625
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337720332,
+      "uuid": "ca806e62-033d-4e58-9bad-cc03455dbf13",
+      "stop": 1790337721625
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337721630,
+          "name": "Navigate",
+          "uuid": "3a449016-606c-4aa0-b271-f68150ff1c6d",
+          "stop": 1790337724246
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337721627,
+      "name": "Given I open the home page",
+      "uuid": "b761a8cf-7d10-4b52-83a5-74c7b7ee4a92",
+      "stop": 1790337724246
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337724251,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fb8d1ba8-6849-461d-a28f-98decc37fab8",
+          "stop": 1790337725254
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337725829,
+          "name": "Click",
+          "uuid": "9bc5d9fd-3c08-46e4-b957-e48f82d2d221",
+          "stop": 1790337728046
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337728047,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "cb22ae95-7ea0-482c-aa14-e88c3d2681b5",
+          "stop": 1790337728415
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337728417,
+          "name": "Click",
+          "uuid": "2e8d59bc-9eaa-4674-80d7-1f04339c1b81",
+          "stop": 1790337730562
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337724249,
+      "name": "When I open \"Kontakt\" from the main menu",
+      "uuid": "22f39e4e-9a90-473e-bb3b-760c9d25acdb",
+      "stop": 1790337730562
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337730566,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "27126827-5098-4212-b003-ca7b5a019bea",
+          "stop": 1790337731136
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337730564,
+      "name": "Then I am on the \"/contact\" page",
+      "uuid": "4c25374a-68ca-4ae2-a5a3-c3bc619e0c08",
+      "stop": 1790337731136
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790337731137,
+          "uuid": "0fe18113-9469-412c-b236-1f07bc90a5c0",
+          "stop": 1790337731137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337731137,
+          "uuid": "31198cb2-f62f-4a1c-976d-e33c3c614280",
+          "stop": 1790337731137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337731137,
+          "uuid": "18f46370-adfa-4f68-acb6-e0f34a8ace95",
+          "stop": 1790337731137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337731138,
+          "uuid": "f6e2e50d-cec5-459c-8489-80a8872cda44",
+          "stop": 1790337731138
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337732445,
+              "uuid": "a8d31e22-e23c-460e-86ee-f82306806820",
+              "stop": 1790337732770
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337731138,
+          "uuid": "d44138a9-3d47-4ddc-9693-9908f954479b",
+          "stop": 1790337732770
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337731136,
+      "uuid": "85525b53-fdf0-46b1-9db1-4f25b8a1bf00",
+      "stop": 1790337732798
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.navigation.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "0af5273dc42eebf5a58f055874b338dc" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\navigation.feature.spec.js > Main navigation > Main menu opens the \"<item>\" page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\navigation.feature.spec.js" },
+    { "name": "subSuite", "value": "Main navigation > Main menu opens the \"<item>\" page" }
+  ],
+  "links": [],
+  "start": 1790337720434,
+  "testCaseId": "1c85cb13d30dfcc71b6efdd45d15c1cf",
+  "fullName": "features/navigation.feature.spec.js › Main navigation › Main menu opens the \"<item>\" page › Main menu opens the \"Kontakt\" page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "navigation.feature.spec.js",
+    "Main navigation",
+    "Main menu opens the \"<item>\" page"
+  ],
+  "stop": 1790337732855
+}

@@ -1,0 +1,275 @@
+{
+  "uuid": "a0def4dc-3cad-4d2b-95ed-8b894a14ca1f",
+  "name": "Order button is enabled for \"Spin & Store\"",
+  "historyId": "ebcee3c638ffeea680309b6d69964d8c:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337609534,
+              "uuid": "d6e34491-f90c-43f0-8fcb-5c34ea4ea6f8",
+              "stop": 1790337609578
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337609532,
+          "uuid": "3b707239-bf3d-4d74-9c10-7055f57dc69c",
+          "stop": 1790337609586
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337609590,
+              "uuid": "87a66784-7230-4784-9e8a-b597dc203455",
+              "stop": 1790337610870
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337609587,
+          "uuid": "1ce141d0-2744-4367-b030-123c9e06956b",
+          "stop": 1790337610870
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337610870,
+          "uuid": "004230da-eed4-4f5b-8682-88a117443890",
+          "stop": 1790337610891
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337610891,
+          "uuid": "fa65b05b-166d-41b6-8d6a-2a7dcbc1a9ab",
+          "stop": 1790337610892
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337609513,
+      "uuid": "8c2a6bc8-afb9-433e-ae93-4879e931544f",
+      "stop": 1790337610892
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337610897,
+          "name": "Navigate",
+          "uuid": "2378e429-4777-4a1d-ac54-f4f8a019b780",
+          "stop": 1790337612421
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337610895,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "8d56468f-676d-4ec0-b74c-32031d049585",
+      "stop": 1790337612421
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337612430,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "9ff886b1-b968-41a8-8667-e9c6f24c3460",
+          "stop": 1790337614243
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337612427,
+      "name": "When I find the \"Spin & Store\" product",
+      "uuid": "959f7723-517f-4590-a9e1-4c5b8fc883d0",
+      "stop": 1790337614244
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337614250,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "4249aead-a7cb-4854-a81d-e834bdf78def",
+          "stop": 1790337614851
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337614247,
+      "name": "Then the order button is enabled",
+      "uuid": "aa787b82-76b8-4b6d-972c-006a879313c9",
+      "stop": 1790337614851
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337614853,
+          "uuid": "2d194b29-7ff4-4750-be72-269518b1870a",
+          "stop": 1790337614853
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337614853,
+          "uuid": "cdb8569d-e714-43dc-9fec-45a24232a345",
+          "stop": 1790337614853
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337614854,
+          "uuid": "464cb65c-a44c-442a-b09d-fa29d75e5dfd",
+          "stop": 1790337614854
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337615868,
+              "uuid": "f5faf091-ddd2-4cd6-8a0e-61ab173a2232",
+              "stop": 1790337616373
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337614854,
+          "uuid": "53e3fd96-c261-49d2-a6c3-3753b904d1a7",
+          "stop": 1790337616373
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337614852,
+      "uuid": "1d45eedd-2f7a-4f86-95b0-5bdb408ac783",
+      "stop": 1790337616388
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "4d642bdc5b46a1fe3f557b9cbb5576c1" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337609535,
+  "testCaseId": "ebcee3c638ffeea680309b6d69964d8c",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Spin & Store\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337616377
+}

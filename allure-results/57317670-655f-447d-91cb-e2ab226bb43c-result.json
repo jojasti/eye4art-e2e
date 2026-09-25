@@ -1,0 +1,265 @@
+{
+  "uuid": "57317670-655f-447d-91cb-e2ab226bb43c",
+  "name": "\"/\" has a canonical link pointing to the www domain",
+  "historyId": "835b0191a490e893597a0532ab48773a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337548794,
+              "uuid": "72a21b87-59ee-4996-91b1-fb5f78f7c4dc",
+              "stop": 1790337548806
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337548793,
+          "uuid": "85598732-408e-4725-97d9-3c9a6438e36e",
+          "stop": 1790337548818
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337548821,
+              "uuid": "c2bc3e2a-e92f-4857-9c89-062b1167be85",
+              "stop": 1790337549092
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337548819,
+          "uuid": "166a6fff-eed7-4ad5-87fe-be56bfede83b",
+          "stop": 1790337549092
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337549092,
+          "uuid": "b5758285-baf6-4c9a-8d84-a3fcdc6a470a",
+          "stop": 1790337549098
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337549098,
+          "uuid": "a646a823-f029-42c2-9970-368f42943a35",
+          "stop": 1790337549098
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337548766,
+      "uuid": "cabbc363-6125-453e-bd1d-297867d1bdf0",
+      "stop": 1790337549098
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337549103,
+          "name": "Navigate",
+          "uuid": "988e0563-ef02-4ebf-9986-f613c9e2385c",
+          "stop": 1790337550485
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337549100,
+      "name": "Given I open the \"/\" page",
+      "uuid": "f3049ec6-3dd3-48c2-9d33-43a5423de89f",
+      "stop": 1790337550485
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337550492,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "07fd7266-632a-40a7-ab45-827b570662ad",
+          "stop": 1790337552460
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337552463,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "baba48f8-8661-4a8d-b299-71ac75a59d0a",
+          "stop": 1790337552673
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337550489,
+      "name": "Then the canonical link is correct",
+      "uuid": "d654e9ff-0a2e-4f09-a47a-f53f19ac765d",
+      "stop": 1790337552674
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337552675,
+          "uuid": "bdd1d2f3-43c1-4cc9-ac49-b5e3b17aee29",
+          "stop": 1790337552675
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337552675,
+          "uuid": "a5e84d25-ae05-4fab-89d5-69a0d9410c90",
+          "stop": 1790337552675
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337552676,
+          "uuid": "e390cd22-6bf3-4410-9a53-7bc5fe171e0e",
+          "stop": 1790337552676
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337552899,
+              "uuid": "40bcd7e1-7c4a-4d9e-8084-a93fe02eb6d5",
+              "stop": 1790337553386
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337552677,
+          "uuid": "9aff4233-97f3-46e2-80ef-3240b7b74778",
+          "stop": 1790337553386
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337552674,
+      "uuid": "eb40461f-9752-4a17-93ee-a2e8ad147c1d",
+      "stop": 1790337553407
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "dfe3144b3531cca6c32c760ad2f5e79e" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    }
+  ],
+  "links": [],
+  "start": 1790337548807,
+  "testCaseId": "835b0191a490e893597a0532ab48773a",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a canonical link pointing to the www domain › \"/\" has a canonical link pointing to the www domain",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a canonical link pointing to the www domain"
+  ],
+  "stop": 1790337553401
+}
