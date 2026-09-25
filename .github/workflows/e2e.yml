@@ -11,7 +11,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     container:
       image: mcr.microsoft.com/playwright:v1.63.0-noble
     env:
@@ -31,6 +31,13 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 14
+      - name: Upload Allure results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v5
+        with:
+          name: allure-results
+          path: allure-results/
+          retention-days: 7
       - name: Build failure summary
         if: failure() && steps.tests.outcome == 'failure'
         run: node scripts/failure-summary.mjs
