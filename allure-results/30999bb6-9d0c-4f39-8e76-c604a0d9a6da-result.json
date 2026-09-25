@@ -1,0 +1,275 @@
+{
+  "uuid": "30999bb6-9d0c-4f39-8e76-c604a0d9a6da",
+  "name": "\"Retro lampe i lusteri\" category shows products",
+  "historyId": "a137a3b175d625357fa3e098315179c4:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352187283,
+              "uuid": "b84669fa-f1b4-430b-9752-cdbbb0edec67",
+              "stop": 1790352187367
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352187281,
+          "uuid": "edf8c125-0b2e-42bf-9ca9-e513a93eb5bf",
+          "stop": 1790352187377
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352187383,
+              "uuid": "7231bb87-d309-4b1e-9d30-97ccac8549fb",
+              "stop": 1790352188196
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352187380,
+          "uuid": "eb26eaf6-7006-439f-8914-befd1b0d09fb",
+          "stop": 1790352188196
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352188196,
+          "uuid": "e641c03d-59f4-49e0-a125-678c930945ff",
+          "stop": 1790352188239
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352188240,
+          "uuid": "db3f4aa5-a978-437d-90ff-86b8e0ea21c3",
+          "stop": 1790352188240
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352187260,
+      "uuid": "1dae7e54-d53e-443a-9b56-37ff0b5050f1",
+      "stop": 1790352188240
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352188245,
+          "name": "Navigate",
+          "uuid": "869d55c0-5376-47ae-ab25-473e1051cf68",
+          "stop": 1790352190233
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352188243,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "4e0ecd08-8f92-4d85-86e0-7c22afdcff7a",
+      "stop": 1790352190234
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352190239,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "bc4d378a-fcf7-45a0-8599-12d085f4bc90",
+          "stop": 1790352190944
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352190236,
+      "name": "Then I see the category heading \"Retro lampe i lusteri\"",
+      "uuid": "389db3f3-82fa-42b2-b889-155b93a6e6f4",
+      "stop": 1790352190944
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352190948,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "3e81ed53-a28e-4198-bc62-7308a6d40aea",
+          "stop": 1790352191148
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352190947,
+      "name": "And I see the products",
+      "uuid": "b9365ded-690f-444c-a61f-f55b8a0c179d",
+      "stop": 1790352191148
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352191149,
+          "uuid": "f4a7c18c-b18e-4f93-81b3-edd972da7e6c",
+          "stop": 1790352191149
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352191149,
+          "uuid": "78e1b880-dab0-400e-9fce-ba49da9b066d",
+          "stop": 1790352191149
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352191150,
+          "uuid": "36a9e881-b750-438c-bca6-155636da8c2d",
+          "stop": 1790352191150
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352191929,
+              "uuid": "d2c245da-fbbe-4c24-909c-63594dc13e71",
+              "stop": 1790352192224
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352191150,
+          "uuid": "be4fd5d4-cb88-42ec-b1f1-43c872798132",
+          "stop": 1790352192224
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352191148,
+      "uuid": "1a73e714-85f3-4619-9e15-ff3588cb7dd6",
+      "stop": 1790352192239
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "7729cb2af7de548f187323f2e1f9654f" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > \"<categoryName>\" category shows products"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > \"<categoryName>\" category shows products" }
+  ],
+  "links": [],
+  "start": 1790352187303,
+  "testCaseId": "a137a3b175d625357fa3e098315179c4",
+  "fullName": "features/category.feature.spec.js › Category page › \"<categoryName>\" category shows products › \"Retro lampe i lusteri\" category shows products",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "\"<categoryName>\" category shows products"
+  ],
+  "stop": 1790352192244
+}

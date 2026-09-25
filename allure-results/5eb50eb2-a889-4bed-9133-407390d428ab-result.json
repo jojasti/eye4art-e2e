@@ -1,0 +1,275 @@
+{
+  "uuid": "5eb50eb2-a889-4bed-9133-407390d428ab",
+  "name": "Order button is enabled for \"Groove Cube\"",
+  "historyId": "c66aafafcffe9061b0de0de8aad22f2f:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337611724,
+              "uuid": "c8a3ec56-e5f9-4807-aca8-a245d366f81a",
+              "stop": 1790337611947
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337611722,
+          "uuid": "8583c4bf-3d91-4779-a13c-32009045495e",
+          "stop": 1790337611958
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337611961,
+              "uuid": "25d119da-13ec-4d68-9141-c876b93ee5e2",
+              "stop": 1790337613321
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337611959,
+          "uuid": "2fc2f172-db41-479e-a938-552157975e73",
+          "stop": 1790337613323
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337613323,
+          "uuid": "2751a426-d836-4344-8c96-4a89462b1697",
+          "stop": 1790337613334
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337613334,
+          "uuid": "d8de4c5b-4434-4823-9ced-aa1178c47db6",
+          "stop": 1790337613335
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337611698,
+      "uuid": "5f8239e3-b2c0-4174-a877-bbdffbacd070",
+      "stop": 1790337613335
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337613341,
+          "name": "Navigate",
+          "uuid": "19dbec06-10dc-4035-bb94-1e538c6559b9",
+          "stop": 1790337615402
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337613338,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "217e41b8-b22f-4c96-92c4-00719c733394",
+      "stop": 1790337615402
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337615413,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "d85b2be8-aa8a-4a53-8056-780b75560304",
+          "stop": 1790337617237
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337615409,
+      "name": "When I find the \"Groove Cube\" product",
+      "uuid": "a1b44979-2b1b-4060-b9d9-a35eacf62184",
+      "stop": 1790337617237
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337617243,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "0c3b3a83-7023-4055-a627-7264c4147e81",
+          "stop": 1790337617386
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337617241,
+      "name": "Then the order button is enabled",
+      "uuid": "8dfef6d6-e3d7-4702-9aa2-58e7f0fabe1a",
+      "stop": 1790337617386
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337617387,
+          "uuid": "0c289658-033c-495b-890f-d00e8f7c3d18",
+          "stop": 1790337617387
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337617387,
+          "uuid": "a8b89fac-54f1-4966-a12b-192be7098692",
+          "stop": 1790337617388
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337617388,
+          "uuid": "ac754738-8d0a-4cef-9d9d-75d028134ccb",
+          "stop": 1790337617388
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337618427,
+              "uuid": "b67feab7-1b99-4b02-8363-1f586528e31b",
+              "stop": 1790337618916
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337617389,
+          "uuid": "c82f8740-88d0-4924-b5c9-5394509aca47",
+          "stop": 1790337618917
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337617387,
+      "uuid": "e2ad79b1-97ce-4aef-8ed6-db609d27b5c0",
+      "stop": 1790337618934
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "e4f0e5ed577c259276f49568ca7e6828" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337611735,
+  "testCaseId": "c66aafafcffe9061b0de0de8aad22f2f",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Groove Cube\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337618932
+}

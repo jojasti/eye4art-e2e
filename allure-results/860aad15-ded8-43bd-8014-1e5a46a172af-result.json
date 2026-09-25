@@ -1,0 +1,250 @@
+{
+  "uuid": "860aad15-ded8-43bd-8014-1e5a46a172af",
+  "name": "\"/products/audio-equipment\" has one og:title",
+  "historyId": "338c358346979f77969b811754d43e3a:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337800383,
+              "uuid": "44df12e2-8ad0-4cb8-ad76-aa50c0a9a042",
+              "stop": 1790337800489
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337800381,
+          "uuid": "d3d1cee0-124a-4067-8236-802e88c24fcf",
+          "stop": 1790337800496
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337800500,
+              "uuid": "8b94cde5-7252-419f-a5c5-d5ba9c0cc903",
+              "stop": 1790337801467
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337800497,
+          "uuid": "0f77d0a7-de8f-486d-bbe4-3e48e1f49011",
+          "stop": 1790337801468
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337801468,
+          "uuid": "0bb32f19-c1b4-4c70-aced-aee2bc09e994",
+          "stop": 1790337801484
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337801484,
+          "uuid": "853f382e-2a52-40cb-b3ce-5f7513eec284",
+          "stop": 1790337801484
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337800365,
+      "uuid": "1e1359d6-c83d-422c-942e-808271b7e9b8",
+      "stop": 1790337801484
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337801489,
+          "name": "Navigate",
+          "uuid": "421a25b3-849e-480c-80dc-d5dfafdffa49",
+          "stop": 1790337803046
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337801487,
+      "name": "Given I open the \"/products/audio-equipment\" page",
+      "uuid": "6ba0ed2b-cdc0-4199-ae36-e8c2c97d7020",
+      "stop": 1790337803046
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337803051,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "c6a06b97-bb39-4aef-baf6-464cf5ff87a1",
+          "stop": 1790337803647
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337803049,
+      "name": "Then the og:title is correct",
+      "uuid": "1432113f-fef0-490e-a710-0bb9a3fbe752",
+      "stop": 1790337803647
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337803648,
+          "uuid": "16afda54-2620-45d3-840f-1cdbfd4c61ac",
+          "stop": 1790337803648
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337803648,
+          "uuid": "c74a63d6-bae2-4567-befa-eb12104a31e1",
+          "stop": 1790337803648
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337803649,
+          "uuid": "bf04102a-1940-401a-bd8d-be4d3c941be1",
+          "stop": 1790337803649
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337804204,
+              "uuid": "71f91c97-9107-4ab5-9827-3af219674f2e",
+              "stop": 1790337804790
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337803649,
+          "uuid": "7875b8f5-18b8-4538-92c0-1cfc6a4566e6",
+          "stop": 1790337804790
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337803648,
+      "uuid": "89bd6c70-6a33-47fa-aba3-bcc2278a8ebc",
+      "stop": 1790337804806
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "7dcdad0415a89b938df3d921aeeb7b14" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one og:title"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one og:title" }
+  ],
+  "links": [],
+  "start": 1790337800390,
+  "testCaseId": "338c358346979f77969b811754d43e3a",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one og:title › \"/products/audio-equipment\" has one og:title",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one og:title"
+  ],
+  "stop": 1790337804798
+}

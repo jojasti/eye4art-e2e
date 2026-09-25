@@ -1,0 +1,250 @@
+{
+  "uuid": "a310955b-ad11-40d1-8fe3-b393af8c3b9f",
+  "name": "\"/products/nightstands\" has a title",
+  "historyId": "dfe222f9139e3df68350ffcd6ec64104:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337544225,
+              "uuid": "5f898020-2b1d-4720-9f3a-8ec052af6645",
+              "stop": 1790337544247
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337544223,
+          "uuid": "eb4e7ae9-eb5c-41e7-9148-898a96004165",
+          "stop": 1790337544263
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337544268,
+              "uuid": "f8ec5a38-3236-403e-acae-9dee81c82ec8",
+              "stop": 1790337544793
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337544264,
+          "uuid": "1971bf6d-5519-4532-9dfd-d668d2894151",
+          "stop": 1790337544793
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337544793,
+          "uuid": "deb33128-9b60-4f74-9b1f-f08548726b35",
+          "stop": 1790337544806
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337544806,
+          "uuid": "08fee65d-5e03-4f39-84e6-5d99aab5d409",
+          "stop": 1790337544806
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337544207,
+      "uuid": "07cdeda0-cc69-4a8f-956a-fb5498cb751d",
+      "stop": 1790337544806
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337544811,
+          "name": "Navigate",
+          "uuid": "ddc5db49-7d55-4d9d-8897-4bd69eeaa742",
+          "stop": 1790337546179
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337544809,
+      "name": "Given I open the \"/products/nightstands\" page",
+      "uuid": "d500b518-0d64-43eb-9f90-462fa8366767",
+      "stop": 1790337546179
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337546183,
+          "name": "Expect \"toHaveTitle\"",
+          "uuid": "9642848c-2ee4-456f-a087-17c933950bf5",
+          "stop": 1790337546449
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337546182,
+      "name": "Then the page has a title",
+      "uuid": "8d5726a3-325c-4de4-a41d-2335267b9ce4",
+      "stop": 1790337546449
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337546450,
+          "uuid": "a12dd9b9-46c2-4498-abab-f79bec6e71cf",
+          "stop": 1790337546450
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337546450,
+          "uuid": "3738a4e6-ab95-406e-b34c-937183d64411",
+          "stop": 1790337546450
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337546451,
+          "uuid": "18664308-0231-4587-a6a9-6d055655f103",
+          "stop": 1790337546451
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337546890,
+              "uuid": "8425387f-c517-4b2d-9ee7-971ae00a7eb8",
+              "stop": 1790337548264
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337546451,
+          "uuid": "b35eeacf-b7a5-4186-a696-76f4525d42ed",
+          "stop": 1790337548265
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337546449,
+      "uuid": "edfc2f15-8036-45bc-917d-6be8f600712f",
+      "stop": 1790337548283
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "092babb0d1830a32fdfc496f2d425cfb" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a title"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has a title" }
+  ],
+  "links": [],
+  "start": 1790337544204,
+  "testCaseId": "dfe222f9139e3df68350ffcd6ec64104",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a title › \"/products/nightstands\" has a title",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a title"
+  ],
+  "stop": 1790337548245
+}

@@ -1,0 +1,364 @@
+{
+  "uuid": "f8b3ac83-7b4b-4826-a2f7-3727e4b15414",
+  "name": "About page shows its main heading and core values",
+  "historyId": "d330244571a7765b2f28cdaf6ac5db24:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n\n    at AboutPage.verifyValueHeadingsAreShown (C:\\Projects\\eye4art-e2e\\pages\\AboutPage.ts:14:9)\n    at Object.<anonymous> (C:\\Projects\\eye4art-e2e\\steps\\about.steps.ts:12:19)\n    at C:\\Projects\\eye4art-e2e\\.features-gen\\features\\about.feature.spec.js:9:5"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1790352042187,
+              "uuid": "910fbb63-2781-408d-868d-96f56b481814",
+              "stop": 1790352042826
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1790352042183,
+          "uuid": "10a27f86-de48-41ce-83f8-f9af38ede6b3",
+          "stop": 1790352042826
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352042832,
+              "uuid": "6dac80de-2982-40cf-8b55-2ea63480a6a0",
+              "stop": 1790352042890
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352042829,
+          "uuid": "f922163e-be6f-4239-bb41-edf1cb422a1e",
+          "stop": 1790352042934
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352042940,
+              "uuid": "62eaaff1-ba59-4e56-92ec-8edb446d0909",
+              "stop": 1790352043364
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352042935,
+          "uuid": "8404be2b-d07d-484f-ba6a-fc8fa9ddf085",
+          "stop": 1790352043364
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352043365,
+          "uuid": "c9441100-b00b-4381-a003-b700aeb81c3b",
+          "stop": 1790352043375
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"aboutPage\"",
+          "start": 1790352043375,
+          "uuid": "ce447173-c793-4c85-b5c3-b416998fde01",
+          "stop": 1790352043375
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352042064,
+      "uuid": "a9155659-75da-45e4-824c-275fa30421c9",
+      "stop": 1790352043376
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352043423,
+          "name": "Navigate",
+          "uuid": "dabac485-e771-4cbe-9ba1-47c008a07891",
+          "stop": 1790352047881
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352043405,
+      "name": "Given I open the about page",
+      "uuid": "957ed525-50d9-4570-89f3-530df350d32e",
+      "stop": 1790352047882
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352047900,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "82648d67-0daf-4678-b738-cb7d15038426",
+          "stop": 1790352048073
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352047887,
+      "name": "Then the main heading is shown",
+      "uuid": "81b5457b-c2ad-43b8-b597-800193f03194",
+      "stop": 1790352048073
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n\n    at AboutPage.verifyValueHeadingsAreShown (C:\\Projects\\eye4art-e2e\\pages\\AboutPage.ts:14:9)\n    at Object.<anonymous> (C:\\Projects\\eye4art-e2e\\steps\\about.steps.ts:12:19)\n    at C:\\Projects\\eye4art-e2e\\.features-gen\\features\\about.feature.spec.js:9:5"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n",
+            "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 }) with timeout 5000ms\n  - waiting for getByRole('heading', { name: 'AUTENTIČN', exact: true, level: 3 })\n\n    at AboutPage.verifyValueHeadingsAreShown (C:\\Projects\\eye4art-e2e\\pages\\AboutPage.ts:14:9)\n    at Object.<anonymous> (C:\\Projects\\eye4art-e2e\\steps\\about.steps.ts:12:19)\n    at C:\\Projects\\eye4art-e2e\\.features-gen\\features\\about.feature.spec.js:9:5"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352048080,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "6a3e8e07-bb5e-4e49-a028-bd47a73df477",
+          "stop": 1790352053119
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352048077,
+      "name": "And the value headings are shown",
+      "uuid": "12eaf742-e124-4709-9986-b6f3b8c7d4a3",
+      "stop": 1790352053121
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "a7c7b1ce-0c96-461a-a500-1d961d974921-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1790352056841,
+      "name": "screenshot",
+      "stop": 1790352056841
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "eb9126b7-24eb-403e-8089-3f27586217ef-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1790352056852,
+      "name": "video",
+      "stop": 1790352056852
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "6ee4475b-767b-4efb-974c-fdd74306e295-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1790352056862,
+      "name": "error-context",
+      "stop": 1790352056862
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "5eb31fd5-a922-4864-953d-261a196c9779-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1790352056869,
+      "name": "trace",
+      "stop": 1790352056869
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"aboutPage\"",
+          "start": 1790352053454,
+          "uuid": "ba4f95d5-fc01-4064-8fe5-5ec0a45c2ec7",
+          "stop": 1790352053455
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352053455,
+          "uuid": "8337def9-7465-43f2-8315-bd8d638fad71",
+          "stop": 1790352053456
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352053456,
+          "uuid": "15867555-4ef7-4add-a8b5-e494388670f4",
+          "stop": 1790352053457
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352054385,
+              "uuid": "83962687-440d-457f-b799-1d97b9876468",
+              "stop": 1790352054784
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352053457,
+          "uuid": "2ddb1c6b-0bd6-4a3e-acbb-9676ae8916c5",
+          "stop": 1790352054815
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352053123,
+      "uuid": "14318332-b48e-402d-b73b-1150756c8e5c",
+      "stop": 1790352054845
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.about.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "8f9d2e68046e5528939dd90636d5fabe" },
+    { "name": "titlePath", "value": " > chromium > features\\about.feature.spec.js > About page" },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\about.feature.spec.js" },
+    { "name": "subSuite", "value": "About page" }
+  ],
+  "links": [],
+  "start": 1790352042025,
+  "testCaseId": "d330244571a7765b2f28cdaf6ac5db24",
+  "fullName": "features/about.feature.spec.js › About page › About page shows its main heading and core values",
+  "titlePath": ["eye4art-e2e", "features", "about.feature.spec.js", "About page"],
+  "stop": 1790352054012
+}

@@ -1,0 +1,269 @@
+{
+  "uuid": "68d8b549-c5b0-4b7f-b46e-0cbe7233e6f8",
+  "name": "Quiz modal opens from the turntable-shelves category page",
+  "historyId": "d5e6bc78ec60c5008fa178968961f6cb:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337657951,
+              "uuid": "f4bc0465-d2c7-4dbf-9b78-eb750ebffd95",
+              "stop": 1790337657994
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337657950,
+          "uuid": "b1609930-eed1-4c29-8e33-e3ef0701376e",
+          "stop": 1790337658005
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337658008,
+              "uuid": "4f25c536-bd2c-4ebb-9ada-9d316635491f",
+              "stop": 1790337658798
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337658006,
+          "uuid": "c0c3c22e-96e8-4c7e-9059-3c3c23e94425",
+          "stop": 1790337658798
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337658798,
+          "uuid": "ea36d133-e51d-4dc1-94cc-ea3fda472393",
+          "stop": 1790337658828
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337658829,
+          "uuid": "acae93d7-48b2-4288-bb99-60c55032aa08",
+          "stop": 1790337658829
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337657921,
+      "uuid": "42e5e7de-fc94-4108-a924-09dd64b8018c",
+      "stop": 1790337658829
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337658834,
+          "name": "Navigate",
+          "uuid": "68bee943-a171-4f15-b189-10fb41c30d21",
+          "stop": 1790337660702
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337658832,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "596b8f78-eef2-4156-b04d-5003d00e350f",
+      "stop": 1790337660702
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337660709,
+          "name": "Click",
+          "uuid": "845da606-2c64-4e1b-9181-3f053c1910de",
+          "stop": 1790337663499
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337660706,
+      "name": "When I open the quiz",
+      "uuid": "b14e56b5-3173-4f2e-a5bf-a1f81a66506f",
+      "stop": 1790337663499
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337663504,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "1e3ff980-0890-4582-a195-60288f5ff572",
+          "stop": 1790337663656
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337663502,
+      "name": "Then the quiz modal is open",
+      "uuid": "e2882f15-f9e1-4bce-bc21-bb596a21e9d3",
+      "stop": 1790337663656
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337663657,
+          "uuid": "3e0de82c-f6e2-4ff9-a7f6-6ba02eae73f8",
+          "stop": 1790337663657
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337663657,
+          "uuid": "aa07b40c-9314-42d4-81ec-5ddf3611e16e",
+          "stop": 1790337663657
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337663657,
+          "uuid": "21aa1827-936e-40b5-81c6-4c4b16fe8eeb",
+          "stop": 1790337663658
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337664803,
+              "uuid": "d3bb902c-026d-47aa-a141-32b2e00f82ff",
+              "stop": 1790337665273
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337663658,
+          "uuid": "3eda6d38-883b-4a5e-9868-2b0d9165a793",
+          "stop": 1790337665273
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337663656,
+      "uuid": "e2bb8d5b-4969-4f70-8f82-6ddb8782fcf7",
+      "stop": 1790337665291
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "cb5b50fc2ed362c4cc23cef8caa9b48b" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page" }
+  ],
+  "links": [],
+  "start": 1790337657950,
+  "testCaseId": "d5e6bc78ec60c5008fa178968961f6cb",
+  "fullName": "features/category.feature.spec.js › Category page › Quiz modal opens from the turntable-shelves category page",
+  "titlePath": ["eye4art-e2e", "features", "category.feature.spec.js", "Category page"],
+  "stop": 1790337665276
+}

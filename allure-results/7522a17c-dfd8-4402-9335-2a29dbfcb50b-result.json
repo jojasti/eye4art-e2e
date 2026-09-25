@@ -1,0 +1,265 @@
+{
+  "uuid": "7522a17c-dfd8-4402-9335-2a29dbfcb50b",
+  "name": "\"/products/retro-lamps\" has a canonical link pointing to the www domain",
+  "historyId": "755fc67e54fc4b755963e150d8cc4342:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337553464,
+              "uuid": "365f94bc-476d-4bc0-a24b-cb4040d6ca53",
+              "stop": 1790337553490
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337553463,
+          "uuid": "37b58fd1-1a9d-478d-a302-020942673a9a",
+          "stop": 1790337553505
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337553512,
+              "uuid": "f20d0630-a720-4177-b202-ea85a855b2c0",
+              "stop": 1790337553796
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337553508,
+          "uuid": "f599dcaa-e831-4d59-a0cb-3110781ad390",
+          "stop": 1790337553796
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337553797,
+          "uuid": "dc638694-a91a-4f6c-bb57-c855892bfee7",
+          "stop": 1790337553802
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337553803,
+          "uuid": "0c2eefae-2d45-4c9e-97e7-4282fce236c7",
+          "stop": 1790337553803
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337553444,
+      "uuid": "ffc2bd0a-cc44-4831-8932-cacd10fc3f83",
+      "stop": 1790337553803
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337553809,
+          "name": "Navigate",
+          "uuid": "e39c53dd-a155-4278-8ffb-0454d944f812",
+          "stop": 1790337554950
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337553807,
+      "name": "Given I open the \"/products/retro-lamps\" page",
+      "uuid": "ed962c06-809a-412c-87a1-2e9d2de503a0",
+      "stop": 1790337554950
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337554955,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "11ca475d-a333-4fdf-b51c-47284ee5b8b7",
+          "stop": 1790337555284
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337555287,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "960455e4-1423-4e38-9986-2f611cd925a6",
+          "stop": 1790337555523
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337554952,
+      "name": "Then the canonical link is correct",
+      "uuid": "a61c873d-07e3-418d-9a88-45779cf8ad0d",
+      "stop": 1790337555523
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337555524,
+          "uuid": "429e0490-d8a2-46ef-b89f-cab0995d2c27",
+          "stop": 1790337555524
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337555524,
+          "uuid": "54f3e10b-f990-43b9-bbe0-365ce8305421",
+          "stop": 1790337555524
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337555525,
+          "uuid": "ef07baad-a43d-4da5-84be-8866e4617ee6",
+          "stop": 1790337555525
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337556021,
+              "uuid": "d35002b0-25a2-4fb9-a511-439b4da1aa85",
+              "stop": 1790337556416
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337555526,
+          "uuid": "bb272afe-2d04-4043-b902-c833f986529a",
+          "stop": 1790337556417
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337555524,
+      "uuid": "afb082a6-612b-4c32-aafd-e4677dffe741",
+      "stop": 1790337556434
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "37466ef926d5b072cc3b7afa2e7f0098" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    }
+  ],
+  "links": [],
+  "start": 1790337553517,
+  "testCaseId": "755fc67e54fc4b755963e150d8cc4342",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a canonical link pointing to the www domain › \"/products/retro-lamps\" has a canonical link pointing to the www domain",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a canonical link pointing to the www domain"
+  ],
+  "stop": 1790337556468
+}

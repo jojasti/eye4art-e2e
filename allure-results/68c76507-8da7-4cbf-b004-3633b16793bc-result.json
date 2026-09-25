@@ -1,0 +1,275 @@
+{
+  "uuid": "68c76507-8da7-4cbf-b004-3633b16793bc",
+  "name": "Materials are shown for \"Industrijski luster\"",
+  "historyId": "3e80c2952536c38ef9d96fa8fa650952:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352080299,
+              "uuid": "a5f769d4-40a8-4512-9fb2-088e323bcd4e",
+              "stop": 1790352080306
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352080297,
+          "uuid": "f319bd6f-83b9-46eb-a32f-6951cf4f80d7",
+          "stop": 1790352080318
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352080320,
+              "uuid": "8475080d-c44b-47a2-a5a2-5b753109431e",
+              "stop": 1790352080504
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352080319,
+          "uuid": "0a9be155-a9e2-4b61-9fc5-407e4e77afdb",
+          "stop": 1790352080504
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352080504,
+          "uuid": "f48bd99e-e920-4ae4-b68e-a51f99d35fe9",
+          "stop": 1790352080515
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352080515,
+          "uuid": "3e29afce-b447-4046-9e4d-01676246a66a",
+          "stop": 1790352080516
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352080276,
+      "uuid": "d30a85cf-76de-4d49-8365-c4532ec5bad9",
+      "stop": 1790352080516
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352080522,
+          "name": "Navigate",
+          "uuid": "937fc53e-263f-41d5-a4b7-1a835fd35250",
+          "stop": 1790352081361
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352080520,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "24bdcae2-7d82-46d2-9a6e-ae88ab3067cc",
+      "stop": 1790352081361
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352081365,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "c7e3c042-0356-48a8-a7bc-bc385a06d4c5",
+          "stop": 1790352081475
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352081363,
+      "name": "When I find the \"Industrijski luster\" product",
+      "uuid": "983ce267-52cb-43d7-bee8-ffa83b019066",
+      "stop": 1790352081475
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352081482,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "dcc61e66-b10e-4a77-8b84-9ff6fcfc5378",
+          "stop": 1790352081531
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352081480,
+      "name": "Then materials are shown",
+      "uuid": "0d6aaaf0-d89b-44f0-a3ce-06f09c1ed5de",
+      "stop": 1790352081532
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352081533,
+          "uuid": "97426f3a-5e10-4ccb-b5db-72082606fc5c",
+          "stop": 1790352081533
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352081533,
+          "uuid": "87b84145-6fde-48f8-91bb-0c4b362b1f37",
+          "stop": 1790352081533
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352081533,
+          "uuid": "9f161f9b-d4d3-42ba-9e9b-bb4505aec832",
+          "stop": 1790352081533
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352082367,
+              "uuid": "8d7ab032-98a2-4cc0-b90f-5b05786b767b",
+              "stop": 1790352082795
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352081534,
+          "uuid": "a1de07cf-c9ac-434e-8bbb-ccfd359e3ed4",
+          "stop": 1790352082795
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352081532,
+      "uuid": "88f9da1e-9432-4006-854e-382445a1f4f3",
+      "stop": 1790352082811
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "b1c3e301526c2c4d97636b3f68b95b3a" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Materials are shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Materials are shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352080299,
+  "testCaseId": "3e80c2952536c38ef9d96fa8fa650952",
+  "fullName": "features/category.feature.spec.js › Category page › Materials are shown for \"<model>\" › Materials are shown for \"Industrijski luster\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Materials are shown for \"<model>\""
+  ],
+  "stop": 1790352082799
+}

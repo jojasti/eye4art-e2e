@@ -1,0 +1,265 @@
+{
+  "uuid": "4a933ecc-9607-4526-a7dc-7e8978fb5070",
+  "name": "\"/products/nightstands\" has a canonical link pointing to the www domain",
+  "historyId": "15e2f378bbbd317ae7c01abe31c77959:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352140934,
+              "uuid": "912fdf05-9f08-4abd-9bdb-07db50d084b9",
+              "stop": 1790352140949
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352140933,
+          "uuid": "5fb0a7ea-1d32-40ef-8cea-f52aeb91297e",
+          "stop": 1790352140962
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352140965,
+              "uuid": "4798e12f-372d-433a-b1a4-46938d3e27a5",
+              "stop": 1790352141238
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352140963,
+          "uuid": "7be3e527-c78f-4182-b7fd-bee46fcc0b50",
+          "stop": 1790352141239
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352141239,
+          "uuid": "599ff367-2568-4c5b-9490-824bddcbf5fa",
+          "stop": 1790352141245
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790352141245,
+          "uuid": "bc59052a-c772-4808-9f33-67fb6c053fa1",
+          "stop": 1790352141245
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352140919,
+      "uuid": "ca38b4ec-840f-4133-8990-e04efa67470a",
+      "stop": 1790352141245
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352141249,
+          "name": "Navigate",
+          "uuid": "1f434c2c-34d6-49bf-aa2f-265e67cfd24d",
+          "stop": 1790352142405
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352141247,
+      "name": "Given I open the \"/products/nightstands\" page",
+      "uuid": "8dc164fb-2412-4798-83de-8e4eaf0514dd",
+      "stop": 1790352142405
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352142409,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "353cbe3d-2643-4118-a837-5805b61dfb38",
+          "stop": 1790352142476
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352142478,
+          "name": "Expect \"toHaveAttribute\"",
+          "uuid": "d8c9935b-24a1-4550-ac38-fda0b4f44295",
+          "stop": 1790352142509
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352142407,
+      "name": "Then the canonical link is correct",
+      "uuid": "8833ce07-55e3-4f34-b800-4e7025b4d66c",
+      "stop": 1790352142509
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790352142510,
+          "uuid": "34474855-9a30-4801-834b-e48f8ca680c2",
+          "stop": 1790352142510
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352142510,
+          "uuid": "bc88e6c7-b068-4827-9add-34ca98c3dede",
+          "stop": 1790352142510
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352142511,
+          "uuid": "84c7022c-ca97-4d0b-a9ac-b6bdcf8a1bc4",
+          "stop": 1790352142511
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352143298,
+              "uuid": "f16c7497-dd0e-4ef9-8d21-f8b42f9bbb4b",
+              "stop": 1790352143816
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352142511,
+          "uuid": "dc487013-50e9-44e1-95ed-d43cbcc55667",
+          "stop": 1790352143816
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352142510,
+      "uuid": "b896cdf0-760a-4716-9b21-d1758d2d8f36",
+      "stop": 1790352143831
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "39d0ff8b547aab63b3381a31b3452c33" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "SEO metadata > \"<page>\" has a canonical link pointing to the www domain"
+    }
+  ],
+  "links": [],
+  "start": 1790352141060,
+  "testCaseId": "15e2f378bbbd317ae7c01abe31c77959",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has a canonical link pointing to the www domain › \"/products/nightstands\" has a canonical link pointing to the www domain",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has a canonical link pointing to the www domain"
+  ],
+  "stop": 1790352143942
+}

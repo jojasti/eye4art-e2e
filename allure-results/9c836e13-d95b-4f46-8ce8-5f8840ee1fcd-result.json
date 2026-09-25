@@ -1,0 +1,250 @@
+{
+  "uuid": "9c836e13-d95b-4f46-8ce8-5f8840ee1fcd",
+  "name": "\"/blog/kako-odabrati-policu-za-gramofon\" has one meta description",
+  "historyId": "c595c0fc970d9096335a93520416094a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337566788,
+              "uuid": "a3ae1369-572f-45ab-a040-015365612358",
+              "stop": 1790337566796
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337566785,
+          "uuid": "ce5db160-d831-4f45-8cd6-4ab4c90324ca",
+          "stop": 1790337566814
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337566817,
+              "uuid": "19953294-ac03-4f79-9d01-d7061ac9d6ee",
+              "stop": 1790337567126
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337566815,
+          "uuid": "fd418036-249c-4258-b1e9-f2d6a06a393a",
+          "stop": 1790337567126
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337567126,
+          "uuid": "5ebddf01-0fdb-46b8-a006-4eac11651a22",
+          "stop": 1790337567137
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337567137,
+          "uuid": "402693fa-1c31-4c0f-b0e8-16c8f537bd8f",
+          "stop": 1790337567137
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337566766,
+      "uuid": "2f223c85-27fa-49fc-a0e5-774f35a7b713",
+      "stop": 1790337567138
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337567143,
+          "name": "Navigate",
+          "uuid": "dc6905ac-9c38-465b-a549-ed9fe2b99120",
+          "stop": 1790337568954
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337567141,
+      "name": "Given I open the \"/blog/kako-odabrati-policu-za-gramofon\" page",
+      "uuid": "9ffa927e-001e-4ace-bdfd-547cfe350af7",
+      "stop": 1790337568954
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337568981,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "922446e1-efe4-46e8-9492-47967a6e7b91",
+          "stop": 1790337569177
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337568957,
+      "name": "Then the meta description is correct",
+      "uuid": "0b7e7409-3e14-4b28-bb15-3c27f4a9942e",
+      "stop": 1790337569177
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337569197,
+          "uuid": "a668919f-76d2-405d-8256-e0f3f0881728",
+          "stop": 1790337569197
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337569197,
+          "uuid": "5c6d1e63-fdab-4586-af7a-3e57ac81ccb0",
+          "stop": 1790337569197
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337569198,
+          "uuid": "9ab9f214-3d60-4243-8c4e-83128275cf9b",
+          "stop": 1790337569198
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337569883,
+              "uuid": "2a9d4270-1bc9-459c-8463-c67fdcb4f7d1",
+              "stop": 1790337570292
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337569198,
+          "uuid": "9162c5c8-e3a4-44eb-bb5b-4cb94bb4a725",
+          "stop": 1790337570292
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337569178,
+      "uuid": "024bed28-8b3d-45c2-a527-8e24d1afe686",
+      "stop": 1790337570307
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "9846a566ce68b86fb6e58df3db197570" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one meta description"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one meta description" }
+  ],
+  "links": [],
+  "start": 1790337566774,
+  "testCaseId": "c595c0fc970d9096335a93520416094a",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one meta description › \"/blog/kako-odabrati-policu-za-gramofon\" has one meta description",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one meta description"
+  ],
+  "stop": 1790337570262
+}

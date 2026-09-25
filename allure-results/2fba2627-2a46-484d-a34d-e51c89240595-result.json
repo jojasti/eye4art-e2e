@@ -1,0 +1,311 @@
+{
+  "uuid": "2fba2627-2a46-484d-a34d-e51c89240595",
+  "name": "Main menu opens the \"Proizvodi\" page",
+  "historyId": "e66844455d38b8b1f69f714190559153:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337519024,
+              "uuid": "76c7eb96-32e2-4b56-a364-fe9bc2b72e63",
+              "stop": 1790337519039
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337519020,
+          "uuid": "169aae65-84ed-44e1-9521-8d904e35af75",
+          "stop": 1790337519058
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337519061,
+              "uuid": "3c9d14d6-26e3-4b0e-acc0-cf7a6153e308",
+              "stop": 1790337520464
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337519059,
+          "uuid": "97a98be5-b32b-4d5e-9400-eb2dc88e769f",
+          "stop": 1790337520464
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337520464,
+          "uuid": "797ee3d4-9d67-4d31-b87f-24deaa4d2327",
+          "stop": 1790337520474
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337520475,
+          "uuid": "6fd3108d-e379-4359-a745-623dc43bfe7e",
+          "stop": 1790337520475
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790337520475,
+          "uuid": "8708e05d-3e6d-4f2d-b4fb-ae02e4ba3697",
+          "stop": 1790337520476
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337519001,
+      "uuid": "cbf4ad33-f22b-420c-bbbc-7fa8739f1b85",
+      "stop": 1790337520476
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337520483,
+          "name": "Navigate",
+          "uuid": "d7a0bfcc-6be1-4f59-a976-728882a4fc97",
+          "stop": 1790337521992
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337520481,
+      "name": "Given I open the home page",
+      "uuid": "6b1dae09-47f2-4710-99f3-d333501467c7",
+      "stop": 1790337521992
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337522001,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "53837b75-f9f8-4b85-b7d0-9713ae6b41da",
+          "stop": 1790337522286
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337522379,
+          "name": "Click",
+          "uuid": "d671fa30-14dc-4fb7-97ce-be2167bc1b2e",
+          "stop": 1790337522671
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337521997,
+      "name": "When I open \"Proizvodi\" from the main menu",
+      "uuid": "265fd72b-b6c3-446f-80e9-1bd7404d04f9",
+      "stop": 1790337522671
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337522678,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "179f3ee8-b953-452e-8ca1-f664e6fdeda6",
+          "stop": 1790337522777
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337522676,
+      "name": "Then I am on the \"/products\" page",
+      "uuid": "0caec76b-2ab9-4c1f-aedf-422829db9639",
+      "stop": 1790337522777
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790337522779,
+          "uuid": "4daa4c4c-cab8-4bad-b173-15ceac6531e0",
+          "stop": 1790337522780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337522780,
+          "uuid": "5f3d46d1-9511-47eb-bcaf-682b0e3cafd3",
+          "stop": 1790337522780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337522780,
+          "uuid": "7ae4e6c5-863c-4ae1-9d2c-1fc8d6561e21",
+          "stop": 1790337522780
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337522781,
+          "uuid": "fc666dc1-7d27-448d-9431-12234c67cd0f",
+          "stop": 1790337522781
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337523026,
+              "uuid": "ee5320f0-4231-4d0c-98a8-7368e7381607",
+              "stop": 1790337523659
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337522782,
+          "uuid": "844e9b25-2b7f-41ab-8cbd-8312abbeadb7",
+          "stop": 1790337523659
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337522779,
+      "uuid": "636d31a2-c4a8-4fc0-aa7b-1477745db18e",
+      "stop": 1790337523676
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.navigation.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "bdf1417afe966cb08243bba89331bb74" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\navigation.feature.spec.js > Main navigation > Main menu opens the \"<item>\" page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\navigation.feature.spec.js" },
+    { "name": "subSuite", "value": "Main navigation > Main menu opens the \"<item>\" page" }
+  ],
+  "links": [],
+  "start": 1790337519022,
+  "testCaseId": "e66844455d38b8b1f69f714190559153",
+  "fullName": "features/navigation.feature.spec.js › Main navigation › Main menu opens the \"<item>\" page › Main menu opens the \"Proizvodi\" page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "navigation.feature.spec.js",
+    "Main navigation",
+    "Main menu opens the \"<item>\" page"
+  ],
+  "stop": 1790337523660
+}

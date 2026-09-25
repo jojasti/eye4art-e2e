@@ -1,0 +1,290 @@
+{
+  "uuid": "b98ca9b3-4a06-4c7f-a27e-ab74a0f2fc8c",
+  "name": "Blog index lists posts",
+  "historyId": "b1cbebfd81b25d74f314c11d12ad5412:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1790352042234,
+              "uuid": "4463823b-4b50-41b8-a25c-9bcc3225ed04",
+              "stop": 1790352042828
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1790352042230,
+          "uuid": "772ef3f2-bb27-4f22-b58f-770e68be585f",
+          "stop": 1790352042828
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352042835,
+              "uuid": "6578ed5c-63f1-4e7a-a818-73bc608f8f32",
+              "stop": 1790352042892
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352042831,
+          "uuid": "bed7e56b-0e3e-4c47-850a-d624f50d77fc",
+          "stop": 1790352042922
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352042928,
+              "uuid": "f9e7a3b9-2657-48ba-b7fe-a0dab165dfa2",
+              "stop": 1790352043369
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352042924,
+          "uuid": "448bf01a-b02d-4edf-90ad-ebc740ff5950",
+          "stop": 1790352043369
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352043370,
+          "uuid": "dfb51afd-e35b-4eb1-9088-bc665be5dee2",
+          "stop": 1790352043405
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"blogPage\"",
+          "start": 1790352043405,
+          "uuid": "11a9f839-0cff-4635-81be-066245a07063",
+          "stop": 1790352043408
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352042118,
+      "uuid": "04cc9f18-b99c-4b4e-8ad3-3fd0004a3bf7",
+      "stop": 1790352043408
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352043462,
+          "name": "Navigate",
+          "uuid": "fc9f3af9-b2c3-407c-8cba-d1ceb999c8e5",
+          "stop": 1790352047980
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352043445,
+      "name": "Given I open the blog page",
+      "uuid": "8c391275-54ee-4c48-8c28-0a5b40664ca5",
+      "stop": 1790352047981
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352048024,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "de1cfee4-98c8-4fb6-9e4e-7cabf6c51154",
+          "stop": 1790352048805
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352048808,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "209bdb73-57b6-44c3-a0b6-738d820ac830",
+          "stop": 1790352048834
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352048837,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "99de3444-81e7-40cf-a095-5ae1753714af",
+          "stop": 1790352048875
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352048002,
+      "name": "Then posts are listed",
+      "uuid": "c535eff4-221f-4265-b54b-adbc0c820c60",
+      "stop": 1790352048875
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"blogPage\"",
+          "start": 1790352048878,
+          "uuid": "3a4e3baf-3b20-4b4b-b7e0-5e540b46e181",
+          "stop": 1790352048878
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352048879,
+          "uuid": "e0adb277-aa8c-4469-949c-cd62d5a3de72",
+          "stop": 1790352048879
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352048880,
+          "uuid": "2c7048e1-b38c-448e-b09d-4eedbb7a6c4b",
+          "stop": 1790352048880
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352049299,
+              "uuid": "0cbc5fe1-705a-41b3-821b-86df8b9688c6",
+              "stop": 1790352049663
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352048881,
+          "uuid": "3682a1e2-2504-4cba-8131-5b2d67fbb49f",
+          "stop": 1790352049664
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352048876,
+      "uuid": "14fc0716-9d3d-4a67-9fcc-cc883147a954",
+      "stop": 1790352049683
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.blog.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "20478aec46b1b582ee8a27509637625d" },
+    { "name": "titlePath", "value": " > chromium > features\\blog.feature.spec.js > Blog" },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\blog.feature.spec.js" },
+    { "name": "subSuite", "value": "Blog" }
+  ],
+  "links": [],
+  "start": 1790352042078,
+  "testCaseId": "b1cbebfd81b25d74f314c11d12ad5412",
+  "fullName": "features/blog.feature.spec.js › Blog › Blog index lists posts",
+  "titlePath": ["eye4art-e2e", "features", "blog.feature.spec.js", "Blog"],
+  "stop": 1790352048913
+}

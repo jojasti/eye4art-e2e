@@ -1,0 +1,275 @@
+{
+  "uuid": "ce0a4f96-4f23-410a-82ad-13b69b391270",
+  "name": "Order button is enabled for \"VISOKI STALCI ZA ZVUČNIKE V2\"",
+  "historyId": "1dec80f386e47935875d2ad767955911:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337454281,
+              "uuid": "3320d902-4797-4599-a1b1-e0ad99e984cc",
+              "stop": 1790337454303
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337454279,
+          "uuid": "154a7835-de38-42c4-9419-8bd9ba92fd2a",
+          "stop": 1790337454313
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337454316,
+              "uuid": "edd3446e-148d-49be-8768-a95bc0e32b3b",
+              "stop": 1790337454586
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337454314,
+          "uuid": "a3c2e43c-742f-4a5e-b0df-fcfc8e59cf5f",
+          "stop": 1790337454586
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337454586,
+          "uuid": "513ad57b-ff7b-4072-8b3e-ac8e5450215f",
+          "stop": 1790337454592
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337454593,
+          "uuid": "5e36b68e-7fbd-485d-b85d-b838220a5277",
+          "stop": 1790337454593
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337454257,
+      "uuid": "2fb3a356-e020-44e8-8e3e-72aadf6251ab",
+      "stop": 1790337454593
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337454600,
+          "name": "Navigate",
+          "uuid": "1945574a-a517-4c90-88f1-1332698d8d5c",
+          "stop": 1790337456890
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337454598,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "1febb660-eace-43de-86bc-dd3a3dd007b0",
+      "stop": 1790337456891
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337456899,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "095806fb-d66c-4b22-a785-991387cfff9b",
+          "stop": 1790337457208
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337456894,
+      "name": "When I find the \"VISOKI STALCI ZA ZVUČNIKE V2\" product",
+      "uuid": "6b266a6c-4bb2-49e8-84b0-1bd2a90ea4fe",
+      "stop": 1790337457208
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337457214,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "0e2c0ebd-2c4f-4719-8f09-61fef05f6a46",
+          "stop": 1790337457329
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337457210,
+      "name": "Then the order button is enabled",
+      "uuid": "051b4275-a9c6-4527-9b65-42e75c9badbe",
+      "stop": 1790337457329
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337457331,
+          "uuid": "ee0ae336-af75-4215-a81d-a9c25ab12f5d",
+          "stop": 1790337457331
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337457331,
+          "uuid": "38107a84-1cae-4db1-9f3e-61c671228aec",
+          "stop": 1790337457332
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337457332,
+          "uuid": "bac989b0-1c57-41ba-99fa-04bbb4eb0d2e",
+          "stop": 1790337457332
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337457685,
+              "uuid": "f450d24e-513f-434c-9b9e-e150d8736cfc",
+              "stop": 1790337458143
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337457333,
+          "uuid": "5be841a2-9abf-456f-a3f7-788ac70934af",
+          "stop": 1790337458143
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337457330,
+      "uuid": "0f708a65-6c1f-4d46-9d9d-b6b6729fb4c1",
+      "stop": 1790337458158
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "842256af324acd256462b9bba1f58392" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337454298,
+  "testCaseId": "1dec80f386e47935875d2ad767955911",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"VISOKI STALCI ZA ZVUČNIKE V2\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337458163
+}

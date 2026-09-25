@@ -1,0 +1,275 @@
+{
+  "uuid": "f479a249-cc33-4dcb-921b-2e2bae4ba9c2",
+  "name": "Order button is enabled for \"STOČIĆ - GRIFOVANI METAL\"",
+  "historyId": "6d1842d1f42741593867edb4fbf5d764:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352220596,
+              "uuid": "eb26c4db-cc7e-4918-9f15-1e328b8be3a3",
+              "stop": 1790352220676
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352220594,
+          "uuid": "8798ae9a-d915-417f-85aa-df2638296070",
+          "stop": 1790352220683
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352220686,
+              "uuid": "b8f817de-6afd-4ea2-971f-0c9dfb97ba49",
+              "stop": 1790352221448
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352220684,
+          "uuid": "9f3c6d20-9305-4a0d-92da-24946068b7db",
+          "stop": 1790352221448
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352221448,
+          "uuid": "2848df1a-3354-43ff-acce-caccfa8bed80",
+          "stop": 1790352221459
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352221460,
+          "uuid": "c9f0c194-ce33-43d7-b9ff-9dd876b03aa8",
+          "stop": 1790352221460
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352220575,
+      "uuid": "44d446e9-f784-45e9-86bd-7a0e47eaaee1",
+      "stop": 1790352221460
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352221465,
+          "name": "Navigate",
+          "uuid": "3247c370-9372-4e63-ad0e-86bdfcbb6bbd",
+          "stop": 1790352222597
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352221463,
+      "name": "Given I open the \"side-tables\" category page",
+      "uuid": "4b4143ca-d0c1-46f5-91b9-4958099bab28",
+      "stop": 1790352222597
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352222602,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "1d16cedf-fc65-40a6-ae4a-4b5e1843bfe3",
+          "stop": 1790352223948
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352222600,
+      "name": "When I find the \"STOČIĆ - GRIFOVANI METAL\" product",
+      "uuid": "318647f8-ba38-4d07-a4da-1dea5926facc",
+      "stop": 1790352223949
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352223953,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "68fd7bbf-6b94-4636-8c71-5b9d62e0e521",
+          "stop": 1790352224185
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352223952,
+      "name": "Then the order button is enabled",
+      "uuid": "32bfdb39-3d75-4a9b-bda4-5cb4227cff2b",
+      "stop": 1790352224185
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352224187,
+          "uuid": "8cd9e6fd-d309-4a23-a8f5-428223a7c470",
+          "stop": 1790352224187
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352224187,
+          "uuid": "e89e5178-12e8-4933-89b4-06e0ce596564",
+          "stop": 1790352224188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352224188,
+          "uuid": "4f75343b-3df4-4274-a393-b436558ce2e3",
+          "stop": 1790352224189
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352224892,
+              "uuid": "122c1715-0d34-400f-9b61-70ad3998b7a4",
+              "stop": 1790352225148
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352224189,
+          "uuid": "120b15d2-4095-4638-b24d-db67a98bece9",
+          "stop": 1790352225148
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352224186,
+      "uuid": "b5a69570-9a17-48ce-b078-1f6b3bbdcfb2",
+      "stop": 1790352225163
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "3a8c6c444783945c47da7fc2bf54897c" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352220611,
+  "testCaseId": "6d1842d1f42741593867edb4fbf5d764",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"STOČIĆ - GRIFOVANI METAL\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352225165
+}

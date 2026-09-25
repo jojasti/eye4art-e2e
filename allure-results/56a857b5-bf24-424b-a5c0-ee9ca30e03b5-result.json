@@ -1,0 +1,275 @@
+{
+  "uuid": "56a857b5-bf24-424b-a5c0-ee9ca30e03b5",
+  "name": "Order button is enabled for \"Vertical Vibe Glass\"",
+  "historyId": "3d602da023f1b6b5e7b2c6ce307c0522:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337453450,
+              "uuid": "59a48a1e-205b-402f-95c8-ea5b7d40554a",
+              "stop": 1790337453458
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337453448,
+          "uuid": "ab748442-436d-4139-bb22-2bdd6dfbffcc",
+          "stop": 1790337453471
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337453474,
+              "uuid": "1e44cdde-619c-465d-82f6-5061bcff52a7",
+              "stop": 1790337454030
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337453472,
+          "uuid": "d470287e-3cf3-436b-8df3-d700cbe0bd42",
+          "stop": 1790337454030
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337454031,
+          "uuid": "83b4d1f7-5ca1-40f3-99ec-1886f5342eee",
+          "stop": 1790337454037
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337454037,
+          "uuid": "4e5f1a34-bf8b-4199-abf2-d95776aca4bf",
+          "stop": 1790337454037
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337453426,
+      "uuid": "41870bf1-b5c0-4489-b749-2676483595b3",
+      "stop": 1790337454037
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337454042,
+          "name": "Navigate",
+          "uuid": "ebb4548a-ea29-40af-9b7c-433e7808d2f2",
+          "stop": 1790337455597
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337454040,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "335ae9d2-b0b8-40eb-bb12-3cdbd0e5acf6",
+      "stop": 1790337455597
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337455603,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "1e890a18-7d9f-475d-86bd-d63c3dfa9bc5",
+          "stop": 1790337455795
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337455600,
+      "name": "When I find the \"Vertical Vibe Glass\" product",
+      "uuid": "12fcaf19-6c8a-4b7c-8a66-d89b19750da6",
+      "stop": 1790337455795
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337455801,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "23182802-3a7c-4631-97f8-8d8569c4ed37",
+          "stop": 1790337455857
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337455799,
+      "name": "Then the order button is enabled",
+      "uuid": "41d1d15e-4933-4dca-aeee-c080b69464b5",
+      "stop": 1790337455857
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337455858,
+          "uuid": "ddaafc1d-d490-4408-aba5-0323b4332678",
+          "stop": 1790337455858
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337455858,
+          "uuid": "09a4fe5f-504a-4684-af64-e2971b3a108c",
+          "stop": 1790337455858
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337455858,
+          "uuid": "a6f4a0f0-1897-4cf0-972d-4ef4af0e805a",
+          "stop": 1790337455859
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337456766,
+              "uuid": "95ae185c-991d-4e78-aebc-1e8e8af7ac75",
+              "stop": 1790337457563
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337455859,
+          "uuid": "8cacfc14-ef5f-4c34-b11e-081fe919343a",
+          "stop": 1790337457563
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337455857,
+      "uuid": "98879df0-9045-4616-b8de-6792cc35323f",
+      "stop": 1790337457582
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "c4fe331e390c81713d2619ce03d43b11" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337453629,
+  "testCaseId": "3d602da023f1b6b5e7b2c6ce307c0522",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"Vertical Vibe Glass\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790337457746
+}

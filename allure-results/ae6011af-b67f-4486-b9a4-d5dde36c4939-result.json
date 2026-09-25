@@ -1,0 +1,278 @@
+{
+  "uuid": "ae6011af-b67f-4486-b9a4-d5dde36c4939",
+  "name": "\"Retro lampe i lusteri\" product grid link goes to the right category page",
+  "historyId": "0ab1cee73b7516620273502e263724fa:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352097518,
+              "uuid": "1b971621-82b5-410f-bc23-e7fd4f738d80",
+              "stop": 1790352097528
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352097515,
+          "uuid": "349f6341-ecbe-4aac-ae32-e1cba7ceeae2",
+          "stop": 1790352097538
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352097541,
+              "uuid": "79af5efe-f34d-4296-b8e1-54a631f22e83",
+              "stop": 1790352098260
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352097538,
+          "uuid": "66d49ca5-f9c2-4380-aeb4-e70ba9eb5187",
+          "stop": 1790352098260
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352098260,
+          "uuid": "d94b10c3-60af-4eb2-97c4-b1e05b5ca567",
+          "stop": 1790352098287
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352098287,
+          "uuid": "7b0ab638-d629-42eb-8a51-f11636cbe490",
+          "stop": 1790352098287
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352097401,
+      "uuid": "adc5bf86-2692-462e-af35-c60b295934c7",
+      "stop": 1790352098287
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352098291,
+          "name": "Navigate",
+          "uuid": "b299f07d-7e39-4c4c-8724-be7124d2b704",
+          "stop": 1790352100848
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352098289,
+      "name": "Given I open the home page",
+      "uuid": "b3bb437d-4cb9-46f1-a581-fff8d6c4e1ac",
+      "stop": 1790352100848
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352100866,
+          "name": "Click",
+          "uuid": "d8391f2a-4f41-494d-b329-e259e3cc661d",
+          "stop": 1790352101594
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352100863,
+      "name": "When I open the \"Retro lampe i lusteri\" category from the products grid",
+      "uuid": "b3cefa72-f472-41e8-9341-df9b02a5f39a",
+      "stop": 1790352101595
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352101602,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "1c7f070a-1362-48f6-a3b1-cf013e4a8d8a",
+          "stop": 1790352101736
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352101600,
+      "name": "Then I land on the \"retro-lamps\" category page",
+      "uuid": "b752196a-fa2a-4647-9cbe-abeb10e314d6",
+      "stop": 1790352101736
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352101737,
+          "uuid": "5ce025d6-c6cd-4095-a7f6-72bb8334b137",
+          "stop": 1790352101737
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352101738,
+          "uuid": "160db7d9-25f1-4b78-8210-b184b9838271",
+          "stop": 1790352101738
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352101738,
+          "uuid": "95147255-4c7f-412e-a31f-dbd5d9a74dc6",
+          "stop": 1790352101738
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352102469,
+              "uuid": "8167aa7d-1578-405d-9e28-a57d0a3f9bc6",
+              "stop": 1790352102795
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352101739,
+          "uuid": "8c5e8b3b-9ee5-458a-b8f8-66b184200e05",
+          "stop": 1790352102796
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352101737,
+      "uuid": "eed425c8-69c2-42f5-bac9-aa959e455672",
+      "stop": 1790352102812
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.home.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "2ccf3be9d3cb960dcda8d78175f3091a" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\home.feature.spec.js > Home page > \"<categoryName>\" product grid link goes to the right category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\home.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Home page > \"<categoryName>\" product grid link goes to the right category page"
+    }
+  ],
+  "links": [],
+  "start": 1790352097501,
+  "testCaseId": "0ab1cee73b7516620273502e263724fa",
+  "fullName": "features/home.feature.spec.js › Home page › \"<categoryName>\" product grid link goes to the right category page › \"Retro lampe i lusteri\" product grid link goes to the right category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "home.feature.spec.js",
+    "Home page",
+    "\"<categoryName>\" product grid link goes to the right category page"
+  ],
+  "stop": 1790352102807
+}

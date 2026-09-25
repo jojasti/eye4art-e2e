@@ -1,0 +1,250 @@
+{
+  "uuid": "92f15bc9-5f5c-4f14-b80f-fa344c76064e",
+  "name": "\"/products/retro-lamps\" has one meta description",
+  "historyId": "d03e3aacfb25c155c896982674943b12:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337787823,
+              "uuid": "bde983a7-c611-4db6-8fba-6b42f4a17550",
+              "stop": 1790337787917
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337787822,
+          "uuid": "e63a76f5-83dc-4275-9a31-031ed9e017d3",
+          "stop": 1790337787927
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337787929,
+              "uuid": "8ace69a8-cd3d-4133-b7d0-d4f935214eea",
+              "stop": 1790337788914
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337787927,
+          "uuid": "f5eb00eb-520c-426b-9412-141ef191b117",
+          "stop": 1790337788914
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337788915,
+          "uuid": "da7c7bbd-f42c-452b-aab4-894bbc18cd80",
+          "stop": 1790337788931
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337788931,
+          "uuid": "a09418d0-0f1a-4513-a8da-0f87e220e9ec",
+          "stop": 1790337788931
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337787804,
+      "uuid": "fcad79b3-5555-44a9-b66b-72ee0edafa80",
+      "stop": 1790337788931
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337788936,
+          "name": "Navigate",
+          "uuid": "dbedcafb-7ec8-4560-b5d3-1a652d323637",
+          "stop": 1790337790557
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337788934,
+      "name": "Given I open the \"/products/retro-lamps\" page",
+      "uuid": "1111af4c-606f-4a00-bf0b-0d3c4a1fc428",
+      "stop": 1790337790558
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337790562,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "698a7188-9d6f-4cce-9fcc-5eb04c24d086",
+          "stop": 1790337791221
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337790560,
+      "name": "Then the meta description is correct",
+      "uuid": "4efec82e-7b63-43ef-b2aa-69ee65a58bb0",
+      "stop": 1790337791221
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337791222,
+          "uuid": "51a82954-3dcb-4d51-9105-366576f1a972",
+          "stop": 1790337791222
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337791222,
+          "uuid": "b2b012de-1d4b-4b67-a97f-6d9a2ab7460b",
+          "stop": 1790337791222
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337791223,
+          "uuid": "950f67fd-407e-4276-bee0-04bc751b825f",
+          "stop": 1790337791223
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337791880,
+              "uuid": "9f0108ca-4d63-4a8a-bb2e-da46f17cccda",
+              "stop": 1790337792295
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337791223,
+          "uuid": "04576d9e-e92f-4e26-918b-8b2ef3ce4b9e",
+          "stop": 1790337792295
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337791222,
+      "uuid": "72d8dda7-6990-436e-a725-a76e381aae70",
+      "stop": 1790337792310
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "202ca356a37fbd54e71bc6e3d8b9349e" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one meta description"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one meta description" }
+  ],
+  "links": [],
+  "start": 1790337787831,
+  "testCaseId": "d03e3aacfb25c155c896982674943b12",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one meta description › \"/products/retro-lamps\" has one meta description",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one meta description"
+  ],
+  "stop": 1790337792304
+}

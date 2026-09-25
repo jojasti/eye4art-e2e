@@ -1,0 +1,277 @@
+{
+  "uuid": "f51520af-842e-45cb-ba0d-140edf06b9fc",
+  "name": "Footer has a link to the \"retro-lamps\" category page",
+  "historyId": "31e74dd4d89dceec835db55c986b08b3:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337679760,
+              "uuid": "b69a0021-defd-4907-b666-cbb0c1491b19",
+              "stop": 1790337679836
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337679759,
+          "uuid": "d2a058f0-3501-479b-ae80-50bc982ac132",
+          "stop": 1790337679849
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337679852,
+              "uuid": "e2160763-c36b-4896-bdec-422644af87c1",
+              "stop": 1790337680496
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337679850,
+          "uuid": "0fefee98-afc5-4b76-b34d-2d3dc4b2e83e",
+          "stop": 1790337680496
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337680496,
+          "uuid": "b2c8ceaa-558f-41cc-85a8-c8c70403c40f",
+          "stop": 1790337680503
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337680503,
+          "uuid": "30f7aadb-41a7-4aab-a701-824356756319",
+          "stop": 1790337680504
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337680504,
+          "uuid": "43cfae0c-3203-4eb4-bbd2-556e16b86dc6",
+          "stop": 1790337680505
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337679741,
+      "uuid": "7ee401e0-5f84-4cb6-ae9e-1c657ac08cb2",
+      "stop": 1790337680505
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337680513,
+          "name": "Navigate",
+          "uuid": "4c9f7ec5-6f97-4a16-a3ff-91e692074fcd",
+          "stop": 1790337682805
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337680509,
+      "name": "Given I open the home page",
+      "uuid": "b563abd3-8e6a-48d3-9d1d-298010266fcf",
+      "stop": 1790337682806
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337682820,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "7a2fb0b8-cd9f-4cac-9f92-bc19a23f39ac",
+          "stop": 1790337683887
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337682814,
+      "name": "Then the footer has a link to the \"retro-lamps\" category page",
+      "uuid": "2d6c6011-a64c-452c-baf5-522f657b5dfa",
+      "stop": 1790337683887
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337683888,
+          "uuid": "0357b031-5229-4761-90b9-7d2fc18c3935",
+          "stop": 1790337683888
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337683888,
+          "uuid": "5b578ddf-3804-4098-8701-6d1ba235d803",
+          "stop": 1790337683888
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337683888,
+          "uuid": "27fd9ee6-9931-40c9-ac82-e972751b0886",
+          "stop": 1790337683889
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337683889,
+          "uuid": "7dbac6cb-994b-46ec-8e09-ce06f4f70b94",
+          "stop": 1790337683889
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337685300,
+              "uuid": "10f148f7-a565-41dc-8c15-718f85f90af7",
+              "stop": 1790337685655
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337683889,
+          "uuid": "a1aef123-9a83-4624-a3a6-3ed51b7bda90",
+          "stop": 1790337685655
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337683888,
+      "uuid": "05975807-0a5b-47bc-a6c2-a47a24cf2442",
+      "stop": 1790337685670
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.footer.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "991c8ae3bbfbb47f5700cd6476ab3b07" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\footer.feature.spec.js > Footer > Footer has a link to the \"<productCategory>\" category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\footer.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Footer > Footer has a link to the \"<productCategory>\" category page"
+    }
+  ],
+  "links": [],
+  "start": 1790337679773,
+  "testCaseId": "31e74dd4d89dceec835db55c986b08b3",
+  "fullName": "features/footer.feature.spec.js › Footer › Footer has a link to the \"<productCategory>\" category page › Footer has a link to the \"retro-lamps\" category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "footer.feature.spec.js",
+    "Footer",
+    "Footer has a link to the \"<productCategory>\" category page"
+  ],
+  "stop": 1790337685669
+}

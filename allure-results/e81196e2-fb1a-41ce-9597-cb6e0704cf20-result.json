@@ -1,0 +1,402 @@
+{
+  "uuid": "e81196e2-fb1a-41ce-9597-cb6e0704cf20",
+  "name": "Switching back to Srpski restores the original labels",
+  "historyId": "88aa0e219cbd462296ed8748ebea83e2:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352294276,
+              "uuid": "f60c3572-acc7-437d-97b4-989e403b1fb3",
+              "stop": 1790352294329
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352294275,
+          "uuid": "fa258af8-1d95-4219-adc8-d48e1c1380d3",
+          "stop": 1790352294339
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352294342,
+              "uuid": "4f71894c-d324-4843-80b2-ca7c0da5c856",
+              "stop": 1790352295068
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352294340,
+          "uuid": "bacb75b8-b200-46e2-b74b-7b04aecab604",
+          "stop": 1790352295068
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352295068,
+          "uuid": "9b890121-a40c-4996-bb2c-dbff6a8eafe0",
+          "stop": 1790352295111
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352295111,
+          "uuid": "fc8893bc-4f42-4b36-80f1-d918f2525136",
+          "stop": 1790352295111
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790352295112,
+          "uuid": "51c4f170-a6b9-4278-84e4-fc2b8cd7f7ab",
+          "stop": 1790352295112
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352294258,
+      "uuid": "5207a36d-4c67-4ee7-9001-3a105ce89ffa",
+      "stop": 1790352295112
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352295116,
+          "name": "Navigate",
+          "uuid": "ed3e3633-4149-40d2-8b54-d61427ed40ad",
+          "stop": 1790352297290
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352295114,
+      "name": "Given I open the home page",
+      "uuid": "fd70817b-8065-4cfd-8c2e-1229e4a14b4f",
+      "stop": 1790352297291
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352297295,
+          "name": "Click",
+          "uuid": "42af75ea-0353-4265-ba07-85918ddac71d",
+          "stop": 1790352301303
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352297294,
+      "name": "When I switch the language to English",
+      "uuid": "2a0a3883-82fa-4e2e-ab95-356af96ab7dd",
+      "stop": 1790352301303
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352301308,
+          "name": "Click",
+          "uuid": "236c5b2a-d04e-46a1-b2e4-bcf37a609d4e",
+          "stop": 1790352303022
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352301306,
+      "name": "And I switch the language to Srpski",
+      "uuid": "bc3b1cdd-4355-44fe-849c-2cedace0e56c",
+      "stop": 1790352303023
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352303027,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f8d456e7-4505-423d-8e54-cfc8cd1d03e0",
+          "stop": 1790352303115
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352303341,
+          "name": "Click",
+          "uuid": "45c189f3-d866-48d6-98f6-4e662c1a3968",
+          "stop": 1790352305355
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352305356,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "d2e8d81a-6474-4dbd-a131-0f9fb97f77e3",
+          "stop": 1790352305399
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352305401,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "9f2c5e60-a060-417e-8fdd-22d064ffb1f5",
+          "stop": 1790352305585
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352305586,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "c0dfc61f-e088-428c-a1ca-3957d514d5ae",
+          "stop": 1790352305730
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352305732,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "8bd34c26-7bde-4c84-8bd8-15ba03da64b8",
+          "stop": 1790352306009
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352306011,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "ebb859db-25c5-4bc7-8065-005378137dab",
+          "stop": 1790352306173
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352306174,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "6a67dbe1-f412-462b-924d-42497d0fec15",
+          "stop": 1790352306358
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352303026,
+      "name": "Then the menu labels are in Serbian",
+      "uuid": "4ede1683-cb07-4cce-b267-f933e22c479a",
+      "stop": 1790352306358
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"mainMenu\"",
+          "start": 1790352306361,
+          "uuid": "aec00806-cd93-4bea-8f51-b932e6104190",
+          "stop": 1790352306361
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790352306361,
+          "uuid": "2ab136d4-682d-4a6d-8968-ccaf4aa09d99",
+          "stop": 1790352306361
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352306361,
+          "uuid": "e27a0007-ed44-4675-90eb-3fe1b01dade0",
+          "stop": 1790352306361
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352306362,
+          "uuid": "daf7d6df-2ced-464c-b6b3-fec8aa7cdcf1",
+          "stop": 1790352306362
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352307533,
+              "uuid": "ff6aaf0f-74b9-435c-901b-d0666a192f23",
+              "stop": 1790352307833
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352306363,
+          "uuid": "944fbbe8-a607-467d-9fab-6de61887120a",
+          "stop": 1790352307833
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352306360,
+      "uuid": "0aca6b05-1be2-4c18-bee1-0def2919436c",
+      "stop": 1790352307847
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.navigation.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "2c7d05bfa4549b2d2981071739855706" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\navigation.feature.spec.js > Main navigation"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\navigation.feature.spec.js" },
+    { "name": "subSuite", "value": "Main navigation" }
+  ],
+  "links": [],
+  "start": 1790352294329,
+  "testCaseId": "88aa0e219cbd462296ed8748ebea83e2",
+  "fullName": "features/navigation.feature.spec.js › Main navigation › Switching back to Srpski restores the original labels",
+  "titlePath": ["eye4art-e2e", "features", "navigation.feature.spec.js", "Main navigation"],
+  "stop": 1790352307886
+}

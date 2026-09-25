@@ -1,0 +1,361 @@
+{
+  "uuid": "b03e2ad3-2428-4175-b46b-a68cc32390de",
+  "name": "Every product in \"Audio oprema\" shows an allowed stock status",
+  "historyId": "f2ee53b1258e075618f1193a098c899d:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352070501,
+              "uuid": "c087003d-3da1-4c8a-bf69-30fa6cea9f85",
+              "stop": 1790352070515
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352070498,
+          "uuid": "4477fcac-f247-4eef-8ea3-ae962fe2814a",
+          "stop": 1790352070527
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352070530,
+              "uuid": "7ed20b54-6d5a-4c31-8821-fdd39513a5ac",
+              "stop": 1790352070726
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352070528,
+          "uuid": "23f999b6-faba-46dd-8d82-53757701bb69",
+          "stop": 1790352070726
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352070726,
+          "uuid": "51f66f03-7bba-4115-9903-dcae6602b1db",
+          "stop": 1790352070744
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352070744,
+          "uuid": "5d5d2c45-395d-4ec8-9e23-bfacc4db8b78",
+          "stop": 1790352070745
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352070477,
+      "uuid": "c770fc15-e60f-4559-b834-7d6163e45f41",
+      "stop": 1790352070745
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352070749,
+          "name": "Navigate",
+          "uuid": "42f42b05-ecac-4fad-acae-7d1f16e04308",
+          "stop": 1790352071485
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352070748,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "2d1da90a-6114-4398-a129-8d704853f7ee",
+      "stop": 1790352071485
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352071491,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "477c09c2-2a6e-4e78-950d-deead5e823f9",
+          "stop": 1790352072572
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072575,
+          "name": "Query count",
+          "uuid": "972c21ed-a2c1-44e5-bf6d-b1272d5d5ceb",
+          "stop": 1790352072625
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072628,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "ddcfc88d-6eb7-4e5b-9b86-33646ce08a5e",
+          "stop": 1790352072703
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072705,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "fbf4dc58-a550-465d-ac32-5b7e7e3f3eef",
+          "stop": 1790352072736
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072740,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "7a51330d-7f90-488f-912a-17fc2e38145f",
+          "stop": 1790352072771
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072774,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f0180cb5-e355-487b-bded-245f0006c813",
+          "stop": 1790352072927
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072928,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "5126fc42-47d3-463c-b795-e3032253a812",
+          "stop": 1790352072961
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072963,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "6d0558ee-7204-4ef8-a7ca-25fb85edbcf6",
+          "stop": 1790352072983
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352072984,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "edc574f1-398d-4326-9a69-6e719b1aca29",
+          "stop": 1790352073003
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352073005,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "271aac41-ae93-465d-a26e-eb4eb19de414",
+          "stop": 1790352073028
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352071489,
+      "name": "Then every product shows an allowed stock status",
+      "uuid": "ed8b077d-c5fc-4836-9c1b-8c3446cdce3d",
+      "stop": 1790352073028
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352073030,
+          "uuid": "0fa54132-a775-4819-809a-4d82031af172",
+          "stop": 1790352073030
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352073030,
+          "uuid": "0336bea1-5588-4b49-9f61-e26fbf46f09c",
+          "stop": 1790352073031
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352073031,
+          "uuid": "1ab4fa96-bdbd-4d0d-9a5a-171d1741abb5",
+          "stop": 1790352073031
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352073254,
+              "uuid": "ce8cc996-4939-431b-8f88-7f49b61ddcdc",
+              "stop": 1790352073520
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352073032,
+          "uuid": "5a3f1da1-6bd8-452f-ba07-010e2e262e16",
+          "stop": 1790352073520
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352073029,
+      "uuid": "c7d93738-1c6e-4a20-8648-667489d84507",
+      "stop": 1790352073536
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "fac60734bc3e41867aa84580ef3b54c2" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    }
+  ],
+  "links": [],
+  "start": 1790352070496,
+  "testCaseId": "f2ee53b1258e075618f1193a098c899d",
+  "fullName": "features/category.feature.spec.js › Category page › Every product in \"<categoryName>\" shows an allowed stock status › Every product in \"Audio oprema\" shows an allowed stock status",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Every product in \"<categoryName>\" shows an allowed stock status"
+  ],
+  "stop": 1790352073519
+}

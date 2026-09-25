@@ -1,0 +1,253 @@
+{
+  "uuid": "731bbe6b-d19d-46f4-8ca4-5b6be7ecba52",
+  "name": "Products page shows the \"Police i stalci za gramofon\" category",
+  "historyId": "a175071fe74287f4a714db051a452394:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337722024,
+              "uuid": "5e440403-97d4-41a9-8a13-e869976e284a",
+              "stop": 1790337722213
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337722022,
+          "uuid": "84be5d32-78ba-4f28-a83d-90890c8645b1",
+          "stop": 1790337722224
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337722227,
+              "uuid": "c2c17fb4-c769-46cc-9017-b7ac5a10d6d7",
+              "stop": 1790337723420
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337722225,
+          "uuid": "1b350135-51f8-4be0-870c-92e9917fad70",
+          "stop": 1790337723420
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337723420,
+          "uuid": "a69cea0b-41bc-422e-8f6f-84189d941b63",
+          "stop": 1790337723427
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790337723427,
+          "uuid": "0e50f624-130c-496c-bec5-d084aef5eb19",
+          "stop": 1790337723427
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337721998,
+      "uuid": "8ba52579-d1a8-449b-8593-5c88209c1bdd",
+      "stop": 1790337723428
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337723434,
+          "name": "Navigate",
+          "uuid": "a085d6a8-5da7-4283-bac6-8668e88c2833",
+          "stop": 1790337724788
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337723431,
+      "name": "Given I open the products page",
+      "uuid": "511c0e14-8e13-416a-afab-28c0a3407f66",
+      "stop": 1790337724789
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337724796,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "9138602f-f911-4d9d-9d56-518d586fc608",
+          "stop": 1790337726342
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337724794,
+      "name": "Then I see the category \"Police i stalci za gramofon\"",
+      "uuid": "d5dd3c07-1b4d-437a-b561-d54af9267ced",
+      "stop": 1790337726342
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790337726343,
+          "uuid": "fdd27ea1-da63-4047-b854-df1e3162abec",
+          "stop": 1790337726343
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337726343,
+          "uuid": "166b2ec3-8a78-44cc-b9ba-1df236b2e660",
+          "stop": 1790337726343
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337726344,
+          "uuid": "34cb46f4-4480-4951-8b14-e1a9ebebf7aa",
+          "stop": 1790337726344
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337727113,
+              "uuid": "4868ce58-db08-4d89-9723-08bdbe2263a3",
+              "stop": 1790337727398
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337726344,
+          "uuid": "61b311a9-b682-4661-bb7d-bfb46330be95",
+          "stop": 1790337727398
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337726342,
+      "uuid": "340ad4e5-3247-4922-ab59-00318d2411be",
+      "stop": 1790337727416
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.products.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "41f2b091ed330abfea7b39d2aa41d322" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\products.feature.spec.js > Products page > Products page shows the \"<category>\" category"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-1" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\products.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Products page > Products page shows the \"<category>\" category"
+    }
+  ],
+  "links": [],
+  "start": 1790337722035,
+  "testCaseId": "a175071fe74287f4a714db051a452394",
+  "fullName": "features/products.feature.spec.js › Products page › Products page shows the \"<category>\" category › Products page shows the \"Police i stalci za gramofon\" category",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "products.feature.spec.js",
+    "Products page",
+    "Products page shows the \"<category>\" category"
+  ],
+  "stop": 1790337727413
+}

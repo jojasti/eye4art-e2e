@@ -1,0 +1,277 @@
+{
+  "uuid": "d620a269-427e-4051-944a-6e18a598a0e2",
+  "name": "Footer has a link to the \"audio-equipment\" category page",
+  "historyId": "9123809ea9db8af194b93692ae804444:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337678793,
+              "uuid": "5ce83f40-1d48-4726-b941-4fd2c9492ad5",
+              "stop": 1790337678918
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337678792,
+          "uuid": "7d8f4d69-ba9f-4e4d-9412-9c9fba4ec2d0",
+          "stop": 1790337678926
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337678928,
+              "uuid": "b41a44de-9d7a-427a-a27f-3dd120bc7895",
+              "stop": 1790337680196
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337678926,
+          "uuid": "ffe3ba4f-af2a-469e-8d18-f1673820d7dc",
+          "stop": 1790337680196
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337680197,
+          "uuid": "c7d1eb21-e286-4b3d-86f4-01ced2a2c1ef",
+          "stop": 1790337680205
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337680206,
+          "uuid": "6f1290a7-cf1b-44bf-9a8e-aa2d8c1b4b7d",
+          "stop": 1790337680206
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337680206,
+          "uuid": "304f87a2-1f20-4cf3-a7f1-42bbf842c76f",
+          "stop": 1790337680207
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337678774,
+      "uuid": "91512118-6a79-4c85-8a5a-e02aa329564d",
+      "stop": 1790337680207
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337680214,
+          "name": "Navigate",
+          "uuid": "91427b52-9fab-4b01-a4a5-aeb1bdfc2abc",
+          "stop": 1790337682459
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337680211,
+      "name": "Given I open the home page",
+      "uuid": "d708fa4e-a5fe-4f3f-b992-1f437cdd9eb4",
+      "stop": 1790337682459
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337682476,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "77dcdb10-15d4-462c-9dfe-e5c5ca0e8c2f",
+          "stop": 1790337683435
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337682466,
+      "name": "Then the footer has a link to the \"audio-equipment\" category page",
+      "uuid": "adc926d2-f19f-469f-9380-4adcb58da781",
+      "stop": 1790337683436
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790337683436,
+          "uuid": "76f84036-1664-4680-b5f2-dcca2805fa5f",
+          "stop": 1790337683437
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"footerPage\"",
+          "start": 1790337683437,
+          "uuid": "1f36fc74-36d3-40cb-8a28-ca065bd2507e",
+          "stop": 1790337683437
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337683437,
+          "uuid": "bab3d8ff-fabf-472b-97b6-64e991a9e18f",
+          "stop": 1790337683437
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337683437,
+          "uuid": "401e8b61-0c7e-4112-b7c6-34822d3ac706",
+          "stop": 1790337683437
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337685177,
+              "uuid": "06c7d1fa-7e5c-4c96-86fa-f104439f58e7",
+              "stop": 1790337685774
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337683438,
+          "uuid": "b84715ec-69cd-45c9-846f-a96126643336",
+          "stop": 1790337685774
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337683436,
+      "uuid": "bb80db4c-9c1c-48e0-afbe-f1d4ed406c2f",
+      "stop": 1790337685792
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.footer.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "444df40e3757c150cdc8810edf8b4730" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\footer.feature.spec.js > Footer > Footer has a link to the \"<productCategory>\" category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\footer.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Footer > Footer has a link to the \"<productCategory>\" category page"
+    }
+  ],
+  "links": [],
+  "start": 1790337678812,
+  "testCaseId": "9123809ea9db8af194b93692ae804444",
+  "fullName": "features/footer.feature.spec.js › Footer › Footer has a link to the \"<productCategory>\" category page › Footer has a link to the \"audio-equipment\" category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "footer.feature.spec.js",
+    "Footer",
+    "Footer has a link to the \"<productCategory>\" category page"
+  ],
+  "stop": 1790337685795
+}

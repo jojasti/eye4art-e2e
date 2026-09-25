@@ -1,0 +1,269 @@
+{
+  "uuid": "1fc090fb-80c0-4234-9ec0-08409880daaa",
+  "name": "Order button is disabled for discontinued \"The Master Stack\"",
+  "historyId": "94be94ea4b687fd2dfd5d18a5ac743c4:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337472409,
+              "uuid": "2ad746a0-e286-4180-9fc7-28d7eef19200",
+              "stop": 1790337472422
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337472408,
+          "uuid": "eadde1e1-0aa1-4c88-a945-152af6bfe150",
+          "stop": 1790337472444
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337472447,
+              "uuid": "e69b2cf5-35db-416d-9eae-1857b75c863e",
+              "stop": 1790337472778
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337472445,
+          "uuid": "4ac90c47-35e1-4079-a1f8-816097d5a479",
+          "stop": 1790337472779
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337472779,
+          "uuid": "694f759f-6760-4fbf-9d37-018db4cb0994",
+          "stop": 1790337472789
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337472790,
+          "uuid": "5365766f-77e6-4dc7-b0b1-f95e29e22342",
+          "stop": 1790337472790
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337472390,
+      "uuid": "45db701d-8b76-43da-8b5f-728f85f62cb4",
+      "stop": 1790337472790
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337472796,
+          "name": "Navigate",
+          "uuid": "aa638929-7d98-49ac-a768-c16b7c3f825a",
+          "stop": 1790337473798
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337472794,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "f6fcbb76-99c3-4eb0-a34f-bd9dbe0abc18",
+      "stop": 1790337473798
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337473803,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "23e17aee-33a5-471f-899c-6c7f6162cf94",
+          "stop": 1790337474021
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337473801,
+      "name": "When I find the \"The Master Stack\" product",
+      "uuid": "0e62d5b0-4168-4cb6-a29d-20824bb8bc17",
+      "stop": 1790337474021
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337474032,
+          "name": "Expect \"toBeDisabled\"",
+          "uuid": "8625733d-02c7-4a61-877c-074e96b9b10c",
+          "stop": 1790337474127
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337474029,
+      "name": "Then the order button shows \"NIJE NA STANJU\" and is disabled",
+      "uuid": "61d4a682-e0c5-47ea-8626-7083772ebc56",
+      "stop": 1790337474127
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337474128,
+          "uuid": "53787185-7b4f-4be2-8c52-19ea60639876",
+          "stop": 1790337474128
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337474128,
+          "uuid": "e4a458de-1d6c-499f-ad2d-1266a84bf887",
+          "stop": 1790337474129
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337474129,
+          "uuid": "5b44256e-ab74-4e76-b047-17e94559fce7",
+          "stop": 1790337474129
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337475618,
+              "uuid": "06cc205d-8250-42d9-a137-16f15f587507",
+              "stop": 1790337476282
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337474130,
+          "uuid": "c53df5d0-7806-4103-bfdd-a785e8513d8a",
+          "stop": 1790337476283
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337474128,
+      "uuid": "7eb99545-7184-4aaa-b847-a6b2dc98b64b",
+      "stop": 1790337476307
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "ea4e6236eef2ef8c53f92dcc352d70c7" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page" }
+  ],
+  "links": [],
+  "start": 1790337472571,
+  "testCaseId": "94be94ea4b687fd2dfd5d18a5ac743c4",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is disabled for discontinued \"The Master Stack\"",
+  "titlePath": ["eye4art-e2e", "features", "category.feature.spec.js", "Category page"],
+  "stop": 1790337476449
+}

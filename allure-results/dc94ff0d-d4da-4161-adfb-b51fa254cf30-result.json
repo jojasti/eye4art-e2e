@@ -1,0 +1,278 @@
+{
+  "uuid": "dc94ff0d-d4da-4161-adfb-b51fa254cf30",
+  "name": "Opening \"Noćni stočići\" from the products index navigates to the right category page",
+  "historyId": "9b9cc93ae24adbda49aa6b577c5aec32:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352123025,
+              "uuid": "4fea4e50-095a-4888-b66b-fe00e3ccca0a",
+              "stop": 1790352123064
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352123023,
+          "uuid": "76b9770c-0af1-40bc-afb5-f7d848a3cc5a",
+          "stop": 1790352123083
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352123087,
+              "uuid": "defc7613-fede-4143-92ee-fc150b383217",
+              "stop": 1790352124120
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352123084,
+          "uuid": "dcd9f434-4eef-44ad-b34d-5d2b7995abfb",
+          "stop": 1790352124120
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352124120,
+          "uuid": "5b311f9c-e178-4a2a-b71c-9416d36b0fd0",
+          "stop": 1790352124133
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790352124134,
+          "uuid": "1277961c-3ece-44e6-8cfc-0f52ec0b6be3",
+          "stop": 1790352124134
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352122989,
+      "uuid": "e614e641-ab8e-4c05-b0d0-312a434dd9e3",
+      "stop": 1790352124134
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352124140,
+          "name": "Navigate",
+          "uuid": "cbad6eca-f22e-4264-81e4-9c41644fda74",
+          "stop": 1790352125535
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352124137,
+      "name": "Given I open the products page",
+      "uuid": "76ea2428-769c-4344-a507-630700acfd7b",
+      "stop": 1790352125535
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352125543,
+          "name": "Click",
+          "uuid": "fd5bcd3a-9fa3-4a22-a157-7e16334a8278",
+          "stop": 1790352126078
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352125538,
+      "name": "When I open the \"Noćni stočići\" category",
+      "uuid": "395f5f88-ef88-471a-beab-0110459d314d",
+      "stop": 1790352126078
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352126082,
+          "name": "Expect \"toHaveURL\"",
+          "uuid": "40ef3f6e-d99c-4029-bdce-ad779ffbaa87",
+          "stop": 1790352126172
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352126080,
+      "name": "Then I am on the \"nightstands\" category page",
+      "uuid": "b49889ad-5c85-442e-bcc4-b1290d8a159c",
+      "stop": 1790352126172
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1790352126172,
+          "uuid": "8e641c8b-f276-49ed-8b88-1d89bbfb247a",
+          "stop": 1790352126173
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352126173,
+          "uuid": "58572ce1-fd3d-406d-a21b-28aedd58c5f0",
+          "stop": 1790352126173
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352126173,
+          "uuid": "ff5a9d28-8488-4ce9-83d4-9ff4c9f09bb2",
+          "stop": 1790352126173
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352126350,
+              "uuid": "ec21d47b-e5b5-470b-918c-709e43957cf1",
+              "stop": 1790352126643
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352126174,
+          "uuid": "200cba8a-301d-4917-9a62-28a7504726ca",
+          "stop": 1790352126643
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352126172,
+      "uuid": "585487c9-43ea-4709-bd6d-f1640e7a3411",
+      "stop": 1790352126662
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.products.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "cad60f7f099c269b99382e021d7aee4b" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\products.feature.spec.js > Products page > Opening \"<categoryName>\" from the products index navigates to the right category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\products.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Products page > Opening \"<categoryName>\" from the products index navigates to the right category page"
+    }
+  ],
+  "links": [],
+  "start": 1790352123088,
+  "testCaseId": "9b9cc93ae24adbda49aa6b577c5aec32",
+  "fullName": "features/products.feature.spec.js › Products page › Opening \"<categoryName>\" from the products index navigates to the right category page › Opening \"Noćni stočići\" from the products index navigates to the right category page",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "products.feature.spec.js",
+    "Products page",
+    "Opening \"<categoryName>\" from the products index navigates to the right category page"
+  ],
+  "stop": 1790352126709
+}

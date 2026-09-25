@@ -1,0 +1,294 @@
+{
+  "uuid": "309557ba-a304-49b7-b6b6-86dfcc63827a",
+  "name": "Quiz modal closes",
+  "historyId": "d8e72b9f9b30417f2032dc383c84a7cc:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352076169,
+              "uuid": "094664df-278e-4b17-9992-725d492ef90b",
+              "stop": 1790352076184
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352076164,
+          "uuid": "8c1377ba-ade9-41b3-a719-0256e3933526",
+          "stop": 1790352076191
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352076194,
+              "uuid": "466e1c5d-3c38-42e5-97ea-df7eef79526d",
+              "stop": 1790352076592
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352076192,
+          "uuid": "1caf5ecd-4143-464a-8292-7c2c04ed39ea",
+          "stop": 1790352076592
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352076592,
+          "uuid": "ac84ab03-4054-4f5c-b68f-58c9d3949f1b",
+          "stop": 1790352076599
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352076599,
+          "uuid": "e845c322-6125-4edc-8ba3-c23f701f5831",
+          "stop": 1790352076599
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352076147,
+      "uuid": "4a524486-3cf0-4201-93cb-356283ae64e0",
+      "stop": 1790352076599
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352076603,
+          "name": "Navigate",
+          "uuid": "40b9f371-1791-4265-87a4-880340f9209e",
+          "stop": 1790352077429
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352076602,
+      "name": "Given I open the \"turntable-shelves\" category page",
+      "uuid": "07d76580-9164-4bb6-9b0d-39ccab6e78cd",
+      "stop": 1790352077429
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352077435,
+          "name": "Click",
+          "uuid": "67f581de-c436-46e3-b283-688b7091f329",
+          "stop": 1790352078150
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352077433,
+      "name": "When I open the quiz",
+      "uuid": "73db3db8-0e0d-4286-be85-54c091a7d07b",
+      "stop": 1790352078150
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352078155,
+          "name": "Click",
+          "uuid": "c47b1c70-d69a-49b7-94b5-79695d29fe77",
+          "stop": 1790352078359
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352078153,
+      "name": "And I close the quiz",
+      "uuid": "8b95d724-7ad1-4e07-a0df-ea2b12bec6f2",
+      "stop": 1790352078359
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352078364,
+          "name": "Expect \"toBeHidden\"",
+          "uuid": "8b760b1b-ad3f-4447-867d-d63424a911c2",
+          "stop": 1790352078389
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352078362,
+      "name": "Then the quiz modal is closed",
+      "uuid": "50474a95-5762-43b4-b00e-6268d39ea8c6",
+      "stop": 1790352078389
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352078390,
+          "uuid": "6cd45601-64d0-483d-b8ba-1d78f8a9c91e",
+          "stop": 1790352078390
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352078390,
+          "uuid": "0186c8e7-56c0-4e1e-a9c9-78469cec751a",
+          "stop": 1790352078392
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352078395,
+          "uuid": "40c9a6c8-5fc0-4478-aaee-ed82318b18bb",
+          "stop": 1790352078395
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352078929,
+              "uuid": "e2a6d42b-58ff-4fdb-bb27-15e50cecab28",
+              "stop": 1790352079729
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352078395,
+          "uuid": "25cfa21f-0d72-4c06-a84f-12bcefee73b5",
+          "stop": 1790352079730
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352078390,
+      "uuid": "cc6da551-c6b6-4404-bd3d-00b9b37b219c",
+      "stop": 1790352079744
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "7d8f728519c8e049ed98209fe3f94a2e" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page" }
+  ],
+  "links": [],
+  "start": 1790352076377,
+  "testCaseId": "d8e72b9f9b30417f2032dc383c84a7cc",
+  "fullName": "features/category.feature.spec.js › Category page › Quiz modal closes",
+  "titlePath": ["eye4art-e2e", "features", "category.feature.spec.js", "Category page"],
+  "stop": 1790352079940
+}

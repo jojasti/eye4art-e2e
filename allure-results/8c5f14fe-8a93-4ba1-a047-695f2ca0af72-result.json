@@ -1,0 +1,275 @@
+{
+  "uuid": "8c5f14fe-8a93-4ba1-a047-695f2ca0af72",
+  "name": "Order button is enabled for \"STALAK ZA ZVUČNIK- CRNI METAL\"",
+  "historyId": "a3190ca9fe4904d8cc5566d379f07079:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352060690,
+              "uuid": "02a08850-c07f-4140-bfb7-cb8187a4f9dc",
+              "stop": 1790352060698
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352060688,
+          "uuid": "4cefd00a-0a42-424f-8ee6-7913ecf958ae",
+          "stop": 1790352060705
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352060708,
+              "uuid": "7feccb39-d05d-463f-9c73-49000732a7e3",
+              "stop": 1790352060862
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352060706,
+          "uuid": "d898b856-df32-476f-bb7f-8d0e00bbfe26",
+          "stop": 1790352060862
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352060862,
+          "uuid": "4e17f0f4-63c9-43e3-900f-af07ef0ebdb0",
+          "stop": 1790352060867
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352060867,
+          "uuid": "20c6bdd9-8413-45dd-bf1b-86310908f35d",
+          "stop": 1790352060867
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352060673,
+      "uuid": "76fc06fb-ea16-4953-b0dd-f85653f94242",
+      "stop": 1790352060868
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352060872,
+          "name": "Navigate",
+          "uuid": "5f7ca948-ca1d-485a-8b4f-7ff9ebddaccd",
+          "stop": 1790352061663
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352060870,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "18a4ce8e-29f7-4581-ac72-0704d57fc920",
+      "stop": 1790352061664
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352061668,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "f54ae63c-f220-4dd2-9799-701eea0b001e",
+          "stop": 1790352061965
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352061666,
+      "name": "When I find the \"STALAK ZA ZVUČNIK- CRNI METAL\" product",
+      "uuid": "51709599-a0a7-4eeb-918e-8e77c0ac937e",
+      "stop": 1790352061966
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352061970,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "0fe2cc4e-b57b-4339-9efd-5ab9d39fe919",
+          "stop": 1790352062010
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352061968,
+      "name": "Then the order button is enabled",
+      "uuid": "1a5d6bf8-af5a-4108-a757-85aadaa594ee",
+      "stop": 1790352062011
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352062011,
+          "uuid": "f7bf64c2-8575-44f7-8d63-74bca1df8f2c",
+          "stop": 1790352062011
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352062011,
+          "uuid": "58853e3f-ac0c-4712-88e7-dfcc4ee80dcb",
+          "stop": 1790352062011
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352062012,
+          "uuid": "bec4a147-470d-4de8-bae1-e5b524324ad0",
+          "stop": 1790352062012
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352062277,
+              "uuid": "8a5d1158-6189-4781-aa00-30dc142c48af",
+              "stop": 1790352062607
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352062012,
+          "uuid": "af0ab4d2-64cb-4bf7-9fd4-4098b75df82b",
+          "stop": 1790352062607
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352062011,
+      "uuid": "1dba2283-ab39-484f-9eaa-6a58d32a1357",
+      "stop": 1790352062620
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "bde54d772a3887f304cf3e7c74db5e7f" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352060705,
+  "testCaseId": "a3190ca9fe4904d8cc5566d379f07079",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"STALAK ZA ZVUČNIK- CRNI METAL\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352062624
+}

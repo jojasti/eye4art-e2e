@@ -1,0 +1,250 @@
+{
+  "uuid": "c4d53fcb-6a7c-47c0-a00a-5c2f113abcc2",
+  "name": "\"/products/turntable-shelves\" has one meta description",
+  "historyId": "032d349ba310ec40bc9cfc33dcb4adc2:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337560123,
+              "uuid": "6db136dd-4095-4eb8-87ee-59675fff96d9",
+              "stop": 1790337560129
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337560121,
+          "uuid": "2ebede28-4a6c-4832-a3f2-fd089b9799e1",
+          "stop": 1790337560141
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337560144,
+              "uuid": "a1745536-dd65-428d-b194-eff91d99c557",
+              "stop": 1790337560433
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337560141,
+          "uuid": "84d21d00-a2cc-4a9d-b242-f089066acdae",
+          "stop": 1790337560433
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337560433,
+          "uuid": "49cf9212-58d7-4e7b-a897-8ee3b1d52f2b",
+          "stop": 1790337560471
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337560471,
+          "uuid": "66fadf82-b1ae-464f-932d-7e7f59074835",
+          "stop": 1790337560471
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337560104,
+      "uuid": "c2433d33-1e62-4488-a527-530bc2fd6fed",
+      "stop": 1790337560471
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337560476,
+          "name": "Navigate",
+          "uuid": "ec8c029d-ea21-4c47-8e98-94458ff09d35",
+          "stop": 1790337563204
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337560474,
+      "name": "Given I open the \"/products/turntable-shelves\" page",
+      "uuid": "754b4d65-1dca-441b-9a10-fa8a2a21f82d",
+      "stop": 1790337563204
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337563227,
+          "name": "Expect \"toHaveCount\"",
+          "uuid": "6c29bbfc-549b-4b66-a46b-a27096e99a06",
+          "stop": 1790337563480
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337563208,
+      "name": "Then the meta description is correct",
+      "uuid": "2d975b32-107a-4345-9bbb-f5040d1ad4d2",
+      "stop": 1790337563480
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"seoPage\"",
+          "start": 1790337563482,
+          "uuid": "83cfa5ee-1abe-41e5-9ff7-e730923fa6ab",
+          "stop": 1790337563482
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337563482,
+          "uuid": "2c660452-ec7f-46a8-b93c-7dd085272c2a",
+          "stop": 1790337563482
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337563482,
+          "uuid": "17b5885e-b130-4adf-a614-520d9ae5477c",
+          "stop": 1790337563483
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337564291,
+              "uuid": "a5b6b6ad-d841-4805-8719-acc2eea73242",
+              "stop": 1790337565652
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337563483,
+          "uuid": "90845a5a-75b8-4e0a-b09e-981f5087550e",
+          "stop": 1790337565652
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337563481,
+      "uuid": "c4c01252-dfba-4712-a9e4-2794782779b2",
+      "stop": 1790337565673
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.seo.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "b8165a66b365a5516017da1964a5953d" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\seo.feature.spec.js > SEO metadata > \"<page>\" has one meta description"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\seo.feature.spec.js" },
+    { "name": "subSuite", "value": "SEO metadata > \"<page>\" has one meta description" }
+  ],
+  "links": [],
+  "start": 1790337560120,
+  "testCaseId": "032d349ba310ec40bc9cfc33dcb4adc2",
+  "fullName": "features/seo.feature.spec.js › SEO metadata › \"<page>\" has one meta description › \"/products/turntable-shelves\" has one meta description",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "seo.feature.spec.js",
+    "SEO metadata",
+    "\"<page>\" has one meta description"
+  ],
+  "stop": 1790337565651
+}

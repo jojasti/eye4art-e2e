@@ -1,0 +1,289 @@
+{
+  "uuid": "38991dac-0f14-4989-b18d-66cc49b80d15",
+  "name": "Every product in \"Noćni stočići\" shows an allowed stock status",
+  "historyId": "9546851a92b2908149866883a696ec75:7b5ec7ec4ac15c74dff5cf758210da25",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337657386,
+              "uuid": "8549a799-ae62-4f1e-b21f-56c0f3331010",
+              "stop": 1790337657420
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337657385,
+          "uuid": "0effa210-6c40-4b24-8712-160609361791",
+          "stop": 1790337657429
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337657432,
+              "uuid": "e30bd58d-6b17-467f-878a-91b23386d880",
+              "stop": 1790337658271
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337657430,
+          "uuid": "317228d9-152b-490c-adbb-2820a889fb1d",
+          "stop": 1790337658271
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337658271,
+          "uuid": "c6767953-26e5-4bb6-a5dd-91c3778db999",
+          "stop": 1790337658286
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337658286,
+          "uuid": "67553716-aa05-419e-91d3-0ac3df23d858",
+          "stop": 1790337658287
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337657356,
+      "uuid": "f392c382-a448-46f2-831e-d95a869fc8ea",
+      "stop": 1790337658287
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337658291,
+          "name": "Navigate",
+          "uuid": "35c61a09-9d16-41e1-b22f-1e3c76c92b40",
+          "stop": 1790337659330
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337658289,
+      "name": "Given I open the \"nightstands\" category page",
+      "uuid": "e3fbbe33-b265-4090-a830-b081cbf3d5b5",
+      "stop": 1790337659331
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337659335,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "4192abee-c20f-471f-8d45-c8a7293b4e2f",
+          "stop": 1790337660768
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337660770,
+          "name": "Query count",
+          "uuid": "e795c97f-ffb6-4bb8-900f-6e6582c550a4",
+          "stop": 1790337661067
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337661069,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "bdb5801c-09d5-4869-bac1-63e09c860fe7",
+          "stop": 1790337661182
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337661183,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "89ed531f-6964-456a-83f9-c4768c5c7931",
+          "stop": 1790337661345
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337659333,
+      "name": "Then every product shows an allowed stock status",
+      "uuid": "7b7a7e85-c68b-4e5c-9c08-359f77613e39",
+      "stop": 1790337661345
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337661346,
+          "uuid": "f47803b3-9a16-4504-b18b-4330eabc7404",
+          "stop": 1790337661346
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337661346,
+          "uuid": "87a84285-b0da-444a-be7b-4be9b4b2611b",
+          "stop": 1790337661346
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337661347,
+          "uuid": "6568474e-0f75-40a3-83af-948eaf2285ce",
+          "stop": 1790337661347
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337662505,
+              "uuid": "cb48af54-a674-47c0-aabe-fd00c749d276",
+              "stop": 1790337662982
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337661347,
+          "uuid": "c8cf6b5f-34c6-4578-9d27-f074fb58b3aa",
+          "stop": 1790337662982
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337661346,
+      "uuid": "abd9a8b8-361f-4fda-818b-fa54e6f6f4fe",
+      "stop": 1790337662999
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "mobile-safari" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "33fd233390ba35851a2719993bb04fe6" },
+    {
+      "name": "titlePath",
+      "value": " > mobile-safari > features\\category.feature.spec.js > Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-2" },
+    { "name": "parentSuite", "value": "mobile-safari" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "Category page > Every product in \"<categoryName>\" shows an allowed stock status"
+    }
+  ],
+  "links": [],
+  "start": 1790337657394,
+  "testCaseId": "9546851a92b2908149866883a696ec75",
+  "fullName": "features/category.feature.spec.js › Category page › Every product in \"<categoryName>\" shows an allowed stock status › Every product in \"Noćni stočići\" shows an allowed stock status",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Every product in \"<categoryName>\" shows an allowed stock status"
+  ],
+  "stop": 1790337662994
+}

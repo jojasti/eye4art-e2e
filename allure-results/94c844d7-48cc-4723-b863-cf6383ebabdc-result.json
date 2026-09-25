@@ -1,0 +1,275 @@
+{
+  "uuid": "94c844d7-48cc-4723-b863-cf6383ebabdc",
+  "name": "Order button is enabled for \"RETRO DRVENA LAMPA\"",
+  "historyId": "e56dca3814dd570a8aa4ab2d3bf7fc76:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790352064952,
+              "uuid": "3285cb6d-0d0f-46f5-bcc5-c7d9b326d6ee",
+              "stop": 1790352064963
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352064951,
+          "uuid": "5d15bd1a-0806-4dd8-ae69-adf252b06c5a",
+          "stop": 1790352064982
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790352064986,
+              "uuid": "5a418d0c-853d-4215-bb8b-41f2cbf81bb7",
+              "stop": 1790352065188
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352064983,
+          "uuid": "590cc415-6fec-489f-bb06-4825d6ae51ff",
+          "stop": 1790352065188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352065188,
+          "uuid": "94f5acca-b9c2-4cf5-aa94-41a7ec4b644b",
+          "stop": 1790352065199
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352065199,
+          "uuid": "1f642411-5019-4f61-9939-5f565a56d242",
+          "stop": 1790352065199
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790352064929,
+      "uuid": "4d4eb523-a3d0-448c-8267-8c013bc1d665",
+      "stop": 1790352065200
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352065205,
+          "name": "Navigate",
+          "uuid": "7e7e5f23-da85-45a2-8725-d32cdd1efea9",
+          "stop": 1790352065884
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352065202,
+      "name": "Given I open the \"retro-lamps\" category page",
+      "uuid": "44c09ad2-e93d-4bfb-88bd-a4cf4e09fa7f",
+      "stop": 1790352065885
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352065890,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "b7a318d9-b020-4d9d-9445-d93c19772ff2",
+          "stop": 1790352066050
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352065888,
+      "name": "When I find the \"RETRO DRVENA LAMPA\" product",
+      "uuid": "9719067a-e862-4ffa-bac1-e5cd837448a3",
+      "stop": 1790352066051
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790352066056,
+          "name": "Expect \"toBeEnabled\"",
+          "uuid": "7f2ddd06-6476-40f4-a9de-d265ff06ad5b",
+          "stop": 1790352066125
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790352066054,
+      "name": "Then the order button is enabled",
+      "uuid": "783d3c40-3d11-4755-95d1-4758002cf4f1",
+      "stop": 1790352066125
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790352066133,
+          "uuid": "455b5cd6-4c08-4ef7-b890-d63fa5db4c1b",
+          "stop": 1790352066133
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352066133,
+          "uuid": "21117b0a-59de-487e-8b19-1ee81b53aca2",
+          "stop": 1790352066133
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790352066134,
+          "uuid": "cb6cd926-4d74-496a-b2b0-6361db0b5deb",
+          "stop": 1790352066134
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790352066667,
+              "uuid": "1d9571b4-3216-4b04-8deb-b60e82767722",
+              "stop": 1790352067183
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790352066134,
+          "uuid": "9d2bfec3-ae36-4f9c-af8c-c0ca627b6f10",
+          "stop": 1790352067183
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790352066126,
+      "uuid": "8f7a3598-79e2-4283-bf0a-7dd646f681c8",
+      "stop": 1790352067200
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "73a5ad10a34179dee54a2fccd0fcd214" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Order button is enabled for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-9036-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Order button is enabled for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790352064942,
+  "testCaseId": "e56dca3814dd570a8aa4ab2d3bf7fc76",
+  "fullName": "features/category.feature.spec.js › Category page › Order button is enabled for \"<model>\" › Order button is enabled for \"RETRO DRVENA LAMPA\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Order button is enabled for \"<model>\""
+  ],
+  "stop": 1790352067175
+}

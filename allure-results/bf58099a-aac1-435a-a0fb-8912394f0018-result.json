@@ -1,0 +1,275 @@
+{
+  "uuid": "bf58099a-aac1-435a-a0fb-8912394f0018",
+  "name": "Dimensions are shown for \"POSTOLJE ZA ZVUČNIK\"",
+  "historyId": "efcc5c517763558b3c16df8646ab5331:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790337485501,
+              "uuid": "8e168fd3-b652-4e4d-8a2c-564ff7b7fda5",
+              "stop": 1790337485541
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337485500,
+          "uuid": "78430255-e825-4e22-86fb-bb9cfa1b2975",
+          "stop": 1790337485552
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790337485555,
+              "uuid": "ae4b4a70-cfff-453c-87ed-ffdc173c8125",
+              "stop": 1790337485827
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337485552,
+          "uuid": "09866d27-4484-4018-99aa-497c77b1f5df",
+          "stop": 1790337485827
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337485827,
+          "uuid": "b94acd12-b268-49a1-8c20-f50da57edef1",
+          "stop": 1790337485834
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337485834,
+          "uuid": "1d9088b2-3afc-4b67-9dff-5f70579ed8f4",
+          "stop": 1790337485835
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790337485481,
+      "uuid": "edbfb52d-b3b8-49cb-be15-c4e6d0aa4a20",
+      "stop": 1790337485835
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337485840,
+          "name": "Navigate",
+          "uuid": "a2775f45-580e-46ca-a38e-ce1d962927cd",
+          "stop": 1790337488400
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337485838,
+      "name": "Given I open the \"audio-equipment\" category page",
+      "uuid": "c39aef06-7087-47ef-b6b6-d341e7f73ff0",
+      "stop": 1790337488400
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337488405,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "6cf83dea-ed4d-42c7-8530-85f1cea8d504",
+          "stop": 1790337488801
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337488403,
+      "name": "When I find the \"POSTOLJE ZA ZVUČNIK\" product",
+      "uuid": "5199a0e3-c6fa-498a-b2cb-4e1b31e32f26",
+      "stop": 1790337488801
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790337488808,
+          "name": "Expect \"toBeVisible\"",
+          "uuid": "bd6ca7f5-10e3-4992-9008-6df36e747748",
+          "stop": 1790337488859
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790337488806,
+      "name": "Then dimensions are shown",
+      "uuid": "849f24d7-6e4a-4b05-a96c-37773751e146",
+      "stop": 1790337488859
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"categoryPage\"",
+          "start": 1790337488860,
+          "uuid": "93d231da-201e-4cd6-a45c-cef283babf41",
+          "stop": 1790337488860
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337488860,
+          "uuid": "598e67c7-c418-47fc-8daa-5021a9bade22",
+          "stop": 1790337488860
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790337488861,
+          "uuid": "c26a7d4a-e835-404b-b57a-201e08688af4",
+          "stop": 1790337488861
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790337489211,
+              "uuid": "5f8ec4ee-7ecc-42a6-ac95-abd866e9c466",
+              "stop": 1790337489621
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790337488862,
+          "uuid": "2bc0d6d2-4ada-437e-91c6-ca7c615c9243",
+          "stop": 1790337489621
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790337488860,
+      "uuid": "db32e106-4492-4ab8-8fd9-7a883f7b0a41",
+      "stop": 1790337489637
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "eye4art-e2e.features.category.feature.spec.js" },
+    { "name": "_fallbackTestCaseId", "value": "f4be8220b429ba879d09037bda9636e4" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > features\\category.feature.spec.js > Category page > Dimensions are shown for \"<model>\""
+    },
+    { "name": "host", "value": "SR-SP-0054" },
+    { "name": "thread", "value": "pid-13032-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "features\\category.feature.spec.js" },
+    { "name": "subSuite", "value": "Category page > Dimensions are shown for \"<model>\"" }
+  ],
+  "links": [],
+  "start": 1790337485533,
+  "testCaseId": "efcc5c517763558b3c16df8646ab5331",
+  "fullName": "features/category.feature.spec.js › Category page › Dimensions are shown for \"<model>\" › Dimensions are shown for \"POSTOLJE ZA ZVUČNIK\"",
+  "titlePath": [
+    "eye4art-e2e",
+    "features",
+    "category.feature.spec.js",
+    "Category page",
+    "Dimensions are shown for \"<model>\""
+  ],
+  "stop": 1790337489654
+}
