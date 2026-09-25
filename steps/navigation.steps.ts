@@ -23,3 +23,10 @@ Then('the menu labels are in English', async ({ mainMenu }) => {
 Then('the menu labels are in Serbian', async ({ mainMenu }) => {
   await mainMenu.verifyMenuLabelsAreSerbian();
 });
+
+Then(
+  'the level {int} heading {string} is shown',
+  async ({ mainMenu }, headingLevel: number, englishHeading: string) => {
+    await mainMenu.assertHeading(englishHeading, headingLevel);
+  },
+);

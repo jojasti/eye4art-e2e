@@ -117,3 +117,31 @@ rel="canonical">` are each present exactly once per page and correct — only th
 - **Status:** Fixed on production. `/products/turntable-shelves` now ships exactly one
   `meta[name="description"]` tag (the page-specific one, `data-rh="true"`) — the generic
   sitewide default is gone.
+
+### 7. Parts of the UI stay in Serbian after switching to English
+
+Found on 2026-09-25 with Playwright MCP while adding the English coverage. After clicking
+`English` (`localStorage["eye4art-lang"] = "en"`), headings, menu and most labels switch, but
+these UI strings do not:
+
+- **Page:** `/contact`
+  - **Expected:** every contact form label in English, like its siblings.
+  - **Actual:** the phone field label stays **"Telefon"**, while the other labels read
+    "YOUR NAME", "YOUR EMAIL", "YOUR MESSAGE" and the button reads "SEND MESSAGE".
+  - **Evidence:** snapshot of the form in English mode: `text: YOUR NAME`,
+    `text: YOUR EMAIL`, `text: Telefon`, `text: YOUR MESSAGE`, `button "SEND MESSAGE"`.
+- **Page:** `/`
+  - **Expected:** the Google reviews link in English, like the contact page's
+    "See all reviews and leave yours".
+  - **Actual:** link text stays **"Sve recenzije na Google-u"**.
+  - **Evidence:** `main a` in English mode: `"Sve recenzije na Google-u" -> https://share.google/QIooFGi7nJu3SztKv`.
+- **Page:** `/blog`
+  - **Expected:** the blog list UI (not the posts themselves) in English.
+  - **Actual:** every card still shows **"Čitaj više"** and **"min čitanja"**, and dates
+    are in Serbian Cyrillic (e.g. "6. август 2026."). Post titles are Serbian too, which may be
+    intentional (Serbian-only content).
+  - **Evidence:** card link text in English mode:
+    `"6. август 2026.•3 min čitanjaPostolje ili Stalak za Zvučnik ..."`, `"Čitaj više→"`.
+- **Not tested yet:** the correct English wording is the owner's call, so no `@fixme` scenario
+  was written with an invented expected text. Once the English strings are decided, add them
+  to the English scenario in `navigation.feature`.

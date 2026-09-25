@@ -1,5 +1,6 @@
 import { expect, type Locator, type Page } from '@playwright/test';
 import { BasePage } from './BasePage';
+import { EMAIL_HREF, FACEBOOK_URL, INSTAGRAM_URL, PHONE_HREF } from './constants/generic';
 import { CONTACT } from './constants/links';
 
 export class ContactPage extends BasePage {
@@ -13,6 +14,10 @@ export class ContactPage extends BasePage {
   readonly emailLabel: Locator;
   readonly phoneLabel: Locator;
   readonly messageLabel: Locator;
+  readonly nameInput: Locator;
+  readonly emailInput: Locator;
+  readonly phoneInput: Locator;
+  readonly messageInput: Locator;
   readonly sendMessageButton: Locator;
 
   // Kontakt informacije
@@ -62,6 +67,14 @@ export class ContactPage extends BasePage {
       exact: true,
     });
 
+    this.nameInput = page.getByRole('textbox', { name: 'Unesite vaše ime', exact: true });
+    this.emailInput = page.getByRole('textbox', { name: 'vas@email.com', exact: true });
+    this.phoneInput = page.getByRole('textbox', { name: '+381 ...', exact: true });
+    this.messageInput = page.getByRole('textbox', {
+      name: 'Kako vam možemo pomoći?',
+      exact: true,
+    });
+
     this.sendMessageButton = page.getByRole('button', {
       name: 'POŠALJI PORUKU',
       exact: true,
@@ -100,8 +113,8 @@ export class ContactPage extends BasePage {
       exact: true,
     });
 
-    this.allReviewsTitle = page.getByText('Pogledajte sve recenzije i ostavite svoju', {
-      exact: false,
+    this.allReviewsTitle = page.getByRole('link', {
+      name: 'Pogledajte sve recenzije i ostavite svoju',
     });
   }
 
@@ -133,6 +146,11 @@ export class ContactPage extends BasePage {
     await expect(this.messageLabel).toBeVisible();
     await expect(this.messageLabel).toHaveText('VAŠA PORUKA');
 
+    await expect(this.nameInput).toBeVisible();
+    await expect(this.emailInput).toBeVisible();
+    await expect(this.phoneInput).toBeVisible();
+    await expect(this.messageInput).toBeVisible();
+
     await expect(this.sendMessageButton).toBeVisible();
     await expect(this.sendMessageButton).toHaveText('POŠALJI PORUKU');
   }
@@ -157,9 +175,15 @@ export class ContactPage extends BasePage {
     await expect(this.location).toHaveText('Beograd, Srbija');
   }
 
-  async allReviews() {
-    await this.allReviewsTitle.scrollIntoViewIfNeeded();
+  async verifyContactLinksHaveCorrectHref() {
+    await expect(this.phoneLink).toHaveAttribute('href', PHONE_HREF);
+    await expect(this.emailLink).toHaveAttribute('href', EMAIL_HREF);
+    await expect(this.instagramLink).toHaveAttribute('href', INSTAGRAM_URL);
+    await expect(this.facebookLink).toHaveAttribute('href', FACEBOOK_URL);
+  }
+
+  async verifyAllReviewsLink() {
     await expect(this.allReviewsTitle).toBeVisible();
-    await expect(this.allReviewsTitle).toHaveText('Pogledajte sve recenzije i ostavite svoju');
+    await expect(this.allReviewsTitle).toContainText('Pogledajte sve recenzije i ostavite svoju');
   }
 }
