@@ -152,3 +152,5 @@ subject.txt
 diff.txt
 .playwright-mcp/
 checkBeforeC.txt
+allure-results/
+allure-report/
