@@ -8,6 +8,7 @@ import { FooterPage } from '../pages/FooterPage';
 import { AboutPage } from '../pages/AboutPage';
 import { BlogPage } from '../pages/BlogPage';
 import { SeoPage } from '../pages/SeoPage';
+import { ContactPage } from '../pages/ContactPage';
 
 type Fixtures = {
   mainMenu: MainMenu;
@@ -18,6 +19,7 @@ type Fixtures = {
   aboutPage: AboutPage;
   blogPage: BlogPage;
   seoPage: SeoPage;
+  contactPage: ContactPage;
 };
 
 export const test = base.extend<Fixtures>({
@@ -48,6 +50,9 @@ export const test = base.extend<Fixtures>({
   },
   seoPage: async ({ page }, use) => {
     await use(new SeoPage(page));
+  },
+  contactPage: async ({ page }, use) => {
+    await use(new ContactPage(page));
   },
 });
 
