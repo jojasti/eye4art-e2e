@@ -1,5 +1,5 @@
 import { test as base, createBdd } from 'playwright-bdd';
-import { ANALYTICS_URL_PATTERN } from '../pages/constants/generic';
+import { ANALYTICS_URL_PATTERN, EMAILJS_URL_PATTERN } from '../pages/constants/generic';
 import { MainMenu } from '../pages/MainMenu';
 import { HomePage } from '../pages/HomePage';
 import { ProductsPage } from '../pages/ProductsPage';
@@ -25,6 +25,8 @@ type Fixtures = {
 export const test = base.extend<Fixtures>({
   page: async ({ page }, use) => {
     await page.route(ANALYTICS_URL_PATTERN, (route) => route.abort());
+    // No test may ever send a real contact form message
+    await page.route(EMAILJS_URL_PATTERN, (route) => route.abort());
     await use(page);
   },
   mainMenu: async ({ page }, use) => {

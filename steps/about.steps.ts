@@ -5,7 +5,7 @@ Given('I open the about page', async ({ aboutPage }) => {
 });
 
 Then('the main heading is shown', async ({ aboutPage }) => {
-  await aboutPage.assertHeading('DIZAJNIRANO DA TRAJE, NAPRAVLJENO DA SE VOLI!');
+  await aboutPage.assertHeading('DIZAJNIRANO DA TRAJE, NAPRAVLJENO DA SE VOLI!', 1);
 });
 
 Then('the value headings are shown', async ({ aboutPage }) => {

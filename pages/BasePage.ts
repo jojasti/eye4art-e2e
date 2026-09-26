@@ -16,7 +16,7 @@ export class BasePage {
     await expect(this.page).toHaveTitle(new RegExp(escaped));
   }
 
-  async assertHeading(text: string, level = 1) {
+  async assertHeading(text: string, level: number) {
     await expect(this.page.getByRole('heading', { level, name: text, exact: true })).toBeVisible();
   }
 

@@ -5,7 +5,7 @@ Given('I open the {string} category page', async ({ categoryPage }, productCateg
 });
 
 Then('I see the category heading {string}', async ({ categoryPage }, categoryName: string) => {
-  await categoryPage.assertHeading(categoryName);
+  await categoryPage.assertHeading(categoryName, 1);
 });
 
 Then('I see the products', async ({ categoryPage }) => {

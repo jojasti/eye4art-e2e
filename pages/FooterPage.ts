@@ -1,5 +1,6 @@
 import { expect, type Locator, type Page } from '@playwright/test';
 import { BasePage } from './BasePage';
+import { EMAIL_HREF, FACEBOOK_URL, INSTAGRAM_URL, PHONE_HREF } from './constants/generic';
 import { PRODUCTS } from './constants/links';
 
 export class FooterPage extends BasePage {
@@ -21,16 +22,10 @@ export class FooterPage extends BasePage {
   }
 
   async verifyContactLinksAreCorrect() {
-    await expect(this.phoneLink).toHaveAttribute('href', 'tel:+381655107517');
-    await expect(this.emailLink).toHaveAttribute('href', 'mailto:nemanja.kopanlija@gmail.com');
-    await expect(this.instagramLink).toHaveAttribute(
-      'href',
-      'https://instagram.com/eye4art_studio',
-    );
-    await expect(this.facebookLink).toHaveAttribute(
-      'href',
-      'https://www.facebook.com/profile.php?id=61588624504665',
-    );
+    await expect(this.phoneLink).toHaveAttribute('href', PHONE_HREF);
+    await expect(this.emailLink).toHaveAttribute('href', EMAIL_HREF);
+    await expect(this.instagramLink).toHaveAttribute('href', INSTAGRAM_URL);
+    await expect(this.facebookLink).toHaveAttribute('href', FACEBOOK_URL);
   }
 
   async verifyProductLinkIsCorrect(productCategory: string) {
