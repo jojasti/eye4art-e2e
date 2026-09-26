@@ -59,7 +59,7 @@ export class ContactPage extends BasePage {
       exact: true,
     });
 
-    this.phoneLabel = page.getByText('Telefon', {
+    this.phoneLabel = page.getByText('TELEFON', {
       exact: true,
     });
 
@@ -141,7 +141,7 @@ export class ContactPage extends BasePage {
     await expect(this.emailLabel).toHaveText('VAŠ EMAIL');
 
     await expect(this.phoneLabel).toBeVisible();
-    await expect(this.phoneLabel).toHaveText('Telefon');
+    await expect(this.phoneLabel).toHaveText('TELEFON');
 
     await expect(this.messageLabel).toBeVisible();
     await expect(this.messageLabel).toHaveText('VAŠA PORUKA');
