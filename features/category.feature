@@ -67,17 +67,6 @@ Feature: Category page
     When I go back to the products index
     Then I am back on the products page
 
-  Scenario: Quiz modal opens from the turntable-shelves category page
-    Given I open the "turntable-shelves" category page
-    When I open the quiz
-    Then the quiz modal is open
-
-  Scenario: Quiz modal closes
-    Given I open the "turntable-shelves" category page
-    When I open the quiz
-    And I close the quiz
-    Then the quiz modal is closed
-
   Scenario Outline: Materials are shown for "<model>"
     Given I open the "<productCategory>" category page
     When I find the "<model>" product

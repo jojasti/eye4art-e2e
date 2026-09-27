@@ -7,16 +7,12 @@ const ALLOWED_STOCK_STATUS = /✓ Na stanju|Izrada \d+-\d+ radnih dana|NIJE NA S
 export class CategoryPage extends BasePage {
   readonly products: Locator;
   readonly backToProductsLink: Locator;
-  readonly quizButton: Locator;
-  readonly quizModalCloseButton: Locator;
   private selectedProduct?: Locator;
 
   constructor(page: Page) {
     super(page);
     this.products = page.getByTestId('product-card');
     this.backToProductsLink = page.getByRole('link', { name: 'Nazad na proizvode' });
-    this.quizButton = page.getByRole('button', { name: /uradi quiz/i });
-    this.quizModalCloseButton = page.getByRole('button', { name: 'Zatvori', exact: true });
   }
 
   async goto(productCategory: string) {
@@ -66,22 +62,6 @@ export class CategoryPage extends BasePage {
 
   async verifyOnProductsPage() {
     await this.assertUrl(PRODUCTS);
-  }
-
-  async openQuiz() {
-    await this.quizButton.click();
-  }
-
-  async verifyQuizModalIsOpen() {
-    await expect(this.page.getByText('Pitanje 1 od 5')).toBeVisible();
-  }
-
-  async closeQuiz() {
-    await this.quizModalCloseButton.click();
-  }
-
-  async verifyQuizModalIsClosed() {
-    await expect(this.quizModalCloseButton).toBeHidden();
   }
 
   async verifyMaterialsAreShown() {

@@ -159,15 +159,72 @@ site: `/`, `/about`, `/products`, each of the 5 category pages, `/blog`, one blo
 
 ---
 
+## 10. `quiz.feature` → `quiz.steps.ts` → `pages/QuizPage.ts` (new, added 2026-09-27)
+
+Scenarios #7 and #8 (quiz opens / closes) moved here from `category.feature`, so one page object
+owns the quiz.
+
+### How the quiz behaves (explored with Playwright MCP on 2026-09-27)
+
+Opened by the "🎯 Nisam siguran koji model — uradi quiz →" button on `/products/turntable-shelves`.
+It is a fixed overlay with no role or test id; every state has a "Zatvori" button, questions 2–5
+also have "← Nazad". Five questions, three answers each, always in this order:
+
+| Counter        | Question                        | Answers                                                                                                                   |
+| -------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Pitanje 1 od 5 | Šta sve imaš?                   | Samo gramofon i ploče · Gramofon + receiver/pojačalo · Kompletan Hi-Fi sistem                                             |
+| Pitanje 2 od 5 | Gde bi stajala?                 | Nemam ništa, kupujem od nule · Imam komodu ili policu, treba mi mesto za gramofon · Nisam siguran, otvoren sam za predlog |
+| Pitanje 3 od 5 | Koji je tvoj budžet?            | Do 160€ · Do 200€ · Bez ograničenja                                                                                       |
+| Pitanje 4 od 5 | Koliko ploča imaš u kolekciji?  | Do 50 ploča · 50 do 150 ploča · Više od 150 ploča                                                                         |
+| Pitanje 5 od 5 | Koliko prostora imaš za policu? | Do 60cm širine · 60 do 80cm širine · Više od 80cm širine                                                                  |
+
+The result shows "Naš predlog za tebe", the model name, its price, a short pitch, and the buttons
+"Pogledaj model →" (closes the quiz, scrolls to the model's card), "PORUČI odmah" and
+"Ponovi quiz" (back to question 1). When the model costs more than the chosen budget, the result
+adds "💛 Ova polica je idealna za tebe ali malo prelazi budžet…".
+
+All 243 answer combinations were run (in Serbian and English, identical results). Only four
+models are ever recommended:
+
+| Recommended                  | When                                                                                                                        |
+| ---------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Turntable Stand (85€)        | Q2 = "Imam komodu ili policu…" and Q1 is not "Kompletan Hi-Fi sistem" (any budget, any width)                               |
+| Industrial Deck (230€, 56cm) | Q1 = "Kompletan Hi-Fi sistem" (always, any other answer)                                                                    |
+| Spin & Store (155€, 90cm)    | Q5 = "Više od 80cm širine" and either Q1 = "Samo gramofon i ploče", or Q1 = receiver with "Do 160€" and "Više od 150 ploča" |
+| Vertical Vibe (190€, 52cm)   | every other shelf case                                                                                                      |
+
+Groove Cube, Vertical Vibe Glass and the discontinued The Master Stack are never recommended.
+
+**Width rule (hard constraint) holds:** the only model wider than 60cm (Spin & Store, 90cm) is
+recommended only for "Više od 80cm širine". For "Do 60cm" and "60 do 80cm" the quiz switches to
+Vertical Vibe (52cm) or Industrial Deck (56cm) even when that is over the budget, and then shows
+the over-budget note. So budget is treated as a soft preference, as intended. No finding.
+
+| #   | Scenario                                                                            | Checks                                                                                    | Why it matters                                                                                  | Priority |
+| --- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------- |
+| 30  | Quiz asks five questions in order with their answers                                | Each counter, question heading and its three answers, walking 1 → 5                       | The quiz is a conversion-assist tool; a missing or reordered question breaks the recommendation | high     |
+| 31  | "Nazad" returns to the previous question                                            | After one answer, "← Nazad" shows question 1 again                                        | Lets a shopper fix a wrong answer instead of abandoning                                         | normal   |
+| 32  | `<equipment>` with `<budget>` and `<availableSpace>` gets `<recommendedModel>`      | Model name and price for 6 combinations covering all four recommended models              | The recommendation leads straight to "PORUČI odmah"; a wrong model is a lost or returned sale   | critical |
+| 33  | `<equipment>` in `<availableSpace>` never gets a model wider than `<maxWidthCm>` cm | Reads the recommended model's width from its own card and compares it to the chosen space | Width is the hard rule: a shelf that does not fit the room gets returned                        | critical |
+| 34  | Over-budget note is shown / not shown                                               | Note shown for Vertical Vibe with "Do 160€", hidden with "Bez ograničenja"                | Budget is soft, so the shopper must be told when the pick is over it                            | high     |
+| 35  | "Ponovi quiz" starts the quiz again                                                 | After a result, question 1 is shown                                                       | Second attempt instead of leaving the page                                                      | normal   |
+| 36  | "Pogledaj model" closes the quiz and shows the recommended model                    | Quiz closed, the recommended model's product card is in the viewport                      | The bridge from recommendation to the product card and its order button                         | high     |
+
+Not covered: "PORUČI odmah". Clicking it during exploration was blocked as a possible real
+order, so its behavior is unknown and it is not tested until the owner decides how to mock it.
+
+---
+
 ## Summary
 
-- **critical**: 13 scenarios (all `@critical`) — order buttons and prices across all 5 categories,
-  category-card navigation from both `/products` and the homepage, the entire contact page, and
-  the global footer/WhatsApp contact channels.
-- **high**: 10 scenarios — stock status, breadcrumb, quiz modal, homepage secondary CTA, language
-  toggle (EN), footer product links, and the 3 new SEO scenarios.
-- **normal**: 6 scenarios — spec text existence, reviews section, language toggle (RS restore),
-  about page, blog index/detail.
+- **critical**: 15 scenarios (all `@critical`) — order buttons and prices across all 5 categories,
+  category-card navigation from both `/products` and the homepage, the entire contact page,
+  the global footer/WhatsApp contact channels, and the quiz recommendation and width rule.
+- **high**: 13 scenarios — stock status, breadcrumb, quiz open/close, quiz questions, over-budget
+  note, "Pogledaj model", homepage secondary CTA, language toggle (EN), footer product links, and
+  the 3 new SEO scenarios.
+- **normal**: 8 scenarios — spec text existence, reviews section, language toggle (RS restore),
+  about page, blog index/detail, quiz "Nazad" and "Ponovi quiz".
 
 New page objects needed: `ContactPage.ts`, `AboutPage.ts`, `BlogPage.ts`, `FooterPage.ts`, `SeoPage.ts`.
 Existing page objects to extend: `CategoryPage.ts`, `ProductsPage.ts`, `HomePage.ts`, `MainMenu.ts`.
