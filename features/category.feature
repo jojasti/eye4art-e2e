@@ -67,16 +67,21 @@ Feature: Category page
     When I go back to the products index
     Then I am back on the products page
 
-  Scenario: Quiz modal opens from the turntable-shelves category page
+  # The quiz itself lives in quiz.feature. This page only owns its entry point.
+  Scenario: The quiz is offered on the turntable-shelves category page
     Given I open the "turntable-shelves" category page
-    When I open the quiz
-    Then the quiz modal is open
+    Then the quiz button is shown
 
-  Scenario: Quiz modal closes
-    Given I open the "turntable-shelves" category page
-    When I open the quiz
-    And I close the quiz
-    Then the quiz modal is closed
+  Scenario Outline: The quiz is not offered on the "<productCategory>" category page
+    Given I open the "<productCategory>" category page
+    Then the quiz button is not shown
+
+    Examples:
+      | productCategory |
+      | audio-equipment |
+      | retro-lamps     |
+      | side-tables     |
+      | nightstands     |
 
   Scenario Outline: Materials are shown for "<model>"
     Given I open the "<productCategory>" category page
