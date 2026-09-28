@@ -25,18 +25,18 @@ enabled for the 6 turntable-shelves models; order button disabled for "The Maste
 
 Gaps found by exploring all 5 category pages:
 
-| #   | Scenario                                                               | Checks                                                                               | Why it matters                                                                                                                                                                                                                                                                                                              | Priority                                                                                                                                            |
-| --- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Order button is enabled for `<model>` — **audio-equipment** (8 models) | Same as existing turntable-shelves check, new Examples rows                          | Order button is the only path to a sale on this page; currently only 1 of 5 categories is covered                                                                                                                                                                                                                           | **critical** `@critical`                                                                                                                            |
-| 2   | Order button is enabled for `<model>` — **retro-lamps** (5 models)     | Same                                                                                 | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
-| 3   | Order button is enabled for `<model>` — **side-tables** (3 models)     | Same                                                                                 | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
-| 4   | Order button is enabled for `<model>` — **nightstands** (2 models)     | Same                                                                                 | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
-| 5   | Stock status is shown for `<model>`                                    | The paragraph under the order button matches one of 3 allowed states — `/✓ Na stanju | Izrada \d+-\d+ radnih dana                                                                                                                                                                                                                                                                                                  | NIJE NA STANJU/` — checked generically for every card, **never** mapped to a specific model, since which model has which state changes week to week | Customers rely on this line to know when they'll receive the item — wrong/missing status is a support-ticket generator | high |
-| 6   | "Nazad na proizvode" link returns to the products index                | Clicking it lands on `/products`                                                     | Broken breadcrumb strands a shopper mid-funnel                                                                                                                                                                                                                                                                              | high                                                                                                                                                |
-| 7   | Quiz modal opens from "uradi quiz" button (turntable-shelves only)     | Modal shows "Question 1 of 5" / "PITANJE 1 OD 5" heading and answer options          | Confirmed via MCP: button exists only on turntable-shelves; it's a conversion-assist tool → business wants it working                                                                                                                                                                                                       | high                                                                                                                                                |
-| 8   | Quiz modal closes via "Close"/"Zatvori"                                | Modal is gone, page underneath usable again                                          | A stuck modal blocks the whole page, including the order buttons                                                                                                                                                                                                                                                            | high                                                                                                                                                |
-| 9   | Materials and dimensions text exists for `<model>`                     | The two `<p>` lines under the description are non-empty                              | Factual spec data (not marketing copy) — missing data is a real defect, but exact wording will change per product, so only existence is checked                                                                                                                                                                             | normal                                                                                                                                              |
-| 10  | Price is shown for `<model>`                                           | The card shows a `€` price above the order button                                    | **Finding #6**: confirmed missing entirely on retro-lamps, side-tables and nightstands today. This scenario is written to the correct expectation and will be tagged `@fixme` on those 3 categories' Examples rows, pointing at Finding #6, when implemented — turntable-shelves and audio-equipment rows should pass as-is | **critical** `@critical`                                                                                                                            |
+| #   | Scenario                                                                    | Checks                                                                                        | Why it matters                                                                                                                                                                                                                                                                                                              | Priority                                                                                                                                            |
+| --- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Order button is enabled for `<model>` — **audio-equipment** (8 models)      | Same as existing turntable-shelves check, new Examples rows                                   | Order button is the only path to a sale on this page; currently only 1 of 5 categories is covered                                                                                                                                                                                                                           | **critical** `@critical`                                                                                                                            |
+| 2   | Order button is enabled for `<model>` — **retro-lamps** (5 models)          | Same                                                                                          | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
+| 3   | Order button is enabled for `<model>` — **side-tables** (3 models)          | Same                                                                                          | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
+| 4   | Order button is enabled for `<model>` — **nightstands** (2 models)          | Same                                                                                          | Same                                                                                                                                                                                                                                                                                                                        | **critical** `@critical`                                                                                                                            |
+| 5   | Stock status is shown for `<model>`                                         | The paragraph under the order button matches one of 3 allowed states — `/✓ Na stanju          | Izrada \d+-\d+ radnih dana                                                                                                                                                                                                                                                                                                  | NIJE NA STANJU/` — checked generically for every card, **never** mapped to a specific model, since which model has which state changes week to week | Customers rely on this line to know when they'll receive the item — wrong/missing status is a support-ticket generator | high |
+| 6   | "Nazad na proizvode" link returns to the products index                     | Clicking it lands on `/products`                                                              | Broken breadcrumb strands a shopper mid-funnel                                                                                                                                                                                                                                                                              | high                                                                                                                                                |
+| 7   | The quiz button is shown on turntable-shelves and on no other category page | The `uradi quiz` button is visible on `/products/turntable-shelves` and absent on the other 4 | **Rewritten 2026-09-28.** The category page owns only the quiz _entry point_; everything inside the modal moved to `quiz.feature` (section 10) when the quiz was rebuilt with 6 questions. The quiz only recommends turntable shelves, so offering it on lamps or nightstands would point buyers at the wrong products      | high                                                                                                                                                |
+| 8   | Quiz modal closes via "Close"/"Zatvori"                                     | Modal is gone, page underneath usable again                                                   | **Moved 2026-09-28 to section 10** — closing, reopening and restarting the quiz are covered there now, together with the rest of the modal. A stuck modal blocks the whole page, including the order buttons                                                                                                                | high                                                                                                                                                |
+| 9   | Materials and dimensions text exists for `<model>`                          | The two `<p>` lines under the description are non-empty                                       | Factual spec data (not marketing copy) — missing data is a real defect, but exact wording will change per product, so only existence is checked                                                                                                                                                                             | normal                                                                                                                                              |
+| 10  | Price is shown for `<model>`                                                | The card shows a `€` price above the order button                                             | **Finding #6**: confirmed missing entirely on retro-lamps, side-tables and nightstands today. This scenario is written to the correct expectation and will be tagged `@fixme` on those 3 categories' Examples rows, pointing at Finding #6, when implemented — turntable-shelves and audio-equipment rows should pass as-is | **critical** `@critical`                                                                                                                            |
 
 Removed from the original draft: visibility checks for the "like" and "Preporuči prijatelju"
 buttons. Both are dropped per review — they added no coverage worth the upkeep.
@@ -159,6 +159,86 @@ site: `/`, `/about`, `/products`, each of the 5 category pages, `/blog`, one blo
 
 ---
 
+## 10. `quiz.feature` → `quiz.steps.ts` → `pages/QuizPage.ts` (new)
+
+Re-explored from scratch with Playwright MCP on **2026-09-28**, after the owner rebuilt the quiz.
+The old 5-question version (with a budget question and an "over budget" note) is gone. Everything
+below was read off the live page — no question, answer or model name is invented.
+
+### How the new quiz behaves
+
+The quiz is reached from the `🎯 Nisam siguran koji model — uradi quiz →` button, which exists
+**only** on `/products/turntable-shelves` (checked on all 5 category pages). It opens a modal
+overlay that carries no `data-testid` and no `dialog` role, so its parts are located by role +
+accessible name and by text.
+
+Six questions, all about the buyer rather than the product, each with exactly three answers:
+
+| #   | Question                         | Answers                                                                                                          |
+| --- | -------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| 1   | Šta sve imaš?                    | Samo gramofon i ploče / Gramofon + receiver/pojačalo / Kompletan Hi-Fi sistem                                    |
+| 2   | Gde ti sad stoji gramofon?       | Na komodi ili polici koju već imam / Sve stoji jedno na drugom / Još ga nemam, tek kupujem                       |
+| 3   | Koliko ploča imaš?               | Do pedesetak / Stane u jednu gajbu, oko sto / Ne stižem da ih sredim                                             |
+| 4   | Koliko mesta imaš, odoka?        | Uska rupa između nameštaja / Normalan zid, ima prostora / Šta god stane, nije problem                            |
+| 5   | Kako držiš ploče?                | Vadim ih stalno, hoću da su pri ruci / Retko ih diram, više stoje / Ima dece ili mačaka pa volim da su sklonjene |
+| 6   | Koliko ti je bitno kako izgleda? | Hoću da se primeti, da bude komad / Neka se uklopi, ja biram dezen / Svejedno, bitno je da radi posao            |
+
+Navigation: the counter reads `Pitanje N od 6`; question 1 has **no** `← Nazad` button, questions
+2–6 do, and it steps back one question at a time. `Zatvori` closes the modal and resets it —
+reopening starts at question 1. There is **no** budget question and **no** over-budget note
+anywhere (the `detail.quiz.budget` string still ships in the JS bundle but never renders).
+
+The result screen shows `Naš predlog za tebe`, the model name, its price, a rationale paragraph,
+and four buttons: `Pogledaj model →` (closes the modal and scrolls the model's card into view),
+`PORUČI odmah` (opens a "Kako želite da naručite?" dialog with WhatsApp / phone / email links that
+carry the model name), `Ponovi quiz` (back to question 1) and `Zatvori`.
+
+### The recommendation rules, mapped exhaustively
+
+All **729** answer combinations (3⁶) were walked on the live page. Six of the seven models on the
+page are reachable; the discontinued, out-of-stock **"The Master Stack" is never recommended**.
+
+- Question 2 = "Na komodi ili polici koju već imam" and question 1 ≠ "Kompletan Hi-Fi sistem"
+  → always **Turntable Stand**.
+- Question 5 = "Ima dece ili mačaka..." → **Vertical Vibe Glass** (the model with glass doors).
+- Question 6 = "Hoću da se primeti..." → **Groove Cube**; question 1 = "Kompletan Hi-Fi sistem"
+  brings in **Industrial Deck**; the remaining paths land on **Vertical Vibe**.
+- **Width gate:** **Spin & Store** is reached **only** when question 4 = "Šta god stane, nije
+  problem" — in all 729 combinations, never for "Uska rupa između nameštaja" or "Normalan zid,
+  ima prostora".
+
+Widths as listed on the cards themselves: Spin & Store **90 cm**, Industrial Deck 56, Groove Cube
+56, Vertical Vibe 52, Vertical Vibe Glass 52, Turntable Stand "po zahtevu". Spin & Store is
+therefore the only model that can be too wide for the space a buyer picked, which is exactly what
+the width scenarios below pin down.
+
+### Scenarios
+
+| #   | Scenario                                                                | Checks                                                                                                                                   | Why it matters                                                                                                                      | Priority                 |
+| --- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------ |
+| 30  | The quiz asks its six questions with their answers                      | Walks all 6 questions, asserting `Pitanje N od 6`, the question text and its three answer buttons                                        | Pins the whole questionnaire, so dropping or renaming a question or an answer fails loudly. Also proves there is no budget question | high                     |
+| 31  | The first question offers no way back                                   | No `← Nazad` button on question 1                                                                                                        | A back button on the first step would have nowhere to go                                                                            | normal                   |
+| 32  | The back button returns to the previous question                        | Answer 2 questions, go back, land on question 2                                                                                          | Buyers correct themselves; a broken back button means restarting the funnel                                                         | high                     |
+| 33  | Closing the quiz and opening it again starts from the first question    | `Zatvori` hides the modal; reopening shows question 1 and no back button                                                                 | A modal that reopens mid-questionnaire strands the buyer                                                                            | high                     |
+| 34  | "Ponovi quiz" starts the quiz over                                      | From the result screen, back to question 1                                                                                               | Same funnel-integrity concern, from the result screen                                                                               | normal                   |
+| 35  | The quiz recommends `<recommendedModel>`                                | 6 verified answer paths, one per reachable model, each asserting the model name and that a price is shown                                | The recommendation **is** the conversion moment; a wrong or missing match wastes the lead                                           | **critical** `@critical` |
+| 36  | `<space>` with `<collection>` is never sent to the 90 cm "Spin & Store" | 6 paths across both narrow space answers — every one of them a path that **does** end on Spin & Store once the space answer is opened up | **Hard width rule.** Recommending a 90 cm shelf for "a narrow gap between furniture" produces a return, not a sale                  | **critical** `@critical` |
+| 37  | "Šta god stane, nije problem" does reach the 90 cm "Spin & Store"       | The same 3 paths as #36 with the space answer opened up, asserting Spin & Store **is** recommended                                       | Keeps #36 honest — it must not pass just because Spin & Store is never recommended at all                                           | **critical** `@critical` |
+| 38  | The recommended `<recommendedModel>` can be ordered from the page       | `Pogledaj model →` closes the modal, the model's card is in the viewport and its `PORUČI` button is enabled                              | A recommendation pointing at a card that can't be ordered is a dead end at the moment of purchase                                   | **critical** `@critical` |
+| 39  | "PORUČI odmah" offers the real order channels                           | The order dialog shows the recommended model and WhatsApp / `tel:` / `mailto:` links carrying that model name                            | This is the only checkout the site has; a wrong number, address or model name loses the order                                       | **critical** `@critical` |
+| 40  | The recommendation carries no over-budget note                          | No `prelazi budžet` text on the result screen                                                                                            | Regression guard: the budget question was removed, so its leftover note must never come back                                        | normal                   |
+
+Deliberately not tested: the rationale paragraph under each recommendation (marketing copy, per
+CLAUDE.md), the exact price value (changes over time), and the scroll animation itself — #38
+asserts the card ends up in the viewport with a web-first `toBeInViewport`, not that it animated.
+
+Not covered in this batch: the quiz is **fully** translated into English (verified with MCP — all
+6 questions, all answers and the result screen, so this is not a repeat of finding #7). English
+coverage needs the language switch, which belongs to `MainMenu` / `navigation.feature`, so it
+stays out of `quiz.feature` to keep one page object per feature. Worth a follow-up batch.
+
+---
+
 ## Summary
 
 - **critical**: 13 scenarios (all `@critical`) — order buttons and prices across all 5 categories,
@@ -169,10 +249,18 @@ site: `/`, `/about`, `/products`, each of the 5 category pages, `/blog`, one blo
 - **normal**: 6 scenarios — spec text existence, reviews section, language toggle (RS restore),
   about page, blog index/detail.
 
-New page objects needed: `ContactPage.ts`, `AboutPage.ts`, `BlogPage.ts`, `FooterPage.ts`, `SeoPage.ts`.
+Section 10 (`quiz.feature`, added 2026-09-28 after the quiz was rebuilt) adds 11 more scenarios on
+top of that: 5 `@critical` (#35–39, the recommendation itself, the width rule and the order path),
+3 high (#30, #32, #33) and 3 normal (#31, #34, #40). The two old quiz scenarios in
+`category.feature` were replaced by the entry-point check in row 7, so the quiz has exactly one
+home.
+
+New page objects needed: `ContactPage.ts`, `AboutPage.ts`, `BlogPage.ts`, `FooterPage.ts`, `SeoPage.ts`,
+`QuizPage.ts`.
 Existing page objects to extend: `CategoryPage.ts`, `ProductsPage.ts`, `HomePage.ts`, `MainMenu.ts`.
 `pages/constants/generic.ts` gets a new `EMAILJS_URL_PATTERN` (`/api\.emailjs\.com/`), blocked
-globally in `fixtures/fixtures.ts` next to `ANALYTICS_URL_PATTERN`.
+globally in `fixtures/fixtures.ts` next to `ANALYTICS_URL_PATTERN`, and a `WHATSAPP_URL` used by
+the quiz's order options.
 
 ## Findings from this pass (see `FINDINGS.md` for full detail)
 

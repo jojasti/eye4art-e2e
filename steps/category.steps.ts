@@ -39,20 +39,12 @@ Then('I am back on the products page', async ({ categoryPage }) => {
   await categoryPage.verifyOnProductsPage();
 });
 
-When('I open the quiz', async ({ categoryPage }) => {
-  await categoryPage.openQuiz();
+Then('the quiz button is shown', async ({ categoryPage }) => {
+  await categoryPage.verifyQuizButtonIsShown();
 });
 
-Then('the quiz modal is open', async ({ categoryPage }) => {
-  await categoryPage.verifyQuizModalIsOpen();
-});
-
-When('I close the quiz', async ({ categoryPage }) => {
-  await categoryPage.closeQuiz();
-});
-
-Then('the quiz modal is closed', async ({ categoryPage }) => {
-  await categoryPage.verifyQuizModalIsClosed();
+Then('the quiz button is not shown', async ({ categoryPage }) => {
+  await categoryPage.verifyQuizButtonIsNotShown();
 });
 
 Then('materials are shown', async ({ categoryPage }) => {
