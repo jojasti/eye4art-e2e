@@ -115,6 +115,10 @@ Useful signals:
 
 ## Step 5 - Report
 
+Write the full report to `reports/triage-<run-id>.md`, create the `reports`
+folder if it is missing, and give the owner a short summary in the chat with the
+path to the file. One file per run, so older reports stay.
+
 Keep it short and concrete. For each group:
 
 ```
