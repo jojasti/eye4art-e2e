@@ -80,6 +80,10 @@ Never use `.first()` to hide a strict mode violation. Scope the locator instead 
   `gh pr create --title "<what the batch adds>" --body "<your summary and the reviewer verdict>"`
 - Give me the PR link. Never merge a PR, never push to main
 - Then continue with the next batch on a new branch from main, if the batch rules allow it
+- Never write a bare `@word` in a PR title, PR body or any GitHub comment.
+  GitHub turns it into a mention and notifies a real person. Cucumber tag names
+  belong in feature files; when you have to mention one outside a feature file,
+  wrap it in backticks or drop the `@`
 
 ## Autonomous work
 
