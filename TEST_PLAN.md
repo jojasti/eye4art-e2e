@@ -161,6 +161,12 @@ site: `/`, `/about`, `/products`, each of the 5 category pages, `/blog`, one blo
 
 ## 10. `quiz.feature` → `quiz.steps.ts` → `pages/QuizPage.ts` (new)
 
+**Dropped by owner decision 2026-10-04.** The quiz is not a core sales path and
+the full coverage was expensive to maintain and kept breaking as the quiz logic
+changed. Only the entry point stays, in `category.feature`: the quiz button is
+offered on turntable-shelves and nowhere else. The description below is kept for
+reference only and describes an older version of the quiz.
+
 Re-explored from scratch with Playwright MCP on **2026-09-28**, after the owner rebuilt the quiz.
 The old 5-question version (with a budget question and an "over budget" note) is gone. Everything
 below was read off the live page — no question, answer or model name is invented.
