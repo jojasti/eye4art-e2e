@@ -11,3 +11,10 @@ Then('the response status is {int}', async ({ httpClient }, expectedStatus: numb
 Then('the response text contains {string}', async ({ httpClient }, expectedText: string) => {
   await httpClient.verifyTextContains(expectedText);
 });
+
+Then(
+  'the response header {string} contains {string}',
+  async ({ httpClient }, headerName: string, expectedValue: string) => {
+    await httpClient.verifyHeaderContains(headerName, expectedValue);
+  },
+);

@@ -26,4 +26,11 @@ export class HttpClient {
   async verifyTextContains(expectedText: string) {
     expect(await this.response.text()).toContain(expectedText);
   }
+
+  async verifyHeaderContains(headerName: string, expectedValue: string) {
+    const headerValue = this.response.headers()[headerName.toLowerCase()];
+    expect(headerValue, `Header "${headerName}" of ${this.response.url()}`).toContain(
+      expectedValue,
+    );
+  }
 }
