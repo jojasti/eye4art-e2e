@@ -1,0 +1,27 @@
+import { When, Then } from '../fixtures/fixtures';
+
+When('I request the page {string}', async ({ httpClient }, path: string) => {
+  await httpClient.requestPage(path);
+});
+
+Then('the response status is {int}', async ({ httpClient }, expectedStatus: number) => {
+  await httpClient.verifyStatus(expectedStatus);
+});
+
+Then('the response text contains {string}', async ({ httpClient }, expectedText: string) => {
+  await httpClient.verifyTextContains(expectedText);
+});
+
+Then(
+  'the response header {string} contains {string}',
+  async ({ httpClient }, headerName: string, expectedValue: string) => {
+    await httpClient.verifyHeaderContains(headerName, expectedValue);
+  },
+);
+
+Then(
+  'every page in the sitemap returns status {int} with its own canonical URL',
+  async ({ httpClient }, expectedStatus: number) => {
+    await httpClient.verifyEverySitemapPageIsRealPage(expectedStatus);
+  },
+);

@@ -145,3 +145,11 @@ these UI strings do not:
 - **Not tested yet:** the correct English wording is the owner's call, so no `@fixme` scenario
   was written with an invented expected text. Once the English strings are decided, add them
   to the English scenario in `navigation.feature`.
+
+## Unknown pages return 200 instead of 404
+
+- **Found by:** `features/http-responses.feature`, scenario "Unknown page returns not found status" (marked `@fixme`)
+- **Expected:** a page that does not exist returns HTTP 404
+- **Actual:** it returns HTTP 200 with the home page content
+- **Impact:** search engines can treat any random URL as a real page (soft 404). Tests that only check status 200 cannot detect a deleted page
+- **Fix:** site side, Vercel routing should return 404 for unknown paths. When fixed, remove `@fixme`

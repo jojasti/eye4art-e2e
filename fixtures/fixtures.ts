@@ -1,5 +1,6 @@
 import { test as base, createBdd } from 'playwright-bdd';
 import { ANALYTICS_URL_PATTERN, EMAILJS_URL_PATTERN } from '../pages/constants/generic';
+import { HttpClient } from '../api/HttpClient';
 import { MainMenu } from '../pages/MainMenu';
 import { HomePage } from '../pages/HomePage';
 import { ProductsPage } from '../pages/ProductsPage';
@@ -20,6 +21,7 @@ type Fixtures = {
   blogPage: BlogPage;
   seoPage: SeoPage;
   contactPage: ContactPage;
+  httpClient: HttpClient;
 };
 
 export const test = base.extend<Fixtures>({
@@ -55,6 +57,9 @@ export const test = base.extend<Fixtures>({
   },
   contactPage: async ({ page }, use) => {
     await use(new ContactPage(page));
+  },
+  httpClient: async ({ request }, use) => {
+    await use(new HttpClient(request));
   },
 });
 
