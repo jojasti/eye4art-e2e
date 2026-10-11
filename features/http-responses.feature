@@ -16,3 +16,7 @@ Feature: HTTP responses
   Scenario: Unknown page returns not found status
     When I request the page "/this-page-does-not-exist"
     Then the response status is 404
+
+  Scenario: Every page in the sitemap is a real page
+    When I request the page "/sitemap.xml"
+    Then every page in the sitemap returns status 200 with its own canonical URL

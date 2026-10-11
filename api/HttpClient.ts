@@ -33,4 +33,21 @@ export class HttpClient {
       expectedValue,
     );
   }
+
+  async verifyEverySitemapPageIsRealPage(expectedStatus: number) {
+    const sitemapText = await this.response.text();
+    const pageUrls = [...sitemapText.matchAll(/<loc>(.*?)<\/loc>/g)].map((match) => match[1]);
+
+    expect(pageUrls.length, 'Number of pages found in the sitemap').toBeGreaterThan(0);
+
+    for (const pageUrl of pageUrls) {
+      const pageResponse = await this.request.get(pageUrl);
+      expect.soft(pageResponse.status(), `Status of ${pageUrl}`).toBe(expectedStatus);
+
+      const pageHtml = await pageResponse.text();
+      const canonicalTag = pageHtml.match(/<link[^>]*rel="canonical"[^>]*>/)?.[0];
+      const canonicalUrl = canonicalTag?.match(/href="([^"]*)"/)?.[1];
+      expect.soft(canonicalUrl, `Canonical URL of ${pageUrl}`).toBe(pageUrl);
+    }
+  }
 }

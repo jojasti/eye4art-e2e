@@ -18,3 +18,10 @@ Then(
     await httpClient.verifyHeaderContains(headerName, expectedValue);
   },
 );
+
+Then(
+  'every page in the sitemap returns status {int} with its own canonical URL',
+  async ({ httpClient }, expectedStatus: number) => {
+    await httpClient.verifyEverySitemapPageIsRealPage(expectedStatus);
+  },
+);
