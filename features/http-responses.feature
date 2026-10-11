@@ -11,3 +11,8 @@ Feature: HTTP responses
     Then the response status is 200
     And the response header "content-type" contains "xml"
     And the response text contains "<urlset"
+
+  @fixme
+  Scenario: Unknown page returns not found status
+    When I request the page "/this-page-does-not-exist"
+    Then the response status is 404
