@@ -107,7 +107,7 @@ Feature: Category page
       | turntable-shelves | Spin & Store        |
       | audio-equipment   | POSTOLJE ZA ZVUČNIK |
 
-  # retro-lamps, side-tables and nightstands are made to order and don't list a price upfront.
+  # audio-equipment, retro-lamps, side-tables and nightstands are made to order and don't list a price upfront.
   Scenario Outline: Price is shown for "<model>"
     Given I open the "<productCategory>" category page
     When I find the "<model>" product
@@ -116,4 +116,3 @@ Feature: Category page
     Examples:
       | productCategory   | model               |
       | turntable-shelves | Spin & Store        |
-      | audio-equipment   | POSTOLJE ZA ZVUČNIK |
