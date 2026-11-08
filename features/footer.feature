@@ -19,3 +19,36 @@ Feature: Footer
   Scenario: Floating WhatsApp button has the correct link
     Given I open the home page
     Then the WhatsApp button link is correct
+
+  Scenario Outline: Footer shows the "<footerHeading>" heading
+    Given I open the home page
+    Then the footer shows the "<footerHeading>" heading
+
+    Examples:
+      | footerHeading |
+      | Brzi linkovi |
+      | Proizvodi |
+      | Kontakt |
+
+  Scenario Outline: Footer quick link "<linkName>" goes to the right page
+    Given I open the home page
+    Then the footer quick link "<linkName>" goes to "<pageLink>"
+
+        Examples:
+      | linkName  | pageLink  |
+      | Početna   | /         |
+      | O nama    | /about    |
+      | Proizvodi | /products |
+      | Blog      | /blog     |
+      | Kontakt   | /contact  |
+
+      Scenario Outline: Footer shows the static text "<footerText>"
+    Given I open the home page
+    Then the footer shows the static text "<footerText>"
+
+    Examples:
+      | footerText                                    |
+      | DIZAJNIRANO DA TRAJE, NAPRAVLJENO DA SE VOLI! |
+      | Handcrafted in Serbia                         |
+      | Sva prava zadržana.                           |
+   
