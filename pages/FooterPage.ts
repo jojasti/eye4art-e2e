@@ -36,4 +36,19 @@ export class FooterPage extends BasePage {
   async verifyWhatsappLinkIsCorrect() {
     await expect(this.whatsappLink).toHaveAttribute('href', /^https:\/\/wa\.me\/381655107517/);
   }
+
+  async verifyFooterHeadingIsVisible(footerHeading: string) {
+    const heading = this.footer.getByRole('heading', { name: footerHeading });
+    await expect(heading).toBeVisible();
+  }
+
+  async verifyQuickLinkGoesToPage(linkName: string, pageLink: string) {
+    const link = this.footer.getByRole('link', { name: linkName, exact: true });
+    await expect(link).toHaveAttribute('href', pageLink);
+  }
+
+  async verifyStaticTextIsVisible(footerText: string) {
+    const staticText = this.footer.getByText(footerText, { exact: true });
+    await expect(staticText).toBeVisible();
+  }
 }
